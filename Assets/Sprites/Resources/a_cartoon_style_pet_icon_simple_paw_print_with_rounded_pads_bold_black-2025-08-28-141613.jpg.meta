@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: a9d1040290234a846a4d171f4257a050
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3012104757235383199
+    second: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_0
+  - first:
+      213: -4472897066213299105
+    second: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_1
+  - first:
+      213: 7559892127437795902
+    second: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_2
+  - first:
+      213: 6400294425477182468
+    second: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_3
+  - first:
+      213: -1021440460244239797
+    second: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_4
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 416
+        width: 218
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b774161552dc920800000000000000
+      internalID: 3012104757235383199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 579
+        width: 198
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c287311d31de1c0800000000000000
+      internalID: -4472897066213299105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 579
+        width: 198
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32b33cf5d12ae860800000000000000
+      internalID: 7559892127437795902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 416
+        width: 218
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404fa78aed962d850800000000000000
+      internalID: 6400294425477182468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 151
+        width: 558
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a3eef205d13d1f0800000000000000
+      internalID: -1021440460244239797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_0: 3012104757235383199
+      a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_1: -4472897066213299105
+      a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_2: 7559892127437795902
+      a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_3: 6400294425477182468
+      a_cartoon_style_pet_icon_simple_paw_print_with_rounded_pads_bold_black-2025-08-28-141613_4: -1021440460244239797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
