@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 28b4a56d6878eae4ab2a73da53a3591f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8721576149082074994
+    second: TanjiroIdle_0
+  - first:
+      213: -4062184345436397189
+    second: TanjiroIdle_1
+  - first:
+      213: 1296628397361905801
+    second: TanjiroIdle_2
+  - first:
+      213: 3094183406919064298
+    second: TanjiroIdle_3
+  - first:
+      213: 8621477303846280317
+    second: TanjiroIdle_4
+  - first:
+      213: -7753284515652478690
+    second: TanjiroIdle_5
+  - first:
+      213: -3294181193725251656
+    second: TanjiroIdle_6
+  - first:
+      213: -7923253024418495248
+    second: TanjiroIdle_7
+  - first:
+      213: 6391670379494135291
+    second: TanjiroIdle_8
+  - first:
+      213: 2427173351133811075
+    second: TanjiroIdle_9
+  - first:
+      213: -9205219571842926135
+    second: TanjiroIdle_10
+  - first:
+      213: 1557026535415627855
+    second: TanjiroIdle_11
+  - first:
+      213: 514692140531642539
+    second: TanjiroIdle_12
+  - first:
+      213: 2785231163840912086
+    second: TanjiroIdle_13
+  - first:
+      213: -1735776954151180668
+    second: TanjiroIdle_14
+  - first:
+      213: -4780794303786162489
+    second: TanjiroIdle_15
+  - first:
+      213: 9218733995927891270
+    second: TanjiroIdle_16
+  - first:
+      213: 8917430081669525640
+    second: TanjiroIdle_17
+  - first:
+      213: -8289563814798811538
+    second: TanjiroIdle_18
+  - first:
+      213: -2933470506718229603
+    second: TanjiroIdle_19
+  - first:
+      213: -865453736739409240
+    second: TanjiroIdle_20
+  - first:
+      213: 1025181582851758275
+    second: TanjiroIdle_21
+  - first:
+      213: -6331420944380347931
+    second: TanjiroIdle_22
+  - first:
+      213: -2244765370408602102
+    second: TanjiroIdle_23
+  - first:
+      213: -6294607517667650605
+    second: TanjiroIdle_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TanjiroIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2872
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f6e877c43490970800000000000000
+      internalID: 8721576149082074994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_1
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 2872
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b716c163cd830a7c0800000000000000
+      internalID: -4062184345436397189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_2
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 2872
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980c07658ac8ef110800000000000000
+      internalID: 1296628397361905801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_3
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 2872
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea91573a6fb0fa20800000000000000
+      internalID: 3094183406919064298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_4
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 2872
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c99d6ede3a5a770800000000000000
+      internalID: 8621477303846280317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2154
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e195ff9cfccc66490800000000000000
+      internalID: -7753284515652478690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_6
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 2154
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfeb3a58a7b842d0800000000000000
+      internalID: -3294181193725251656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_7
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 2154
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f40ffd7a53fa0290800000000000000
+      internalID: -7923253024418495248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_8
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 2154
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5522b7856c3b850800000000000000
+      internalID: 6391670379494135291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_9
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 2154
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38110aa9d4d0fa120800000000000000
+      internalID: 2427173351133811075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1436
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c934dc129d704080800000000000000
+      internalID: -9205219571842926135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_11
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1436
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f404e4d626bab9510800000000000000
+      internalID: 1557026535415627855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_12
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 1436
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0f21d56cd842700800000000000000
+      internalID: 514692140531642539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_13
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 1436
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dad51a9cf027a620800000000000000
+      internalID: 2785231163840912086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_14
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 1436
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48662868e0849e7e0800000000000000
+      internalID: -1735776954151180668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 718
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c66d9219e437adb0800000000000000
+      internalID: -4780794303786162489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_16
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 718
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d6912f9b58fef70800000000000000
+      internalID: 9218733995927891270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_17
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 718
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8807b47a96311cb70800000000000000
+      internalID: 8917430081669525640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_18
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 718
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e1cf361ad85fc80800000000000000
+      internalID: -8289563814798811538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_19
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 718
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b89f7cd183a47d0800000000000000
+      internalID: -2933470506718229603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2fc1c696a4df3f0800000000000000
+      internalID: -865453736739409240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_21
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 0
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8d62cc73d2a3e00800000000000000
+      internalID: 1025181582851758275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_22
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 0
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9bdb642364228a0800000000000000
+      internalID: -6331420944380347931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_23
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 0
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0672b4f9cdf8d0e0800000000000000
+      internalID: -2244765370408602102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroIdle_24
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 0
+        width: 718
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d39aec10df05a8a0800000000000000
+      internalID: -6294607517667650605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42b5dbc6f1156154a869da571089d3b1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TanjiroIdle_0: 8721576149082074994
+      TanjiroIdle_1: -4062184345436397189
+      TanjiroIdle_10: -9205219571842926135
+      TanjiroIdle_11: 1557026535415627855
+      TanjiroIdle_12: 514692140531642539
+      TanjiroIdle_13: 2785231163840912086
+      TanjiroIdle_14: -1735776954151180668
+      TanjiroIdle_15: -4780794303786162489
+      TanjiroIdle_16: 9218733995927891270
+      TanjiroIdle_17: 8917430081669525640
+      TanjiroIdle_18: -8289563814798811538
+      TanjiroIdle_19: -2933470506718229603
+      TanjiroIdle_2: 1296628397361905801
+      TanjiroIdle_20: -865453736739409240
+      TanjiroIdle_21: 1025181582851758275
+      TanjiroIdle_22: -6331420944380347931
+      TanjiroIdle_23: -2244765370408602102
+      TanjiroIdle_24: -6294607517667650605
+      TanjiroIdle_3: 3094183406919064298
+      TanjiroIdle_4: 8621477303846280317
+      TanjiroIdle_5: -7753284515652478690
+      TanjiroIdle_6: -3294181193725251656
+      TanjiroIdle_7: -7923253024418495248
+      TanjiroIdle_8: 6391670379494135291
+      TanjiroIdle_9: 2427173351133811075
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

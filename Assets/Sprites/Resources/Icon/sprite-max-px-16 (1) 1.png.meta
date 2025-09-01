@@ -1,0 +1,2195 @@
+fileFormatVersion: 2
+guid: 61320958d584426479e24baf05481aee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4808531131122617264
+    second: sprite-max-px-16 (1) 1_0
+  - first:
+      213: -5200153249712384884
+    second: sprite-max-px-16 (1) 1_1
+  - first:
+      213: -6833885857512744487
+    second: sprite-max-px-16 (1) 1_2
+  - first:
+      213: -6844155344792901637
+    second: sprite-max-px-16 (1) 1_3
+  - first:
+      213: 5237119799636791660
+    second: sprite-max-px-16 (1) 1_4
+  - first:
+      213: 8690766515866165498
+    second: sprite-max-px-16 (1) 1_5
+  - first:
+      213: 6921217630360913474
+    second: sprite-max-px-16 (1) 1_6
+  - first:
+      213: 277904328678501581
+    second: sprite-max-px-16 (1) 1_7
+  - first:
+      213: 6790573989875770319
+    second: sprite-max-px-16 (1) 1_8
+  - first:
+      213: -6817342836394600121
+    second: sprite-max-px-16 (1) 1_9
+  - first:
+      213: -3277118076501120239
+    second: sprite-max-px-16 (1) 1_10
+  - first:
+      213: 2685610905247413695
+    second: sprite-max-px-16 (1) 1_11
+  - first:
+      213: 1705719585267591274
+    second: sprite-max-px-16 (1) 1_12
+  - first:
+      213: -50150628874453109
+    second: sprite-max-px-16 (1) 1_13
+  - first:
+      213: -5233802108735145980
+    second: sprite-max-px-16 (1) 1_14
+  - first:
+      213: 6378361292896799520
+    second: sprite-max-px-16 (1) 1_15
+  - first:
+      213: 1468187100449272234
+    second: sprite-max-px-16 (1) 1_16
+  - first:
+      213: -5373014271437199678
+    second: sprite-max-px-16 (1) 1_17
+  - first:
+      213: 8240642576620998783
+    second: sprite-max-px-16 (1) 1_18
+  - first:
+      213: -7636614549269767944
+    second: sprite-max-px-16 (1) 1_19
+  - first:
+      213: -3698116739871427160
+    second: sprite-max-px-16 (1) 1_20
+  - first:
+      213: 6703310037111948965
+    second: sprite-max-px-16 (1) 1_21
+  - first:
+      213: -6955303226237440723
+    second: sprite-max-px-16 (1) 1_22
+  - first:
+      213: 5500742363354629110
+    second: sprite-max-px-16 (1) 1_23
+  - first:
+      213: -5336131525969452060
+    second: sprite-max-px-16 (1) 1_24
+  - first:
+      213: -3334621836688154482
+    second: sprite-max-px-16 (1) 1_25
+  - first:
+      213: -9101544363723287756
+    second: sprite-max-px-16 (1) 1_26
+  - first:
+      213: -2984057028851669229
+    second: sprite-max-px-16 (1) 1_27
+  - first:
+      213: 1331896728466389469
+    second: sprite-max-px-16 (1) 1_28
+  - first:
+      213: -4086028621469122557
+    second: sprite-max-px-16 (1) 1_29
+  - first:
+      213: -1244133088316560765
+    second: sprite-max-px-16 (1) 1_30
+  - first:
+      213: 7928368856733890484
+    second: sprite-max-px-16 (1) 1_31
+  - first:
+      213: -1025414208736785600
+    second: sprite-max-px-16 (1) 1_32
+  - first:
+      213: -6301871198001625672
+    second: sprite-max-px-16 (1) 1_33
+  - first:
+      213: -3593342442793837804
+    second: sprite-max-px-16 (1) 1_34
+  - first:
+      213: -688570432758807519
+    second: sprite-max-px-16 (1) 1_35
+  - first:
+      213: -7230536295315386615
+    second: sprite-max-px-16 (1) 1_36
+  - first:
+      213: -1765318507749549901
+    second: sprite-max-px-16 (1) 1_37
+  - first:
+      213: -7125294614904866675
+    second: sprite-max-px-16 (1) 1_38
+  - first:
+      213: 7999102887138658264
+    second: sprite-max-px-16 (1) 1_39
+  - first:
+      213: 8241106109507594326
+    second: sprite-max-px-16 (1) 1_40
+  - first:
+      213: 5585398388665016646
+    second: sprite-max-px-16 (1) 1_41
+  - first:
+      213: 4184441853258498909
+    second: sprite-max-px-16 (1) 1_42
+  - first:
+      213: 3106003808596490338
+    second: sprite-max-px-16 (1) 1_43
+  - first:
+      213: 4277974919312075728
+    second: sprite-max-px-16 (1) 1_44
+  - first:
+      213: -8931239185475216503
+    second: sprite-max-px-16 (1) 1_45
+  - first:
+      213: 7655393389858991538
+    second: sprite-max-px-16 (1) 1_46
+  - first:
+      213: -6613160195209940515
+    second: sprite-max-px-16 (1) 1_47
+  - first:
+      213: -6118704127865562843
+    second: sprite-max-px-16 (1) 1_48
+  - first:
+      213: 2630004898000169095
+    second: sprite-max-px-16 (1) 1_49
+  - first:
+      213: -1965443605006244253
+    second: sprite-max-px-16 (1) 1_50
+  - first:
+      213: 7957607602457423668
+    second: sprite-max-px-16 (1) 1_51
+  - first:
+      213: -477820918842486912
+    second: sprite-max-px-16 (1) 1_52
+  - first:
+      213: -4985849962498718172
+    second: sprite-max-px-16 (1) 1_53
+  - first:
+      213: 6205509967685318347
+    second: sprite-max-px-16 (1) 1_54
+  - first:
+      213: 5912367124316867858
+    second: sprite-max-px-16 (1) 1_55
+  - first:
+      213: -2879401224688398591
+    second: sprite-max-px-16 (1) 1_56
+  - first:
+      213: -9166888057852845912
+    second: sprite-max-px-16 (1) 1_57
+  - first:
+      213: 200343523781412624
+    second: sprite-max-px-16 (1) 1_58
+  - first:
+      213: -8586516032513919497
+    second: sprite-max-px-16 (1) 1_59
+  - first:
+      213: 2657986916253362203
+    second: sprite-max-px-16 (1) 1_60
+  - first:
+      213: 2801699177161719665
+    second: sprite-max-px-16 (1) 1_61
+  - first:
+      213: 761016809527093139
+    second: sprite-max-px-16 (1) 1_62
+  - first:
+      213: -6567095324715879737
+    second: sprite-max-px-16 (1) 1_63
+  - first:
+      213: 1738391275758674542
+    second: sprite-max-px-16 (1) 1_64
+  - first:
+      213: -9130872447067174400
+    second: sprite-max-px-16 (1) 1_65
+  - first:
+      213: 9111188214289282635
+    second: sprite-max-px-16 (1) 1_66
+  - first:
+      213: 2691557862749579536
+    second: sprite-max-px-16 (1) 1_67
+  - first:
+      213: 8624294455309728238
+    second: sprite-max-px-16 (1) 1_68
+  - first:
+      213: -6450623643488008976
+    second: sprite-max-px-16 (1) 1_69
+  - first:
+      213: -557580968511655878
+    second: sprite-max-px-16 (1) 1_70
+  - first:
+      213: 8564881863248309979
+    second: sprite-max-px-16 (1) 1_71
+  - first:
+      213: -8320472219777542759
+    second: sprite-max-px-16 (1) 1_72
+  - first:
+      213: -4734800725441119561
+    second: sprite-max-px-16 (1) 1_73
+  - first:
+      213: 3877596259752643010
+    second: sprite-max-px-16 (1) 1_74
+  - first:
+      213: 3204434042407711144
+    second: sprite-max-px-16 (1) 1_75
+  - first:
+      213: 5855079644416113136
+    second: sprite-max-px-16 (1) 1_76
+  - first:
+      213: 2342869131851551166
+    second: sprite-max-px-16 (1) 1_77
+  - first:
+      213: 3909180069981963047
+    second: sprite-max-px-16 (1) 1_78
+  - first:
+      213: 1170001433026026175
+    second: sprite-max-px-16 (1) 1_79
+  - first:
+      213: -3564625336624694069
+    second: sprite-max-px-16 (1) 1_80
+  - first:
+      213: 3287557013854083049
+    second: sprite-max-px-16 (1) 1_81
+  - first:
+      213: -5638110101295378118
+    second: sprite-max-px-16 (1) 1_82
+  - first:
+      213: 204977820940625887
+    second: sprite-max-px-16 (1) 1_83
+  - first:
+      213: 4225046371856185976
+    second: sprite-max-px-16 (1) 1_84
+  - first:
+      213: 1984160850149419201
+    second: sprite-max-px-16 (1) 1_85
+  - first:
+      213: -3185538900240355010
+    second: sprite-max-px-16 (1) 1_86
+  - first:
+      213: 4502259467541617542
+    second: sprite-max-px-16 (1) 1_87
+  - first:
+      213: 804553834441989232
+    second: sprite-max-px-16 (1) 1_88
+  - first:
+      213: 5314758102222023234
+    second: sprite-max-px-16 (1) 1_89
+  - first:
+      213: -6466542460536649
+    second: sprite-max-px-16 (1) 1_90
+  - first:
+      213: -1790201196037910013
+    second: sprite-max-px-16 (1) 1_91
+  - first:
+      213: -4100218896149170332
+    second: sprite-max-px-16 (1) 1_92
+  - first:
+      213: -3955676914055646705
+    second: sprite-max-px-16 (1) 1_93
+  - first:
+      213: -3140693413788223356
+    second: sprite-max-px-16 (1) 1_94
+  - first:
+      213: -8708854051450817874
+    second: sprite-max-px-16 (1) 1_95
+  - first:
+      213: -737490138359452448
+    second: sprite-max-px-16 (1) 1_96
+  - first:
+      213: 7625787060064307267
+    second: sprite-max-px-16 (1) 1_97
+  - first:
+      213: 1479362751326424028
+    second: sprite-max-px-16 (1) 1_98
+  - first:
+      213: 3993450426970140435
+    second: sprite-max-px-16 (1) 1_99
+  - first:
+      213: -1877966986022531287
+    second: sprite-max-px-16 (1) 1_100
+  - first:
+      213: -2493856590442811921
+    second: sprite-max-px-16 (1) 1_101
+  - first:
+      213: -1001787290937579622
+    second: sprite-max-px-16 (1) 1_102
+  - first:
+      213: 7533517506202349173
+    second: sprite-max-px-16 (1) 1_103
+  - first:
+      213: 188336833344964911
+    second: sprite-max-px-16 (1) 1_104
+  - first:
+      213: -5412568980419575121
+    second: sprite-max-px-16 (1) 1_105
+  - first:
+      213: 4531466413127684505
+    second: sprite-max-px-16 (1) 1_106
+  - first:
+      213: 2256588255186202580
+    second: sprite-max-px-16 (1) 1_107
+  - first:
+      213: -6065849880980044088
+    second: sprite-max-px-16 (1) 1_108
+  - first:
+      213: -1363163805689797084
+    second: sprite-max-px-16 (1) 1_109
+  - first:
+      213: 4339631440502825632
+    second: sprite-max-px-16 (1) 1_110
+  - first:
+      213: -5422999356639597499
+    second: sprite-max-px-16 (1) 1_111
+  - first:
+      213: 4643947664051461562
+    second: sprite-max-px-16 (1) 1_112
+  - first:
+      213: 6970433560533573159
+    second: sprite-max-px-16 (1) 1_113
+  - first:
+      213: 7434696893511741685
+    second: sprite-max-px-16 (1) 1_114
+  - first:
+      213: 2204847765691779466
+    second: sprite-max-px-16 (1) 1_115
+  - first:
+      213: 5068489381557429722
+    second: sprite-max-px-16 (1) 1_116
+  - first:
+      213: -4136873856755221772
+    second: sprite-max-px-16 (1) 1_117
+  - first:
+      213: -3311594508579790507
+    second: sprite-max-px-16 (1) 1_118
+  - first:
+      213: -357150373328735423
+    second: sprite-max-px-16 (1) 1_119
+  - first:
+      213: -258967094309969750
+    second: sprite-max-px-16 (1) 1_120
+  - first:
+      213: 1129228259708532050
+    second: sprite-max-px-16 (1) 1_121
+  - first:
+      213: -7891134271897898127
+    second: sprite-max-px-16 (1) 1_122
+  - first:
+      213: 5403688043692437265
+    second: sprite-max-px-16 (1) 1_123
+  - first:
+      213: 8473886401993590618
+    second: sprite-max-px-16 (1) 1_124
+  - first:
+      213: -1304711021839674198
+    second: sprite-max-px-16 (1) 1_125
+  - first:
+      213: 4394478949277231464
+    second: sprite-max-px-16 (1) 1_126
+  - first:
+      213: -50936056645288019
+    second: sprite-max-px-16 (1) 1_127
+  - first:
+      213: -4416386786118659890
+    second: sprite-max-px-16 (1) 1_128
+  - first:
+      213: -281351500450935223
+    second: sprite-max-px-16 (1) 1_129
+  - first:
+      213: -4805996633077217604
+    second: sprite-max-px-16 (1) 1_130
+  - first:
+      213: 5090548070515082166
+    second: sprite-max-px-16 (1) 1_131
+  - first:
+      213: -5821002010202766453
+    second: sprite-max-px-16 (1) 1_132
+  - first:
+      213: 8921415616556706614
+    second: sprite-max-px-16 (1) 1_133
+  - first:
+      213: -5464422528673431919
+    second: sprite-max-px-16 (1) 1_134
+  - first:
+      213: 6637886855704124339
+    second: sprite-max-px-16 (1) 1_135
+  - first:
+      213: -5365049618288018645
+    second: sprite-max-px-16 (1) 1_136
+  - first:
+      213: -1254933797172520055
+    second: sprite-max-px-16 (1) 1_137
+  - first:
+      213: -4060598633719021068
+    second: sprite-max-px-16 (1) 1_138
+  - first:
+      213: 8133439041174048559
+    second: sprite-max-px-16 (1) 1_139
+  - first:
+      213: -7000776576232975803
+    second: sprite-max-px-16 (1) 1_140
+  - first:
+      213: 6909238415645598360
+    second: sprite-max-px-16 (1) 1_141
+  - first:
+      213: 676420591734400513
+    second: sprite-max-px-16 (1) 1_142
+  - first:
+      213: 5593621358594621263
+    second: sprite-max-px-16 (1) 1_143
+  - first:
+      213: 4783235682351967749
+    second: sprite-max-px-16 (1) 1_144
+  - first:
+      213: -732386169699375849
+    second: sprite-max-px-16 (1) 1_145
+  - first:
+      213: 7939613247408607196
+    second: sprite-max-px-16 (1) 1_146
+  - first:
+      213: -7944107858673438667
+    second: sprite-max-px-16 (1) 1_147
+  - first:
+      213: -1015526201693982687
+    second: sprite-max-px-16 (1) 1_148
+  - first:
+      213: -3187535480406809700
+    second: sprite-max-px-16 (1) 1_149
+  - first:
+      213: -4310090983502544169
+    second: sprite-max-px-16 (1) 1_150
+  - first:
+      213: 4801041114279376551
+    second: sprite-max-px-16 (1) 1_151
+  - first:
+      213: 4858974301055681488
+    second: sprite-max-px-16 (1) 1_152
+  - first:
+      213: 7007836919654377715
+    second: sprite-max-px-16 (1) 1_153
+  - first:
+      213: 9093236701213543215
+    second: sprite-max-px-16 (1) 1_154
+  - first:
+      213: -7027214648006629400
+    second: sprite-max-px-16 (1) 1_155
+  - first:
+      213: 3203213531906135095
+    second: sprite-max-px-16 (1) 1_156
+  - first:
+      213: 1138845139182262185
+    second: sprite-max-px-16 (1) 1_157
+  - first:
+      213: 6801153597581369685
+    second: sprite-max-px-16 (1) 1_158
+  - first:
+      213: -5738984874030888605
+    second: sprite-max-px-16 (1) 1_159
+  - first:
+      213: 3718072428774802869
+    second: sprite-max-px-16 (1) 1_160
+  - first:
+      213: 141696791540789404
+    second: sprite-max-px-16 (1) 1_161
+  - first:
+      213: -2523033188809119797
+    second: sprite-max-px-16 (1) 1_162
+  - first:
+      213: -6857532526589134575
+    second: sprite-max-px-16 (1) 1_163
+  - first:
+      213: 8921624176952964095
+    second: sprite-max-px-16 (1) 1_164
+  - first:
+      213: -8541654944204863406
+    second: sprite-max-px-16 (1) 1_165
+  - first:
+      213: 619359847812162892
+    second: sprite-max-px-16 (1) 1_166
+  - first:
+      213: -2331832728261988488
+    second: sprite-max-px-16 (1) 1_167
+  - first:
+      213: 726171789551182565
+    second: sprite-max-px-16 (1) 1_168
+  - first:
+      213: 4682867860945009039
+    second: sprite-max-px-16 (1) 1_169
+  - first:
+      213: -4284495510115579314
+    second: sprite-max-px-16 (1) 1_170
+  - first:
+      213: -4181425654351042927
+    second: sprite-max-px-16 (1) 1_171
+  - first:
+      213: -510216302657871856
+    second: sprite-max-px-16 (1) 1_172
+  - first:
+      213: 2303300276373234627
+    second: sprite-max-px-16 (1) 1_173
+  - first:
+      213: -5654284977478422985
+    second: sprite-max-px-16 (1) 1_174
+  - first:
+      213: -7384490700156595628
+    second: sprite-max-px-16 (1) 1_175
+  - first:
+      213: -6192140248565462557
+    second: sprite-max-px-16 (1) 1_176
+  - first:
+      213: 4390663602013943955
+    second: sprite-max-px-16 (1) 1_177
+  - first:
+      213: -2624122403916057052
+    second: sprite-max-px-16 (1) 1_178
+  - first:
+      213: -2733402675866039160
+    second: sprite-max-px-16 (1) 1_179
+  - first:
+      213: -8401031820142789917
+    second: sprite-max-px-16 (1) 1_180
+  - first:
+      213: -6791574317596310829
+    second: sprite-max-px-16 (1) 1_181
+  - first:
+      213: -1615535876258015563
+    second: sprite-max-px-16 (1) 1_182
+  - first:
+      213: 8323973572513185657
+    second: sprite-max-px-16 (1) 1_183
+  - first:
+      213: 980731812762312878
+    second: sprite-max-px-16 (1) 1_184
+  - first:
+      213: -5604844887529367897
+    second: sprite-max-px-16 (1) 1_185
+  - first:
+      213: -8677204442958744196
+    second: sprite-max-px-16 (1) 1_186
+  - first:
+      213: -8200854380652430568
+    second: sprite-max-px-16 (1) 1_187
+  - first:
+      213: 6533549138671258604
+    second: sprite-max-px-16 (1) 1_188
+  - first:
+      213: -6484809924968740508
+    second: sprite-max-px-16 (1) 1_189
+  - first:
+      213: -7672712721722857016
+    second: sprite-max-px-16 (1) 1_190
+  - first:
+      213: 9008473444721517208
+    second: sprite-max-px-16 (1) 1_191
+  - first:
+      213: -3091377228033198314
+    second: sprite-max-px-16 (1) 1_192
+  - first:
+      213: -7988544095964494056
+    second: sprite-max-px-16 (1) 1_193
+  - first:
+      213: -1361174859326303792
+    second: sprite-max-px-16 (1) 1_194
+  - first:
+      213: 7416207597305467993
+    second: sprite-max-px-16 (1) 1_195
+  - first:
+      213: -5918301884050941263
+    second: sprite-max-px-16 (1) 1_196
+  - first:
+      213: 3354392076535282485
+    second: sprite-max-px-16 (1) 1_197
+  - first:
+      213: 8524505687011176681
+    second: sprite-max-px-16 (1) 1_198
+  - first:
+      213: -7426467603127028502
+    second: sprite-max-px-16 (1) 1_199
+  - first:
+      213: -725413131758414468
+    second: sprite-max-px-16 (1) 1_200
+  - first:
+      213: -783575596754860920
+    second: sprite-max-px-16 (1) 1_201
+  - first:
+      213: -110368920262313006
+    second: sprite-max-px-16 (1) 1_202
+  - first:
+      213: -8623629211174277971
+    second: sprite-max-px-16 (1) 1_203
+  - first:
+      213: 8346997208500331934
+    second: sprite-max-px-16 (1) 1_204
+  - first:
+      213: -2109748910118820386
+    second: sprite-max-px-16 (1) 1_205
+  - first:
+      213: 1474484376889321508
+    second: sprite-max-px-16 (1) 1_206
+  - first:
+      213: -6625367822601575522
+    second: sprite-max-px-16 (1) 1_207
+  - first:
+      213: 1225399784629812178
+    second: sprite-max-px-16 (1) 1_208
+  - first:
+      213: 5673436615489177870
+    second: sprite-max-px-16 (1) 1_209
+  - first:
+      213: 3584322653397469768
+    second: sprite-max-px-16 (1) 1_210
+  - first:
+      213: 6715601187070018894
+    second: sprite-max-px-16 (1) 1_211
+  - first:
+      213: 8381302865009038444
+    second: sprite-max-px-16 (1) 1_212
+  - first:
+      213: 1876720569135018830
+    second: sprite-max-px-16 (1) 1_213
+  - first:
+      213: -3905362465431107821
+    second: sprite-max-px-16 (1) 1_214
+  - first:
+      213: -1095685659332162451
+    second: sprite-max-px-16 (1) 1_215
+  - first:
+      213: -2064340269199843290
+    second: sprite-max-px-16 (1) 1_216
+  - first:
+      213: -4820597478179616125
+    second: sprite-max-px-16 (1) 1_217
+  - first:
+      213: -1239058959344243030
+    second: sprite-max-px-16 (1) 1_218
+  - first:
+      213: 498420609340824019
+    second: sprite-max-px-16 (1) 1_219
+  - first:
+      213: 2787853532338495578
+    second: sprite-max-px-16 (1) 1_220
+  - first:
+      213: 8745670769779635844
+    second: sprite-max-px-16 (1) 1_221
+  - first:
+      213: -189561048295326750
+    second: sprite-max-px-16 (1) 1_222
+  - first:
+      213: 3570064014765143524
+    second: sprite-max-px-16 (1) 1_223
+  - first:
+      213: -5232966159561599766
+    second: sprite-max-px-16 (1) 1_224
+  - first:
+      213: 5376209396166251087
+    second: sprite-max-px-16 (1) 1_225
+  - first:
+      213: -7563286166686103988
+    second: sprite-max-px-16 (1) 1_226
+  - first:
+      213: -839882604580210628
+    second: sprite-max-px-16 (1) 1_227
+  - first:
+      213: 4422926957751905757
+    second: sprite-max-px-16 (1) 1_228
+  - first:
+      213: 981804973734952385
+    second: sprite-max-px-16 (1) 1_229
+  - first:
+      213: 2948633987918680857
+    second: sprite-max-px-16 (1) 1_230
+  - first:
+      213: 1212473534945467110
+    second: sprite-max-px-16 (1) 1_231
+  - first:
+      213: -7315860129326367125
+    second: sprite-max-px-16 (1) 1_232
+  - first:
+      213: -1551629654278788522
+    second: sprite-max-px-16 (1) 1_233
+  - first:
+      213: 6012186963836021702
+    second: sprite-max-px-16 (1) 1_234
+  - first:
+      213: 263027997583160510
+    second: sprite-max-px-16 (1) 1_235
+  - first:
+      213: 5360469142462513468
+    second: sprite-max-px-16 (1) 1_236
+  - first:
+      213: 498908787970170577
+    second: sprite-max-px-16 (1) 1_237
+  - first:
+      213: -4223706622986310350
+    second: sprite-max-px-16 (1) 1_238
+  - first:
+      213: -3752333572637970028
+    second: sprite-max-px-16 (1) 1_239
+  - first:
+      213: 8492382854522742187
+    second: sprite-max-px-16 (1) 1_240
+  - first:
+      213: -8460942033727884502
+    second: sprite-max-px-16 (1) 1_241
+  - first:
+      213: 1182113793804970016
+    second: sprite-max-px-16 (1) 1_242
+  - first:
+      213: 5182250453967919705
+    second: sprite-max-px-16 (1) 1_243
+  - first:
+      213: 4371419394867753869
+    second: sprite-max-px-16 (1) 1_244
+  - first:
+      213: -5199231795266288883
+    second: sprite-max-px-16 (1) 1_245
+  - first:
+      213: 2196788069517127411
+    second: sprite-max-px-16 (1) 1_246
+  - first:
+      213: -3720500331876751419
+    second: sprite-max-px-16 (1) 1_247
+  - first:
+      213: -2866593068138183690
+    second: sprite-max-px-16 (1) 1_248
+  - first:
+      213: 270942749256530989
+    second: sprite-max-px-16 (1) 1_249
+  - first:
+      213: 4765751949024185165
+    second: sprite-max-px-16 (1) 1_250
+  - first:
+      213: -7386419614407857755
+    second: sprite-max-px-16 (1) 1_251
+  - first:
+      213: -5657593310866896757
+    second: sprite-max-px-16 (1) 1_252
+  - first:
+      213: -319583822157706438
+    second: sprite-max-px-16 (1) 1_253
+  - first:
+      213: -5833047920956596649
+    second: sprite-max-px-16 (1) 1_254
+  - first:
+      213: 6544256454604470118
+    second: sprite-max-px-16 (1) 1_255
+  - first:
+      213: 36478907838398197
+    second: sprite-max-px-16 (1) 1_256
+  - first:
+      213: 4034634221458278573
+    second: sprite-max-px-16 (1) 1_257
+  - first:
+      213: -7642524188815469188
+    second: sprite-max-px-16 (1) 1_258
+  - first:
+      213: -1491544676980130364
+    second: sprite-max-px-16 (1) 1_259
+  - first:
+      213: -2390926892123911248
+    second: sprite-max-px-16 (1) 1_260
+  - first:
+      213: -1844902568726682452
+    second: sprite-max-px-16 (1) 1_261
+  - first:
+      213: -8292288502803531508
+    second: sprite-max-px-16 (1) 1_262
+  - first:
+      213: 596088621682867743
+    second: sprite-max-px-16 (1) 1_263
+  - first:
+      213: 7299153064206563168
+    second: sprite-max-px-16 (1) 1_264
+  - first:
+      213: 429846053933334972
+    second: sprite-max-px-16 (1) 1_265
+  - first:
+      213: -8187657561856346214
+    second: sprite-max-px-16 (1) 1_266
+  - first:
+      213: 8296446705676032035
+    second: sprite-max-px-16 (1) 1_267
+  - first:
+      213: 7388075535354174439
+    second: sprite-max-px-16 (1) 1_268
+  - first:
+      213: -3727474446966791457
+    second: sprite-max-px-16 (1) 1_269
+  - first:
+      213: -1733819449595536095
+    second: sprite-max-px-16 (1) 1_270
+  - first:
+      213: -5685093499067248553
+    second: sprite-max-px-16 (1) 1_271
+  - first:
+      213: -4144923061049478342
+    second: sprite-max-px-16 (1) 1_272
+  - first:
+      213: -7525154334361971009
+    second: sprite-max-px-16 (1) 1_273
+  - first:
+      213: -2875740416456637365
+    second: sprite-max-px-16 (1) 1_274
+  - first:
+      213: -5043726264140712916
+    second: sprite-max-px-16 (1) 1_275
+  - first:
+      213: 8217168248367059659
+    second: sprite-max-px-16 (1) 1_276
+  - first:
+      213: 1849770682517958025
+    second: sprite-max-px-16 (1) 1_277
+  - first:
+      213: 134372118923605914
+    second: sprite-max-px-16 (1) 1_278
+  - first:
+      213: 5253631708692333582
+    second: sprite-max-px-16 (1) 1_279
+  - first:
+      213: 5172338680261823538
+    second: sprite-max-px-16 (1) 1_280
+  - first:
+      213: -4586085907807605633
+    second: sprite-max-px-16 (1) 1_281
+  - first:
+      213: -3732022315491384786
+    second: sprite-max-px-16 (1) 1_282
+  - first:
+      213: 8132669033572013929
+    second: sprite-max-px-16 (1) 1_283
+  - first:
+      213: -4696673983508116568
+    second: sprite-max-px-16 (1) 1_284
+  - first:
+      213: -363794525319173874
+    second: sprite-max-px-16 (1) 1_285
+  - first:
+      213: 441848244668144452
+    second: sprite-max-px-16 (1) 1_286
+  - first:
+      213: -2331718209689037645
+    second: sprite-max-px-16 (1) 1_287
+  - first:
+      213: -7119587836751051761
+    second: sprite-max-px-16 (1) 1_288
+  - first:
+      213: 8279780526328459680
+    second: sprite-max-px-16 (1) 1_289
+  - first:
+      213: 5618334815147905313
+    second: sprite-max-px-16 (1) 1_290
+  - first:
+      213: 2065157871288932483
+    second: sprite-max-px-16 (1) 1_291
+  - first:
+      213: 6818045977570297790
+    second: sprite-max-px-16 (1) 1_292
+  - first:
+      213: 8972049338998721391
+    second: sprite-max-px-16 (1) 1_293
+  - first:
+      213: -2596094575147433583
+    second: sprite-max-px-16 (1) 1_294
+  - first:
+      213: 8295395831200990331
+    second: sprite-max-px-16 (1) 1_295
+  - first:
+      213: -8120773367939612740
+    second: sprite-max-px-16 (1) 1_296
+  - first:
+      213: 3449278022698857359
+    second: sprite-max-px-16 (1) 1_297
+  - first:
+      213: 8441363236906275634
+    second: sprite-max-px-16 (1) 1_298
+  - first:
+      213: 8785644517615015631
+    second: sprite-max-px-16 (1) 1_299
+  - first:
+      213: -407209463559603595
+    second: sprite-max-px-16 (1) 1_300
+  - first:
+      213: -1640690757903572199
+    second: sprite-max-px-16 (1) 1_301
+  - first:
+      213: 4541176002420322223
+    second: sprite-max-px-16 (1) 1_302
+  - first:
+      213: 6151329395676356307
+    second: sprite-max-px-16 (1) 1_303
+  - first:
+      213: -1785856468478219733
+    second: sprite-max-px-16 (1) 1_304
+  - first:
+      213: 6564748374108161531
+    second: sprite-max-px-16 (1) 1_305
+  - first:
+      213: -143620274469333452
+    second: sprite-max-px-16 (1) 1_306
+  - first:
+      213: 6164495633741655743
+    second: sprite-max-px-16 (1) 1_307
+  - first:
+      213: 171464622250152544
+    second: sprite-max-px-16 (1) 1_308
+  - first:
+      213: -1888459071888120627
+    second: sprite-max-px-16 (1) 1_309
+  - first:
+      213: -3649269532093708876
+    second: sprite-max-px-16 (1) 1_310
+  - first:
+      213: -1337007026833908894
+    second: sprite-max-px-16 (1) 1_311
+  - first:
+      213: 8290026150340673491
+    second: sprite-max-px-16 (1) 1_312
+  - first:
+      213: -6446262350732982304
+    second: sprite-max-px-16 (1) 1_313
+  - first:
+      213: 5401095459954278055
+    second: sprite-max-px-16 (1) 1_314
+  - first:
+      213: 7055288740541274749
+    second: sprite-max-px-16 (1) 1_315
+  - first:
+      213: -7875482374879787350
+    second: sprite-max-px-16 (1) 1_316
+  - first:
+      213: 5489606775900486581
+    second: sprite-max-px-16 (1) 1_317
+  - first:
+      213: 4841061847390626879
+    second: sprite-max-px-16 (1) 1_318
+  - first:
+      213: -5877385106600624354
+    second: sprite-max-px-16 (1) 1_319
+  - first:
+      213: 8541991559911167507
+    second: sprite-max-px-16 (1) 1_320
+  - first:
+      213: -515317863395163231
+    second: sprite-max-px-16 (1) 1_321
+  - first:
+      213: 9035553156517212671
+    second: sprite-max-px-16 (1) 1_322
+  - first:
+      213: -4733071413091231465
+    second: sprite-max-px-16 (1) 1_323
+  - first:
+      213: 4776967883075258541
+    second: sprite-max-px-16 (1) 1_324
+  - first:
+      213: -3764803541337249866
+    second: sprite-max-px-16 (1) 1_325
+  - first:
+      213: -5653194759909651752
+    second: sprite-max-px-16 (1) 1_326
+  - first:
+      213: -3929233259427289580
+    second: sprite-max-px-16 (1) 1_327
+  - first:
+      213: 2205617414452225490
+    second: sprite-max-px-16 (1) 1_328
+  - first:
+      213: 581871520727731488
+    second: sprite-max-px-16 (1) 1_329
+  - first:
+      213: 8112289864533866528
+    second: sprite-max-px-16 (1) 1_330
+  - first:
+      213: 3682637953570290225
+    second: sprite-max-px-16 (1) 1_331
+  - first:
+      213: 6274204561525503804
+    second: sprite-max-px-16 (1) 1_332
+  - first:
+      213: 5532153497940393173
+    second: sprite-max-px-16 (1) 1_333
+  - first:
+      213: -4736670374010008230
+    second: sprite-max-px-16 (1) 1_334
+  - first:
+      213: -3223262390361707311
+    second: sprite-max-px-16 (1) 1_335
+  - first:
+      213: 2456561019058960599
+    second: sprite-max-px-16 (1) 1_336
+  - first:
+      213: -2035269249534704300
+    second: sprite-max-px-16 (1) 1_337
+  - first:
+      213: -7155769902079483778
+    second: sprite-max-px-16 (1) 1_338
+  - first:
+      213: -5507863742116792974
+    second: sprite-max-px-16 (1) 1_339
+  - first:
+      213: -9029419695398498418
+    second: sprite-max-px-16 (1) 1_340
+  - first:
+      213: 1480352581193816027
+    second: sprite-max-px-16 (1) 1_341
+  - first:
+      213: -4412697397003824602
+    second: sprite-max-px-16 (1) 1_342
+  - first:
+      213: -7999022438056227136
+    second: sprite-max-px-16 (1) 1_343
+  - first:
+      213: 1323849936149878942
+    second: sprite-max-px-16 (1) 1_344
+  - first:
+      213: 4021192142579995973
+    second: sprite-max-px-16 (1) 1_345
+  - first:
+      213: -5344203281370643487
+    second: sprite-max-px-16 (1) 1_346
+  - first:
+      213: -4271540562316687924
+    second: sprite-max-px-16 (1) 1_347
+  - first:
+      213: -5554779259679105038
+    second: sprite-max-px-16 (1) 1_348
+  - first:
+      213: -6400229568082426696
+    second: sprite-max-px-16 (1) 1_349
+  - first:
+      213: 6704907950867352471
+    second: sprite-max-px-16 (1) 1_350
+  - first:
+      213: 1084985204543988691
+    second: sprite-max-px-16 (1) 1_351
+  - first:
+      213: 715614655616330294
+    second: sprite-max-px-16 (1) 1_352
+  - first:
+      213: 2590985836656721033
+    second: sprite-max-px-16 (1) 1_353
+  - first:
+      213: 5826413666806628279
+    second: sprite-max-px-16 (1) 1_354
+  - first:
+      213: 4838361001691351393
+    second: sprite-max-px-16 (1) 1_355
+  - first:
+      213: 6224183828758060308
+    second: sprite-max-px-16 (1) 1_356
+  - first:
+      213: -6765145213421050758
+    second: sprite-max-px-16 (1) 1_357
+  - first:
+      213: 2291362072867535085
+    second: sprite-max-px-16 (1) 1_358
+  - first:
+      213: -6535679526514437907
+    second: sprite-max-px-16 (1) 1_359
+  - first:
+      213: -3833657602214807996
+    second: sprite-max-px-16 (1) 1_360
+  - first:
+      213: -598861076596350991
+    second: sprite-max-px-16 (1) 1_361
+  - first:
+      213: 5541464641786231414
+    second: sprite-max-px-16 (1) 1_362
+  - first:
+      213: -2301049804691637828
+    second: sprite-max-px-16 (1) 1_363
+  - first:
+      213: 6615891137811133162
+    second: sprite-max-px-16 (1) 1_364
+  - first:
+      213: -7198148915325322940
+    second: sprite-max-px-16 (1) 1_365
+  - first:
+      213: 5945996704369816321
+    second: sprite-max-px-16 (1) 1_366
+  - first:
+      213: 8673211907772496820
+    second: sprite-max-px-16 (1) 1_367
+  - first:
+      213: 1220386819403400985
+    second: sprite-max-px-16 (1) 1_368
+  - first:
+      213: 6717788184590422697
+    second: sprite-max-px-16 (1) 1_369
+  - first:
+      213: 8532310068803338033
+    second: sprite-max-px-16 (1) 1_370
+  - first:
+      213: -2919225519154559746
+    second: sprite-max-px-16 (1) 1_371
+  - first:
+      213: -1766277672710433320
+    second: sprite-max-px-16 (1) 1_372
+  - first:
+      213: -6308076739217445299
+    second: sprite-max-px-16 (1) 1_373
+  - first:
+      213: 7334589581035301593
+    second: sprite-max-px-16 (1) 1_374
+  - first:
+      213: 6783102467439833361
+    second: sprite-max-px-16 (1) 1_375
+  - first:
+      213: 6073236823995503428
+    second: sprite-max-px-16 (1) 1_376
+  - first:
+      213: 7008430726087937661
+    second: sprite-max-px-16 (1) 1_377
+  - first:
+      213: 5340803134060618019
+    second: sprite-max-px-16 (1) 1_378
+  - first:
+      213: 3129340179260403492
+    second: sprite-max-px-16 (1) 1_379
+  - first:
+      213: 4162251746728697138
+    second: sprite-max-px-16 (1) 1_380
+  - first:
+      213: 7507721084490509815
+    second: sprite-max-px-16 (1) 1_381
+  - first:
+      213: -7778932594691905154
+    second: sprite-max-px-16 (1) 1_382
+  - first:
+      213: 5250905345465147547
+    second: sprite-max-px-16 (1) 1_383
+  - first:
+      213: -3763032272639091628
+    second: sprite-max-px-16 (1) 1_384
+  - first:
+      213: -3917056299116753266
+    second: sprite-max-px-16 (1) 1_385
+  - first:
+      213: 5425822045816305979
+    second: sprite-max-px-16 (1) 1_386
+  - first:
+      213: -9097541650482523591
+    second: sprite-max-px-16 (1) 1_387
+  - first:
+      213: 3210312482390948625
+    second: sprite-max-px-16 (1) 1_388
+  - first:
+      213: 5200776958037656461
+    second: sprite-max-px-16 (1) 1_389
+  - first:
+      213: -6683469406376471363
+    second: sprite-max-px-16 (1) 1_390
+  - first:
+      213: 4752482007826913055
+    second: sprite-max-px-16 (1) 1_391
+  - first:
+      213: 8466871728562061847
+    second: sprite-max-px-16 (1) 1_392
+  - first:
+      213: -5594485600500551471
+    second: sprite-max-px-16 (1) 1_393
+  - first:
+      213: 1390770862281586162
+    second: sprite-max-px-16 (1) 1_394
+  - first:
+      213: -1081176821011604056
+    second: sprite-max-px-16 (1) 1_395
+  - first:
+      213: -2740252751171816909
+    second: sprite-max-px-16 (1) 1_396
+  - first:
+      213: 6971769398205459635
+    second: sprite-max-px-16 (1) 1_397
+  - first:
+      213: 3908238285859756887
+    second: sprite-max-px-16 (1) 1_398
+  - first:
+      213: -4433710330265131636
+    second: sprite-max-px-16 (1) 1_399
+  - first:
+      213: -8006804229022716105
+    second: sprite-max-px-16 (1) 1_400
+  - first:
+      213: -7160295289777612173
+    second: sprite-max-px-16 (1) 1_401
+  - first:
+      213: 5587648127736497726
+    second: sprite-max-px-16 (1) 1_402
+  - first:
+      213: 9045358002774561295
+    second: sprite-max-px-16 (1) 1_403
+  - first:
+      213: -465362056111413441
+    second: sprite-max-px-16 (1) 1_404
+  - first:
+      213: -3239713618940157360
+    second: sprite-max-px-16 (1) 1_405
+  - first:
+      213: -4209510427990010675
+    second: sprite-max-px-16 (1) 1_406
+  - first:
+      213: -1356511239961239629
+    second: sprite-max-px-16 (1) 1_407
+  - first:
+      213: 7276531025405441033
+    second: sprite-max-px-16 (1) 1_408
+  - first:
+      213: -7106491662933609907
+    second: sprite-max-px-16 (1) 1_409
+  - first:
+      213: -1429102000997501741
+    second: sprite-max-px-16 (1) 1_410
+  - first:
+      213: 5086771344049346463
+    second: sprite-max-px-16 (1) 1_411
+  - first:
+      213: 3487685284419471480
+    second: sprite-max-px-16 (1) 1_412
+  - first:
+      213: -5858202855506112008
+    second: sprite-max-px-16 (1) 1_413
+  - first:
+      213: -4789722287489029574
+    second: sprite-max-px-16 (1) 1_414
+  - first:
+      213: -5974561557688396108
+    second: sprite-max-px-16 (1) 1_415
+  - first:
+      213: -2850441637549986160
+    second: sprite-max-px-16 (1) 1_416
+  - first:
+      213: 8432204799296124664
+    second: sprite-max-px-16 (1) 1_417
+  - first:
+      213: 2974463199240758631
+    second: sprite-max-px-16 (1) 1_418
+  - first:
+      213: -2799659557141552882
+    second: sprite-max-px-16 (1) 1_419
+  - first:
+      213: -2621605347321386296
+    second: sprite-max-px-16 (1) 1_420
+  - first:
+      213: 7975368258334703049
+    second: sprite-max-px-16 (1) 1_421
+  - first:
+      213: 3741704069244560382
+    second: sprite-max-px-16 (1) 1_422
+  - first:
+      213: 229154575028713506
+    second: sprite-max-px-16 (1) 1_423
+  - first:
+      213: 461556813534892202
+    second: sprite-max-px-16 (1) 1_424
+  - first:
+      213: -1774877475468987540
+    second: sprite-max-px-16 (1) 1_425
+  - first:
+      213: 8434855688878644814
+    second: sprite-max-px-16 (1) 1_426
+  - first:
+      213: 6452146564844574242
+    second: sprite-max-px-16 (1) 1_427
+  - first:
+      213: 2188118517988664953
+    second: sprite-max-px-16 (1) 1_428
+  - first:
+      213: -6937542242851184389
+    second: sprite-max-px-16 (1) 1_429
+  - first:
+      213: 4579088494204348654
+    second: sprite-max-px-16 (1) 1_430
+  - first:
+      213: 2444322429967265711
+    second: sprite-max-px-16 (1) 1_431
+  - first:
+      213: -2400867644214803820
+    second: sprite-max-px-16 (1) 1_432
+  - first:
+      213: 185304391271306549
+    second: sprite-max-px-16 (1) 1_433
+  - first:
+      213: -837774419121683433
+    second: sprite-max-px-16 (1) 1_434
+  - first:
+      213: 4514628009613133719
+    second: sprite-max-px-16 (1) 1_435
+  - first:
+      213: 3447557362864950668
+    second: sprite-max-px-16 (1) 1_436
+  - first:
+      213: 6410365080451727547
+    second: sprite-max-px-16 (1) 1_437
+  - first:
+      213: -1490910078560811566
+    second: sprite-max-px-16 (1) 1_438
+  - first:
+      213: -7165175213672598261
+    second: sprite-max-px-16 (1) 1_439
+  - first:
+      213: -5677225050184250555
+    second: sprite-max-px-16 (1) 1_440
+  - first:
+      213: -1289801178332052511
+    second: sprite-max-px-16 (1) 1_441
+  - first:
+      213: 2931020470508316317
+    second: sprite-max-px-16 (1) 1_442
+  - first:
+      213: -8194674696961791328
+    second: sprite-max-px-16 (1) 1_443
+  - first:
+      213: -301442307303146022
+    second: sprite-max-px-16 (1) 1_444
+  - first:
+      213: -2629125372055360217
+    second: sprite-max-px-16 (1) 1_445
+  - first:
+      213: -4623550115587068909
+    second: sprite-max-px-16 (1) 1_446
+  - first:
+      213: -5090315815966415903
+    second: sprite-max-px-16 (1) 1_447
+  - first:
+      213: 5540593064355248641
+    second: sprite-max-px-16 (1) 1_448
+  - first:
+      213: 4233652787904859703
+    second: sprite-max-px-16 (1) 1_449
+  - first:
+      213: -7630723151656556438
+    second: sprite-max-px-16 (1) 1_450
+  - first:
+      213: 805103928212711221
+    second: sprite-max-px-16 (1) 1_451
+  - first:
+      213: -4846204344860965130
+    second: sprite-max-px-16 (1) 1_452
+  - first:
+      213: -6903367987257292929
+    second: sprite-max-px-16 (1) 1_453
+  - first:
+      213: 940489498915468365
+    second: sprite-max-px-16 (1) 1_454
+  - first:
+      213: 8888105114556861746
+    second: sprite-max-px-16 (1) 1_455
+  - first:
+      213: -1530747503756689225
+    second: sprite-max-px-16 (1) 1_456
+  - first:
+      213: -271913194331886482
+    second: sprite-max-px-16 (1) 1_457
+  - first:
+      213: -3882117525434528695
+    second: sprite-max-px-16 (1) 1_458
+  - first:
+      213: -8259116319663897095
+    second: sprite-max-px-16 (1) 1_459
+  - first:
+      213: 5123681783312071913
+    second: sprite-max-px-16 (1) 1_460
+  - first:
+      213: 3892817417912277060
+    second: sprite-max-px-16 (1) 1_461
+  - first:
+      213: 5905230549791828815
+    second: sprite-max-px-16 (1) 1_462
+  - first:
+      213: -1107542548796134043
+    second: sprite-max-px-16 (1) 1_463
+  - first:
+      213: -2951084719715048431
+    second: sprite-max-px-16 (1) 1_464
+  - first:
+      213: 2346702502542077708
+    second: sprite-max-px-16 (1) 1_465
+  - first:
+      213: -3918549946795922500
+    second: sprite-max-px-16 (1) 1_466
+  - first:
+      213: -3955384905191841194
+    second: sprite-max-px-16 (1) 1_467
+  - first:
+      213: 7959807981128765356
+    second: sprite-max-px-16 (1) 1_468
+  - first:
+      213: -5811173930460513102
+    second: sprite-max-px-16 (1) 1_469
+  - first:
+      213: -6179118672039120425
+    second: sprite-max-px-16 (1) 1_470
+  - first:
+      213: -4531179569400190832
+    second: sprite-max-px-16 (1) 1_471
+  - first:
+      213: 8444153922571400635
+    second: sprite-max-px-16 (1) 1_472
+  - first:
+      213: -7457119499750003043
+    second: sprite-max-px-16 (1) 1_473
+  - first:
+      213: 5334619315256010143
+    second: sprite-max-px-16 (1) 1_474
+  - first:
+      213: -2196476076115858469
+    second: sprite-max-px-16 (1) 1_475
+  - first:
+      213: -1838567807620733474
+    second: sprite-max-px-16 (1) 1_476
+  - first:
+      213: -7671208165362854751
+    second: sprite-max-px-16 (1) 1_477
+  - first:
+      213: -8195176265917139741
+    second: sprite-max-px-16 (1) 1_478
+  - first:
+      213: 8722423242123208886
+    second: sprite-max-px-16 (1) 1_479
+  - first:
+      213: -8935338742723104962
+    second: sprite-max-px-16 (1) 1_480
+  - first:
+      213: 5970572880059985158
+    second: sprite-max-px-16 (1) 1_481
+  - first:
+      213: -5549092693046259709
+    second: sprite-max-px-16 (1) 1_482
+  - first:
+      213: 2467403959930527438
+    second: sprite-max-px-16 (1) 1_483
+  - first:
+      213: -2454578200301359187
+    second: sprite-max-px-16 (1) 1_484
+  - first:
+      213: -6108755149765621188
+    second: sprite-max-px-16 (1) 1_485
+  - first:
+      213: -6306444813855819849
+    second: sprite-max-px-16 (1) 1_486
+  - first:
+      213: -598800638917610948
+    second: sprite-max-px-16 (1) 1_487
+  - first:
+      213: -321895804694688006
+    second: sprite-max-px-16 (1) 1_488
+  - first:
+      213: 4828475840288088604
+    second: sprite-max-px-16 (1) 1_489
+  - first:
+      213: -7971573503227447330
+    second: sprite-max-px-16 (1) 1_490
+  - first:
+      213: 4662754299282509974
+    second: sprite-max-px-16 (1) 1_491
+  - first:
+      213: 8622771953044679359
+    second: sprite-max-px-16 (1) 1_492
+  - first:
+      213: -3351339538835331941
+    second: sprite-max-px-16 (1) 1_493
+  - first:
+      213: -288656141571119642
+    second: sprite-max-px-16 (1) 1_494
+  - first:
+      213: 6295549710093354966
+    second: sprite-max-px-16 (1) 1_495
+  - first:
+      213: 3433087424861033378
+    second: sprite-max-px-16 (1) 1_496
+  - first:
+      213: -6629371909798436593
+    second: sprite-max-px-16 (1) 1_497
+  - first:
+      213: -9027389364575936152
+    second: sprite-max-px-16 (1) 1_498
+  - first:
+      213: -8728755347557192177
+    second: sprite-max-px-16 (1) 1_499
+  - first:
+      213: -5984656395524918587
+    second: sprite-max-px-16 (1) 1_500
+  - first:
+      213: 8657218687598954
+    second: sprite-max-px-16 (1) 1_501
+  - first:
+      213: 719871748207398518
+    second: sprite-max-px-16 (1) 1_502
+  - first:
+      213: 6202595478235203563
+    second: sprite-max-px-16 (1) 1_503
+  - first:
+      213: -5872163705835480450
+    second: sprite-max-px-16 (1) 1_504
+  - first:
+      213: 8939457766036525901
+    second: sprite-max-px-16 (1) 1_505
+  - first:
+      213: -2569246256522533280
+    second: sprite-max-px-16 (1) 1_506
+  - first:
+      213: 4379421167207841244
+    second: sprite-max-px-16 (1) 1_507
+  - first:
+      213: -5412888215554921087
+    second: sprite-max-px-16 (1) 1_508
+  - first:
+      213: -107230290977604242
+    second: sprite-max-px-16 (1) 1_509
+  - first:
+      213: -4064645493008073085
+    second: sprite-max-px-16 (1) 1_510
+  - first:
+      213: -6878854093844647416
+    second: sprite-max-px-16 (1) 1_511
+  - first:
+      213: -6467024548624289658
+    second: sprite-max-px-16 (1) 1_512
+  - first:
+      213: 4215309101131154078
+    second: sprite-max-px-16 (1) 1_513
+  - first:
+      213: -241102678285323416
+    second: sprite-max-px-16 (1) 1_514
+  - first:
+      213: -300309255503519656
+    second: sprite-max-px-16 (1) 1_515
+  - first:
+      213: -6352942631253205667
+    second: sprite-max-px-16 (1) 1_516
+  - first:
+      213: 5100670525743282930
+    second: sprite-max-px-16 (1) 1_517
+  - first:
+      213: -8986600171991764741
+    second: sprite-max-px-16 (1) 1_518
+  - first:
+      213: -6868864715767746015
+    second: sprite-max-px-16 (1) 1_519
+  - first:
+      213: -6887164525235594270
+    second: sprite-max-px-16 (1) 1_520
+  - first:
+      213: -733826825908303817
+    second: sprite-max-px-16 (1) 1_521
+  - first:
+      213: 7637653954649733312
+    second: sprite-max-px-16 (1) 1_522
+  - first:
+      213: -4514091733390691332
+    second: sprite-max-px-16 (1) 1_523
+  - first:
+      213: -2553276208665826309
+    second: sprite-max-px-16 (1) 1_524
+  - first:
+      213: -340454066020512977
+    second: sprite-max-px-16 (1) 1_525
+  - first:
+      213: 1223412480789646522
+    second: sprite-max-px-16 (1) 1_526
+  - first:
+      213: 4724549270116729635
+    second: sprite-max-px-16 (1) 1_527
+  - first:
+      213: -251954299461200933
+    second: sprite-max-px-16 (1) 1_528
+  - first:
+      213: 6447430165674033381
+    second: sprite-max-px-16 (1) 1_529
+  - first:
+      213: 7365022267423902254
+    second: sprite-max-px-16 (1) 1_530
+  - first:
+      213: -8717335236489171857
+    second: sprite-max-px-16 (1) 1_531
+  - first:
+      213: -2516654646610282536
+    second: sprite-max-px-16 (1) 1_532
+  - first:
+      213: -5148079198109480331
+    second: sprite-max-px-16 (1) 1_533
+  - first:
+      213: 6984233444735510031
+    second: sprite-max-px-16 (1) 1_534
+  - first:
+      213: -6184851903590200149
+    second: sprite-max-px-16 (1) 1_535
+  - first:
+      213: -2003482706119280599
+    second: sprite-max-px-16 (1) 1_536
+  - first:
+      213: -4516500082080805966
+    second: sprite-max-px-16 (1) 1_537
+  - first:
+      213: 2469058939198437726
+    second: sprite-max-px-16 (1) 1_538
+  - first:
+      213: -1161749936631166724
+    second: sprite-max-px-16 (1) 1_539
+  - first:
+      213: -748802554616294711
+    second: sprite-max-px-16 (1) 1_540
+  - first:
+      213: 4062590854079344192
+    second: sprite-max-px-16 (1) 1_541
+  - first:
+      213: -162377159328764353
+    second: sprite-max-px-16 (1) 1_542
+  - first:
+      213: 6887662297983841089
+    second: sprite-max-px-16 (1) 1_543
+  - first:
+      213: -8756785562854625635
+    second: sprite-max-px-16 (1) 1_544
+  - first:
+      213: 5662876333587817972
+    second: sprite-max-px-16 (1) 1_545
+  - first:
+      213: -6142193467782569363
+    second: sprite-max-px-16 (1) 1_546
+  - first:
+      213: 3766385883700325046
+    second: sprite-max-px-16 (1) 1_547
+  - first:
+      213: 7442461053106990669
+    second: sprite-max-px-16 (1) 1_548
+  - first:
+      213: -2061696945593843316
+    second: sprite-max-px-16 (1) 1_549
+  - first:
+      213: 1206784291678763894
+    second: sprite-max-px-16 (1) 1_550
+  - first:
+      213: 2495131325090977804
+    second: sprite-max-px-16 (1) 1_551
+  - first:
+      213: -992733064771511636
+    second: sprite-max-px-16 (1) 1_552
+  - first:
+      213: 8697345667459981331
+    second: sprite-max-px-16 (1) 1_553
+  - first:
+      213: 9091067541966989294
+    second: sprite-max-px-16 (1) 1_554
+  - first:
+      213: -6281944967384169387
+    second: sprite-max-px-16 (1) 1_555
+  - first:
+      213: -6169482014357112776
+    second: sprite-max-px-16 (1) 1_556
+  - first:
+      213: 3744919854178612285
+    second: sprite-max-px-16 (1) 1_557
+  - first:
+      213: 835984435467443142
+    second: sprite-max-px-16 (1) 1_558
+  - first:
+      213: 4944502527861330234
+    second: sprite-max-px-16 (1) 1_559
+  - first:
+      213: 8883157645855318947
+    second: sprite-max-px-16 (1) 1_560
+  - first:
+      213: -2915156844401003190
+    second: sprite-max-px-16 (1) 1_561
+  - first:
+      213: 6178250626110682236
+    second: sprite-max-px-16 (1) 1_562
+  - first:
+      213: 1625048695050346276
+    second: sprite-max-px-16 (1) 1_563
+  - first:
+      213: -2502025840840739938
+    second: sprite-max-px-16 (1) 1_564
+  - first:
+      213: 2281733946724317915
+    second: sprite-max-px-16 (1) 1_565
+  - first:
+      213: 1422233914487831115
+    second: sprite-max-px-16 (1) 1_566
+  - first:
+      213: 6878397876069757314
+    second: sprite-max-px-16 (1) 1_567
+  - first:
+      213: 4712405628948465764
+    second: sprite-max-px-16 (1) 1_568
+  - first:
+      213: -7904944350730101993
+    second: sprite-max-px-16 (1) 1_569
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0547706b96aa44db0800000000000000
+      internalID: -4808531131122617264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1920
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84dc45cb2855d7b0800000000000000
+      internalID: -5200153249712384884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1920
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9136325092921a0800000000000000
+      internalID: -6833885857512744487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7270ec9fca401a0800000000000000
+      internalID: -6844155344792901637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c611487d5bcfda840800000000000000
+      internalID: 5237119799636791660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0ef0cb91ecb9870800000000000000
+      internalID: 8690766515866165498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_6
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24645deb3ca1d0060800000000000000
+      internalID: 6921217630360913474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_7
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccec68b3805bd300800000000000000
+      internalID: 277904328678501581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc36d87d017fc3e50800000000000000
+      internalID: 6790573989875770319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74955a46fcee361a0800000000000000
+      internalID: -6817342836394600121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ba32be8765582d0800000000000000
+      internalID: -3277118076501120239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_11
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5ff2ca3e4354520800000000000000
+      internalID: 2685610905247413695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a682d4eeceeeba710800000000000000
+      internalID: 1705719585267591274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ffcacc444dd4ff0800000000000000
+      internalID: -50150628874453109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_14
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408b62446bccd57b0800000000000000
+      internalID: -5233802108735145980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-max-px-16 (1) 1_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b07384dcd748850800000000000000
+      internalID: 6378361292896799520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eabb0a1f12defe84ea17cda3684ed1c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite-max-px-16 (1) 1_0: -4808531131122617264
+      sprite-max-px-16 (1) 1_1: -5200153249712384884
+      sprite-max-px-16 (1) 1_10: -3277118076501120239
+      sprite-max-px-16 (1) 1_11: 2685610905247413695
+      sprite-max-px-16 (1) 1_12: 1705719585267591274
+      sprite-max-px-16 (1) 1_13: -50150628874453109
+      sprite-max-px-16 (1) 1_14: -5233802108735145980
+      sprite-max-px-16 (1) 1_15: 6378361292896799520
+      sprite-max-px-16 (1) 1_2: -6833885857512744487
+      sprite-max-px-16 (1) 1_3: -6844155344792901637
+      sprite-max-px-16 (1) 1_4: 5237119799636791660
+      sprite-max-px-16 (1) 1_5: 8690766515866165498
+      sprite-max-px-16 (1) 1_6: 6921217630360913474
+      sprite-max-px-16 (1) 1_7: 277904328678501581
+      sprite-max-px-16 (1) 1_8: 6790573989875770319
+      sprite-max-px-16 (1) 1_9: -6817342836394600121
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
