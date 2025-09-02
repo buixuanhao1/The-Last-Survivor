@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 71b3e39bef9c30d43b32439e34d9adaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7476349732056012923
+    second: TanjiroDie_0
+  - first:
+      213: 2315406171768475995
+    second: TanjiroDie_1
+  - first:
+      213: -1153971571081413894
+    second: TanjiroDie_2
+  - first:
+      213: 8906061477293337203
+    second: TanjiroDie_3
+  - first:
+      213: 2577716032229786716
+    second: TanjiroDie_4
+  - first:
+      213: -8865635360550582679
+    second: TanjiroDie_5
+  - first:
+      213: -8133990489475543058
+    second: TanjiroDie_6
+  - first:
+      213: -8712509587676801272
+    second: TanjiroDie_7
+  - first:
+      213: -8124834583987265763
+    second: TanjiroDie_8
+  - first:
+      213: -7314492483177975244
+    second: TanjiroDie_9
+  - first:
+      213: 8380940251020009463
+    second: TanjiroDie_10
+  - first:
+      213: 8487915067994303958
+    second: TanjiroDie_11
+  - first:
+      213: -3203196799695856268
+    second: TanjiroDie_12
+  - first:
+      213: -2279211262983774417
+    second: TanjiroDie_13
+  - first:
+      213: -3762030276597591658
+    second: TanjiroDie_14
+  - first:
+      213: -4450958414875615678
+    second: TanjiroDie_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TanjiroDie_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2148
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587e634b78bae3890800000000000000
+      internalID: -7476349732056012923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_1
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 2148
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51d10b45a9f12020800000000000000
+      internalID: 2315406171768475995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_2
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 2148
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afafac858f44cffe0800000000000000
+      internalID: -1153971571081413894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_3
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 2148
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a2cdd2abfa89b70800000000000000
+      internalID: 8906061477293337203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1432
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54c2e0f213e5c320800000000000000
+      internalID: 2577716032229786716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_5
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1432
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9668d3a9c9fe6f480800000000000000
+      internalID: -8865635360550582679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_6
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1432
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef876cdeb24e1f80800000000000000
+      internalID: -8133990489475543058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_7
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1432
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807d65cd0b2f61780800000000000000
+      internalID: -8712509587676801272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 716
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f51aa3ef9ce3f80800000000000000
+      internalID: -8124834583987265763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_9
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 716
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43279e327d3bd7a90800000000000000
+      internalID: -7314492483177975244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_10
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 716
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff12d111c41f4470800000000000000
+      internalID: 8380940251020009463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_11
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 716
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd6c7f88c12bc570800000000000000
+      internalID: 8487915067994303958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dd5706b75fb83d0800000000000000
+      internalID: -3203196799695856268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_13
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 0
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f58cd9e6d9e50e0800000000000000
+      internalID: -2279211262983774417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_14
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 0
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691d22145659acbc0800000000000000
+      internalID: -3762030276597591658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanjiroDie_15
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 0
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e9d4367e40b32c0800000000000000
+      internalID: -4450958414875615678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5896e0f6128d57c41b606c33cba2b730
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TanjiroDie_0: -7476349732056012923
+      TanjiroDie_1: 2315406171768475995
+      TanjiroDie_10: 8380940251020009463
+      TanjiroDie_11: 8487915067994303958
+      TanjiroDie_12: -3203196799695856268
+      TanjiroDie_13: -2279211262983774417
+      TanjiroDie_14: -3762030276597591658
+      TanjiroDie_15: -4450958414875615678
+      TanjiroDie_2: -1153971571081413894
+      TanjiroDie_3: 8906061477293337203
+      TanjiroDie_4: 2577716032229786716
+      TanjiroDie_5: -8865635360550582679
+      TanjiroDie_6: -8133990489475543058
+      TanjiroDie_7: -8712509587676801272
+      TanjiroDie_8: -8124834583987265763
+      TanjiroDie_9: -7314492483177975244
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

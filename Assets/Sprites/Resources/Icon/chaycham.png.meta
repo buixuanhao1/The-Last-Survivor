@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 251059a91a7b722488043e6f67777a93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6768047431970576413
+    second: chaycham_0
+  - first:
+      213: 3329107122881446010
+    second: chaycham_1
+  - first:
+      213: -5367302172465259697
+    second: chaycham_2
+  - first:
+      213: 6724781741942703190
+    second: chaycham_3
+  - first:
+      213: 2058705318301207661
+    second: chaycham_4
+  - first:
+      213: 6825396031019184510
+    second: chaycham_5
+  - first:
+      213: 7193199230925026663
+    second: chaycham_6
+  - first:
+      213: -5223843955326285627
+    second: chaycham_7
+  - first:
+      213: -1651569730281958808
+    second: chaycham_8
+  - first:
+      213: 2206912341553535743
+    second: chaycham_9
+  - first:
+      213: -4974697069408845669
+    second: chaycham_10
+  - first:
+      213: -3263021547443749511
+    second: chaycham_11
+  - first:
+      213: -1595593637762925201
+    second: chaycham_12
+  - first:
+      213: -4912469903999888747
+    second: chaycham_13
+  - first:
+      213: -2240094721793876807
+    second: chaycham_14
+  - first:
+      213: 8125122138347866649
+    second: chaycham_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 220
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chaycham_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1972
+        width: 287
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18d99dd74feced50800000000000000
+      internalID: 6768047431970576413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1995
+        width: 354
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7042963a4d533e20800000000000000
+      internalID: 3329107122881446010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_2
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1977
+        width: 332
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b96008c138385b0800000000000000
+      internalID: -5367302172465259697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_3
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1971
+        width: 347
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65407886d59335d50800000000000000
+      internalID: 6724781741942703190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1383
+        width: 277
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c0d8a549df19c10800000000000000
+      internalID: 2058705318301207661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_5
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1371
+        width: 292
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e717248178da8be50800000000000000
+      internalID: 6825396031019184510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_6
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1372
+        width: 343
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76536edd69063d360800000000000000
+      internalID: 7193199230925026663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_7
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1375
+        width: 332
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c884b8899d2187b0800000000000000
+      internalID: -5223843955326285627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 757
+        width: 352
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86291c8a4127419e0800000000000000
+      internalID: -1651569730281958808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_9
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 772
+        width: 271
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa59b8f41780ae10800000000000000
+      internalID: 2206912341553535743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_10
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 756
+        width: 290
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9085b85f5356fab0800000000000000
+      internalID: -4974697069408845669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_11
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 758
+        width: 328
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d7b2ad03b67b2d0800000000000000
+      internalID: -3263021547443749511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_12
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 177
+        width: 341
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d744f4a005bd9e0800000000000000
+      internalID: -1595593637762925201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_13
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 152
+        width: 334
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5921a4256a663dbb0800000000000000
+      internalID: -4912469903999888747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_14
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 155
+        width: 296
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc9f3418b599e0e0800000000000000
+      internalID: -2240094721793876807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaycham_15
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 154
+        width: 293
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a03ec398b32c070800000000000000
+      internalID: 8125122138347866649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chaycham_0: 6768047431970576413
+      chaycham_1: 3329107122881446010
+      chaycham_10: -4974697069408845669
+      chaycham_11: -3263021547443749511
+      chaycham_12: -1595593637762925201
+      chaycham_13: -4912469903999888747
+      chaycham_14: -2240094721793876807
+      chaycham_15: 8125122138347866649
+      chaycham_2: -5367302172465259697
+      chaycham_3: 6724781741942703190
+      chaycham_4: 2058705318301207661
+      chaycham_5: 6825396031019184510
+      chaycham_6: 7193199230925026663
+      chaycham_7: -5223843955326285627
+      chaycham_8: -1651569730281958808
+      chaycham_9: 2206912341553535743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

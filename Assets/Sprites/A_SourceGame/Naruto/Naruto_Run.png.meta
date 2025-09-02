@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 2706ca06876f18c4da8ba47d3678ee05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3820311710500295318
+    second: Naruto_Run_0
+  - first:
+      213: 4414556329869354032
+    second: Naruto_Run_1
+  - first:
+      213: 7117550279616748621
+    second: Naruto_Run_2
+  - first:
+      213: 4275701871729946762
+    second: Naruto_Run_3
+  - first:
+      213: 5415874696980432283
+    second: Naruto_Run_4
+  - first:
+      213: -125773249170841563
+    second: Naruto_Run_5
+  - first:
+      213: -4271687096757491169
+    second: Naruto_Run_6
+  - first:
+      213: -6078869827908222074
+    second: Naruto_Run_7
+  - first:
+      213: 3447577802700748688
+    second: Naruto_Run_8
+  - first:
+      213: 8737360168932702027
+    second: Naruto_Run_9
+  - first:
+      213: -5179290104628432015
+    second: Naruto_Run_10
+  - first:
+      213: 3287476912777585917
+    second: Naruto_Run_11
+  - first:
+      213: -5260741136864512466
+    second: Naruto_Run_12
+  - first:
+      213: 1227447712640514328
+    second: Naruto_Run_13
+  - first:
+      213: 8143943228947572661
+    second: Naruto_Run_14
+  - first:
+      213: 8844453865325703148
+    second: Naruto_Run_15
+  - first:
+      213: 6699915895362617307
+    second: Naruto_Run_16
+  - first:
+      213: -1392066431123152396
+    second: Naruto_Run_17
+  - first:
+      213: -2554546376206655072
+    second: Naruto_Run_18
+  - first:
+      213: -4335608343229097972
+    second: Naruto_Run_19
+  - first:
+      213: 1526784788549729524
+    second: Naruto_Run_20
+  - first:
+      213: 2731489260121411419
+    second: Naruto_Run_21
+  - first:
+      213: -7280093104853524961
+    second: Naruto_Run_22
+  - first:
+      213: -8292907383400419988
+    second: Naruto_Run_23
+  - first:
+      213: 3045766864252635520
+    second: Naruto_Run_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Naruto_Run_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2982
+        width: 228
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69292a38249740530800000000000000
+      internalID: 3820311710500295318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_1
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 2982
+        width: 225
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034a0dab797a34d30800000000000000
+      internalID: 4414556329869354032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_2
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 2982
+        width: 222
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cd987d44e96c260800000000000000
+      internalID: 7117550279616748621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_3
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2982
+        width: 225
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80bfedd238565b30800000000000000
+      internalID: 4275701871729946762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_4
+      rect:
+        serializedVersion: 2
+        x: 3062
+        y: 2982
+        width: 224
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b958b85a75d092b40800000000000000
+      internalID: 5415874696980432283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2291
+        width: 235
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520ece075e9214ef0800000000000000
+      internalID: -125773249170841563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_6
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 2301
+        width: 250
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a6626c73be7b4c0800000000000000
+      internalID: -4271687096757491169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_7
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 2283
+        width: 249
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683c0b7491483aba0800000000000000
+      internalID: -6078869827908222074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_8
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 2279
+        width: 230
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097ff79deb148df20800000000000000
+      internalID: 3447577802700748688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_9
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 2299
+        width: 221
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4771e7f7c6514970800000000000000
+      internalID: 8737360168932702027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1589
+        width: 223
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1733de447177f18b0800000000000000
+      internalID: -5179290104628432015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_11
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1579
+        width: 237
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4e76995d67f9d20800000000000000
+      internalID: 3287476912777585917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_12
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1587
+        width: 242
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26f7e10fc71ef6b0800000000000000
+      internalID: -5260741136864512466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_13
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 1601
+        width: 254
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819bd4cf035c80110800000000000000
+      internalID: 1227447712640514328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_14
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 1580
+        width: 239
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b72e50e739150170800000000000000
+      internalID: 8143943228947572661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 876
+        width: 231
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefa11b3eefcdba70800000000000000
+      internalID: 8844453865325703148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_16
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 894
+        width: 224
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdff4185202eafc50800000000000000
+      internalID: 6699915895362617307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_17
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 886
+        width: 224
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1a825d4f26eace0800000000000000
+      internalID: -1392066431123152396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_18
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 879
+        width: 231
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1e0fbfa9d6c8cd0800000000000000
+      internalID: -2554546376206655072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_19
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 884
+        width: 245
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c081c90de23d4d3c0800000000000000
+      internalID: -4335608343229097972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_20
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 196
+        width: 256
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcf9f90daa303510800000000000000
+      internalID: 1526784788549729524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_21
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 177
+        width: 241
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fc451920338e520800000000000000
+      internalID: 2731489260121411419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_22
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 173
+        width: 230
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e5f6984e9e7fa90800000000000000
+      internalID: -7280093104853524961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_23
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 193
+        width: 224
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d24392caca9ec80800000000000000
+      internalID: -8292907383400419988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naruto_Run_24
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 177
+        width: 226
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0890f6c63dcb44a20800000000000000
+      internalID: 3045766864252635520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Naruto_Run_0: 3820311710500295318
+      Naruto_Run_1: 4414556329869354032
+      Naruto_Run_10: -5179290104628432015
+      Naruto_Run_11: 3287476912777585917
+      Naruto_Run_12: -5260741136864512466
+      Naruto_Run_13: 1227447712640514328
+      Naruto_Run_14: 8143943228947572661
+      Naruto_Run_15: 8844453865325703148
+      Naruto_Run_16: 6699915895362617307
+      Naruto_Run_17: -1392066431123152396
+      Naruto_Run_18: -2554546376206655072
+      Naruto_Run_19: -4335608343229097972
+      Naruto_Run_2: 7117550279616748621
+      Naruto_Run_20: 1526784788549729524
+      Naruto_Run_21: 2731489260121411419
+      Naruto_Run_22: -7280093104853524961
+      Naruto_Run_23: -8292907383400419988
+      Naruto_Run_24: 3045766864252635520
+      Naruto_Run_3: 4275701871729946762
+      Naruto_Run_4: 5415874696980432283
+      Naruto_Run_5: -125773249170841563
+      Naruto_Run_6: -4271687096757491169
+      Naruto_Run_7: -6078869827908222074
+      Naruto_Run_8: 3447577802700748688
+      Naruto_Run_9: 8737360168932702027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
