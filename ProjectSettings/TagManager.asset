@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Shadown
+    uniqueID: 1850879533
+    locked: 0
   - name: Player
     uniqueID: 3066007485
     locked: 0
