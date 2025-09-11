@@ -3,10 +3,7 @@
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Loại Enemy có thể spawn")]
-    public EnemyData[] enemyTypes;   // danh sách các EnemyData
-
-    [Header("Prefab Enemy cơ bản")]
-    public GameObject enemyPrefab;   // prefab có EnemyController + SpriteRenderer
+    public EnemyType[] enemyTypes;   // danh sách loại enemy (data + prefab)
 
     [Header("Thông số spawn")]
     public Transform player;
@@ -30,16 +27,16 @@ public class EnemySpawner : MonoBehaviour
     void SpawnEnemy()
     {
         // random EnemyData
-        EnemyData data = enemyTypes[Random.Range(0, enemyTypes.Length)];
+        EnemyType type = enemyTypes[Random.Range(0, enemyTypes.Length)];
 
         // random vị trí spawn quanh player
         Vector2 spawnPos = (Vector2)player.position + Random.insideUnitCircle.normalized * spawnRadius;
 
         // tạo enemy từ prefab
-        GameObject enemy = Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
+        GameObject enemy = Instantiate(type.prefab, spawnPos, Quaternion.identity);
 
         // gán data cho controller
         var controller = enemy.GetComponent<EnemyController>();
-        controller.enemyData = data;
+        controller.enemyData = type.data;
     }
 }
