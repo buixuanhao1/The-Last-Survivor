@@ -4,9 +4,13 @@ public class EnemyController : MonoBehaviour
 {
     public EnemyData enemyData;
     private Transform player;
-    [SerializeField] private SpriteRenderer rbSprite;
+    private SpriteRenderer rbSprite;
     private int currentHP;
 
+    private void Awake()
+    {
+        rbSprite = GetComponent<SpriteRenderer>();
+    }
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
