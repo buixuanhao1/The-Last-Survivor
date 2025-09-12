@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EnemyOne
   m_EditorClassIdentifier: 
   enemyName: 
-  baseHP: 0
+  baseHP: 20
   moveSpeed: 0.97
   damage: 0
   expDrop: 0
