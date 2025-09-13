@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dbd6898c79d5fc499acccf627727605, type: 3}
   m_Name: TarotData
   m_EditorClassIdentifier: 
-  weaponName: 
-  prefab: {fileID: 0}
-  fireRate: 1
+  weaponName: Tarot
+  prefab: {fileID: 1411702583047634105, guid: e61280671ede8d64c866b249032274c5, type: 3}
+  fireRate: 5
   attackRange: 6
   speed: 12
   damage: 10

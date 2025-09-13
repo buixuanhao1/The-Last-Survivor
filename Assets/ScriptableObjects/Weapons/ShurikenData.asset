@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dbd6898c79d5fc499acccf627727605, type: 3}
   m_Name: ShurikenData
   m_EditorClassIdentifier: 
-  weaponName: 
-  prefab: {fileID: 0}
-  fireRate: 1
+  weaponName: Shuriken
+  prefab: {fileID: 8869433620347833664, guid: 3ab97d5cc584c2f49b7778b976b5144b, type: 3}
+  fireRate: 0
   attackRange: 6
   speed: 12
   damage: 10
-  rotateSpeed: 0
+  rotateSpeed: 1000

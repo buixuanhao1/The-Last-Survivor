@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 986662563794640868}
   - component: {fileID: 8968508964262978351}
   - component: {fileID: 4961142309651725093}
-  - component: {fileID: 9085461402900536244}
   - component: {fileID: 6673421163904725781}
+  - component: {fileID: -5911429001661128998}
   m_Layer: 0
   m_Name: Shuriken (1)
   m_TagString: Untagged
@@ -341,21 +341,6 @@ PolygonCollider2D:
       - {x: -0.0011111111, y: -0.04111111}
       - {x: -0.0016666667, y: -0.040555555}
   m_UseDelaunayMesh: 0
---- !u!114 &9085461402900536244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8869433620347833664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baaa851e46de91240949e1e01737edb4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 15
-  damage: 15
-  rotateSpeed: 1000
 --- !u!96 &6673421163904725781
 TrailRenderer:
   serializedVersion: 3
@@ -472,3 +457,16 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &-5911429001661128998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8869433620347833664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82987d346c1c9a447a749f82fc7483e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: d054d58fc26ac2f4789640864eaa69cf, type: 2}

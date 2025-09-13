@@ -5,12 +5,19 @@ public class WeaponManager : MonoBehaviour
 {
     public List<WeaponData> weapons = new List<WeaponData>();
     private Dictionary<WeaponData, float> cooldowns = new Dictionary<WeaponData, float>();
+    private Dictionary<WeaponData, ObjectPool> pools = new Dictionary<WeaponData, ObjectPool>();
 
     void Start()
     {
         foreach (var weapon in weapons)
         {
             cooldowns[weapon] = 0f; // khởi tạo cooldown cho mỗi vũ khí
+            // tạo pool riêng cho từng weapon
+            GameObject poolObj = new GameObject(weapon.weaponName + "_Pool");
+            poolObj.transform.SetParent(transform);
+            ObjectPool pool = poolObj.AddComponent<ObjectPool>();
+            pool.prefab = weapon.prefab;
+            pools[weapon] = pool;
         }
     }
 
@@ -61,18 +68,14 @@ public class WeaponManager : MonoBehaviour
     {
         Vector2 dir = (targetPos - transform.position).normalized;
 
-        GameObject bullet = Instantiate(weapon.prefab, transform.position, Quaternion.identity);
+        ObjectPool pool = pools[weapon];
+        Debug.Log("Manager pool :" + pool.ToString());
+        GameObject bullet = pool.Get(transform.position, Quaternion.identity);
         Projectile proj = bullet.GetComponent<Projectile>();
-        proj.data = weapon;
-        proj.SetDirection(dir);
+        proj.Init(weapon, dir, pool);
     }
 
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        foreach (var weapon in weapons)
-        {
-            Gizmos.DrawWireSphere(transform.position, weapon.attackRange);
-        }
-    }
+ 
+
+
 }
