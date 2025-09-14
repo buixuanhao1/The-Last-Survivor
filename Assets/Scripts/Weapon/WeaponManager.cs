@@ -4,6 +4,7 @@ using UnityEngine;
 public class WeaponManager : MonoBehaviour
 {
     public List<WeaponData> weapons = new List<WeaponData>();
+
     private Dictionary<WeaponData, float> cooldowns = new Dictionary<WeaponData, float>();
     private Dictionary<WeaponData, ObjectPool> pools = new Dictionary<WeaponData, ObjectPool>();
 
@@ -11,13 +12,17 @@ public class WeaponManager : MonoBehaviour
     {
         foreach (var weapon in weapons)
         {
-            cooldowns[weapon] = 0f; // khởi tạo cooldown cho mỗi vũ khí
-            // tạo pool riêng cho từng weapon
-            GameObject poolObj = new GameObject(weapon.weaponName + "_Pool");
-            poolObj.transform.SetParent(transform);
-            ObjectPool pool = poolObj.AddComponent<ObjectPool>();
-            pool.prefab = weapon.prefab;
-            pools[weapon] = pool;
+            cooldowns[weapon] = 0f;
+
+            if (weapon.weaponType == WeaponType.Projectile)
+            {
+                // tạo pool riêng cho projectile
+                GameObject poolObj = new GameObject(weapon.weaponName + "_Pool");
+                poolObj.transform.SetParent(transform);
+                ObjectPool pool = poolObj.AddComponent<ObjectPool>();
+                pool.prefab = weapon.prefab;
+                pools[weapon] = pool;
+            }
         }
     }
 
@@ -29,11 +34,19 @@ public class WeaponManager : MonoBehaviour
 
             if (cooldowns[weapon] <= 0f)
             {
-                GameObject target = FindClosestEnemy(weapon.attackRange);
-                if (target != null)
+                if (weapon.weaponType == WeaponType.Projectile)
                 {
-                    Shoot(weapon, target.transform.position);
-                    cooldowns[weapon] = 1f / weapon.fireRate;
+                    GameObject target = FindClosestEnemy(weapon.attackRange);
+                    if (target != null)
+                    {
+                        Shoot(weapon, target.transform.position);
+                        cooldowns[weapon] = 1f / weapon.fireRate;
+                    }
+                }
+                else if (weapon.weaponType == WeaponType.Orbit)
+                {
+                    Shoot(weapon, Vector3.zero);
+                    cooldowns[weapon] = weapon.orbitDuration + weapon.orbitCooldown;
                 }
             }
         }
@@ -42,7 +55,6 @@ public class WeaponManager : MonoBehaviour
     GameObject FindClosestEnemy(float range)
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, range);
-
         GameObject closest = null;
         float minDist = Mathf.Infinity;
         Vector3 pos = transform.position;
@@ -60,22 +72,30 @@ public class WeaponManager : MonoBehaviour
                 }
             }
         }
-
         return closest;
     }
 
     void Shoot(WeaponData weapon, Vector3 targetPos)
     {
-        Vector2 dir = (targetPos - transform.position).normalized;
+        if (weapon.weaponType == WeaponType.Projectile)
+        {
+            Vector2 dir = (targetPos - transform.position).normalized;
+            ObjectPool pool = pools[weapon];
+            GameObject bullet = pool.Get(transform.position, Quaternion.identity);
+            Projectile proj = bullet.GetComponent<Projectile>();
+            proj.Init(weapon, dir, pool);
+        }
+        else if (weapon.weaponType == WeaponType.Orbit)
+        {
+            for (int i = 0; i < weapon.orbitCount; i++)
+            {
+                float angleStep = 360f / weapon.orbitCount;
+                float startAngle = i * angleStep;
 
-        ObjectPool pool = pools[weapon];
-        Debug.Log("Manager pool :" + pool.ToString());
-        GameObject bullet = pool.Get(transform.position, Quaternion.identity);
-        Projectile proj = bullet.GetComponent<Projectile>();
-        proj.Init(weapon, dir, pool);
+                GameObject stone = Instantiate(weapon.prefab, transform.position, Quaternion.identity);
+                OrbitWeapon orbit = stone.GetComponent<OrbitWeapon>();
+                orbit.Init(weapon, transform, startAngle);
+            }
+        }
     }
-
- 
-
-
 }

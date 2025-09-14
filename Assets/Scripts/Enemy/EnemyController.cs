@@ -15,8 +15,6 @@ public class EnemyController : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         currentHP = enemyData.baseHP;
-
-        // Gán sprite từ data
         GetComponent<SpriteRenderer>().sprite = enemyData.sprite;
     }
 
@@ -47,4 +45,17 @@ public class EnemyController : MonoBehaviour
         // TODO: drop exp orb ở đây
         Destroy(gameObject);
     }
+    public void Knockback(Vector3 hitSource, float force)
+    {
+        Vector2 knockDir = (transform.position - hitSource).normalized;
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        rb.AddForce(knockDir * force, ForceMode2D.Impulse);
+        StartCoroutine(ResetVelocity(rb));
+    }
+    private System.Collections.IEnumerator ResetVelocity(Rigidbody2D rb)
+    {
+        yield return new WaitForSeconds(0.1f); // knockback 
+        rb.linearVelocity = Vector2.zero;
+    }
+
 }

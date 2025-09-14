@@ -13,9 +13,14 @@ MonoBehaviour:
   m_Name: TarotData
   m_EditorClassIdentifier: 
   weaponName: Tarot
-  prefab: {fileID: 1411702583047634105, guid: e61280671ede8d64c866b249032274c5, type: 3}
-  fireRate: 5
+  weaponType: 0
+  prefab: {fileID: 3921169105020652803, guid: 0017b5bec9f0b594c9d59adebbd61684, type: 3}
+  fireRate: 2
   attackRange: 6
   speed: 12
-  damage: 10
+  damage: 1
   rotateSpeed: 0
+  orbitCount: 0
+  orbitRadius: 0
+  orbitDuration: 0
+  orbitCooldown: 3
