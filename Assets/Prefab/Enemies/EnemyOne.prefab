@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1850879533
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f5f3c2ef31f62ec49a181f220619d6aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.49411765}
@@ -181,7 +181,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1001421211
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 2028309321080372415, guid: 0f11c87da12d9f1459785a25074d4f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -207,6 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: cb3f39829920ef245b3146fb61974da4, type: 2}
+  expOrbPrefab: {fileID: 1162072131754398756, guid: 7b1030b547677bc488b477a02e5f5dd1, type: 3}
 --- !u!95 &691976632919417126
 Animator:
   serializedVersion: 7

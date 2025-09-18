@@ -48,6 +48,11 @@ public class WeaponManager : MonoBehaviour
                     Shoot(weapon, Vector3.zero);
                     cooldowns[weapon] = weapon.orbitDuration + weapon.orbitCooldown;
                 }
+                else if (weapon.weaponType == WeaponType.CircleAOE)
+                {
+                    Shoot(weapon, Vector3.zero);
+                    cooldowns[weapon] = weapon.orbitDuration + weapon.orbitCooldown;
+                }
             }
         }
     }
@@ -96,6 +101,13 @@ public class WeaponManager : MonoBehaviour
                 OrbitWeapon orbit = stone.GetComponent<OrbitWeapon>();
                 orbit.Init(weapon, transform, startAngle);
             }
+        }
+        else if (weapon.weaponType == WeaponType.CircleAOE)
+        {
+            Debug.Log("Alooooo");
+            GameObject aoe = Instantiate(weapon.prefab, transform.position, Quaternion.identity);
+            CircleAOE circle = aoe.GetComponent<CircleAOE>();
+            circle.Init(weapon, transform);
         }
     }
 }

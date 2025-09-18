@@ -36,13 +36,7 @@ public class Projectile : MonoBehaviour
         if (enemy != null)
         {
             enemy.TakeDamage(data.damage);
-            if(pool != null)
-            {
-                Debug.Log("pool: true ");
-                Debug.Log(pool.ToString());
-            }
-            else
-                Debug.Log("pool: null");
+            
             pool.Return(gameObject);
         }
     }

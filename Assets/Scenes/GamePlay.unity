@@ -506,9 +506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapons:
-  - {fileID: 11400000, guid: d054d58fc26ac2f4789640864eaa69cf, type: 2}
-  - {fileID: 11400000, guid: ff946387d021a2041a4fb7f6ea534898, type: 2}
-  - {fileID: 11400000, guid: 356702426932f1047ab47c2bfa004081, type: 2}
+  - {fileID: 11400000, guid: ecb18f88553188b4cb487057290af0d1, type: 2}
 --- !u!224 &923602496 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3594202229827590532, guid: a1661b6f68055c94eacc298bc75638fa, type: 3}
@@ -952,7 +950,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1228959811
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 8721576149082074994, guid: 28b4a56d6878eae4ab2a73da53a3591f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

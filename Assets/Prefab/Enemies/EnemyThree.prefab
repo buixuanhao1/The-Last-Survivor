@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1850879533
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f5f3c2ef31f62ec49a181f220619d6aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.49411765}
@@ -181,7 +181,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1001421211
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -5784507968360023419, guid: a0f1942241f8029499f2351e721ef431, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 06725475d930de0478b0f7da05529343, type: 2}
+  expOrbPrefab: {fileID: 1162072131754398756, guid: 7b1030b547677bc488b477a02e5f5dd1, type: 3}
 --- !u!58 &-1698521295871822402
 CircleCollider2D:
   m_ObjectHideFlags: 0

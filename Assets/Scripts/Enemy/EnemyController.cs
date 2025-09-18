@@ -3,6 +3,7 @@
 public class EnemyController : MonoBehaviour
 {
     public EnemyData enemyData;
+    public GameObject expOrbPrefab; //prefab ExpOrb
     private Transform player;
     private SpriteRenderer rbSprite;
     private int currentHP;
@@ -42,7 +43,12 @@ public class EnemyController : MonoBehaviour
 
     void Die()
     {
-        // TODO: drop exp orb ở đây
+        // Spawn exp orb
+        if (expOrbPrefab != null)
+        {
+            GameObject orb = Instantiate(expOrbPrefab, transform.position, Quaternion.identity);
+            orb.GetComponent<ExpOrb>().SetExpAmount(enemyData.expDrop);
+        }
         Destroy(gameObject);
     }
     public void Knockback(Vector3 hitSource, float force)

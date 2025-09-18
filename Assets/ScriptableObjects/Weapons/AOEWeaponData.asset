@@ -10,17 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7dbd6898c79d5fc499acccf627727605, type: 3}
-  m_Name: StoneData
+  m_Name: AOEWeaponData
   m_EditorClassIdentifier: 
   weaponName: 
-  weaponType: 1
-  prefab: {fileID: 3358542919268816662, guid: f1f303bdb61e1904892ec47e7917a840, type: 3}
+  weaponType: 2
+  prefab: {fileID: 3439875680447371073, guid: fa13e5ae8dd139e44ab46745af582a51, type: 3}
   fireRate: 1
   attackRange: 6
-  speed: 5.94
-  damage: 0
+  damage: 100
+  speed: 12
   rotateSpeed: 0
-  orbitCount: 3
-  orbitRadius: 2.29
-  orbitDuration: 4.46
+  orbitCount: 2
+  orbitRadius: 1.5
+  orbitDuration: 5
   orbitCooldown: 3
+  aoeRadius: 3.29
+  aoeDuration: 4.31
+  aoeTickInterval: 1
