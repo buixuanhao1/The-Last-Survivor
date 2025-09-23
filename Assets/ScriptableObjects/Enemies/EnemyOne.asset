@@ -16,5 +16,5 @@ MonoBehaviour:
   baseHP: 20
   moveSpeed: 0.97
   damage: 0
-  expDrop: 0
+  expDrop: 5
   sprite: {fileID: -2008940996243727313, guid: fa3213844dfe2f846b8b8a6baed4e4d3, type: 3}

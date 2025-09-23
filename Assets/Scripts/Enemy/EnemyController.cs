@@ -43,12 +43,8 @@ public class EnemyController : MonoBehaviour
 
     void Die()
     {
-        // Spawn exp orb
-        if (expOrbPrefab != null)
-        {
-            GameObject orb = Instantiate(expOrbPrefab, transform.position, Quaternion.identity);
-            orb.GetComponent<ExpOrb>().SetExpAmount(enemyData.expDrop);
-        }
+        // Drop orb từ pool
+        ExpOrbPool.Instance.SpawnOrb(transform.position, enemyData.expDrop);
         Destroy(gameObject);
     }
     public void Knockback(Vector3 hitSource, float force)

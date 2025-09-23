@@ -1,30 +1,59 @@
-﻿using UnityEngine;
-
+﻿using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerExperience : MonoBehaviour
 {
-    public int level = 1;
-    public int currentExp = 0;
-    public int expToNextLevel = 10;
+    [Header("EXP Settings")]
+    public Image expFill;
+    public TextMeshProUGUI levelText;
+    public GameObject levelUpPanel;
 
-    public void AddExp(int amount)
+    private int level = 1;
+    private float currentExp = 0;
+    private float requiredExp = 100;
+
+    void Start()
+    {
+        UpdateUI();
+        levelUpPanel.SetActive(false);
+    }
+
+    public void AddExp(float amount)
     {
         currentExp += amount;
-        Debug.Log("EXP: " + currentExp + "/" + expToNextLevel);
-
-        if (currentExp >= expToNextLevel)
+        if (currentExp >= requiredExp)
         {
             LevelUp();
         }
+        UpdateUI();
     }
 
     void LevelUp()
     {
+        currentExp -= requiredExp;
         level++;
-        currentExp -= expToNextLevel;
-        expToNextLevel = Mathf.RoundToInt(expToNextLevel * 1.5f); // tăng dần EXP
+        requiredExp *= 1.2f; // Tăng dần EXP cần
 
-        Debug.Log("LEVEL UP! Level: " + level);
-        // TODO: Gọi mở UI nâng cấp ở đây
+        // Cập nhật UI
+        UpdateUI();
+
+        // Hiện bảng chọn skill
+        Time.timeScale = 0f; // Pause game
+        levelUpPanel.SetActive(true);
+    }
+
+    void UpdateUI()
+    {
+        float progress = currentExp / requiredExp;
+        expFill.fillAmount = progress;
+        levelText.text = level.ToString();
+    }
+
+    // Gọi khi chọn skill
+    public void OnSkillChosen()
+    {
+        levelUpPanel.SetActive(false);
+        Time.timeScale = 1f; // Resume game
     }
 }

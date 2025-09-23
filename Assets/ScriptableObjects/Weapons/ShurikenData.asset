@@ -17,10 +17,13 @@ MonoBehaviour:
   prefab: {fileID: 8869433620347833664, guid: 3ab97d5cc584c2f49b7778b976b5144b, type: 3}
   fireRate: 3
   attackRange: 6
+  damage: 20
   speed: 12
-  damage: 1
   rotateSpeed: 1000
   orbitCount: 0
   orbitRadius: 0
   orbitDuration: 0
   orbitCooldown: 3
+  aoeRadius: 2
+  aoeDuration: 4
+  aoeTickInterval: 0.2

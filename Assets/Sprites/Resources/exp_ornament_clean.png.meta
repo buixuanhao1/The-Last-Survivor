@@ -1,0 +1,4849 @@
+fileFormatVersion: 2
+guid: 9df96b1b87e05c5478507be6bb90e4ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3078762861831433770
+    second: exp_ornament_clean_0
+  - first:
+      213: 7811295361243727466
+    second: exp_ornament_clean_1
+  - first:
+      213: 3012389074710790918
+    second: exp_ornament_clean_2
+  - first:
+      213: -8391613013893614218
+    second: exp_ornament_clean_3
+  - first:
+      213: 8509951851750289540
+    second: exp_ornament_clean_4
+  - first:
+      213: -6179178621864417441
+    second: exp_ornament_clean_5
+  - first:
+      213: 1962227427987254260
+    second: exp_ornament_clean_6
+  - first:
+      213: 4104934731379095307
+    second: exp_ornament_clean_7
+  - first:
+      213: 421156405206591375
+    second: exp_ornament_clean_8
+  - first:
+      213: 7778938644732907792
+    second: exp_ornament_clean_9
+  - first:
+      213: -2073578449516947524
+    second: exp_ornament_clean_10
+  - first:
+      213: 4993492189780371659
+    second: exp_ornament_clean_11
+  - first:
+      213: -289530346897030468
+    second: exp_ornament_clean_12
+  - first:
+      213: 8172217042831466084
+    second: exp_ornament_clean_13
+  - first:
+      213: 6151363993317473784
+    second: exp_ornament_clean_14
+  - first:
+      213: 8618545438094651963
+    second: exp_ornament_clean_15
+  - first:
+      213: 1748528701370001841
+    second: exp_ornament_clean_16
+  - first:
+      213: -7798899310916304101
+    second: exp_ornament_clean_17
+  - first:
+      213: 4826593160030243711
+    second: exp_ornament_clean_18
+  - first:
+      213: 1306870193941411172
+    second: exp_ornament_clean_19
+  - first:
+      213: 1366936326350523504
+    second: exp_ornament_clean_20
+  - first:
+      213: 3223563388705878667
+    second: exp_ornament_clean_21
+  - first:
+      213: 1759045956279708963
+    second: exp_ornament_clean_22
+  - first:
+      213: 2986345993266904214
+    second: exp_ornament_clean_23
+  - first:
+      213: -7476541493889432927
+    second: exp_ornament_clean_24
+  - first:
+      213: -1323881670680648114
+    second: exp_ornament_clean_25
+  - first:
+      213: 2479501542714121909
+    second: exp_ornament_clean_26
+  - first:
+      213: -472189662208951632
+    second: exp_ornament_clean_27
+  - first:
+      213: 9165336076334075021
+    second: exp_ornament_clean_28
+  - first:
+      213: 1609148322074080899
+    second: exp_ornament_clean_29
+  - first:
+      213: -6145918330923385440
+    second: exp_ornament_clean_30
+  - first:
+      213: 2271856849248999139
+    second: exp_ornament_clean_31
+  - first:
+      213: 6027795972585390117
+    second: exp_ornament_clean_32
+  - first:
+      213: -8350841073146903050
+    second: exp_ornament_clean_33
+  - first:
+      213: 4153694228014081991
+    second: exp_ornament_clean_34
+  - first:
+      213: -2023526396505250379
+    second: exp_ornament_clean_35
+  - first:
+      213: 6603246181046623890
+    second: exp_ornament_clean_36
+  - first:
+      213: -5604789889702973381
+    second: exp_ornament_clean_37
+  - first:
+      213: 8319623668408490855
+    second: exp_ornament_clean_38
+  - first:
+      213: -5190445173429938807
+    second: exp_ornament_clean_39
+  - first:
+      213: -8485468282776642830
+    second: exp_ornament_clean_40
+  - first:
+      213: 3567808648710362468
+    second: exp_ornament_clean_41
+  - first:
+      213: 3239917889956800526
+    second: exp_ornament_clean_42
+  - first:
+      213: 7937352599495729618
+    second: exp_ornament_clean_43
+  - first:
+      213: 5553473795409028325
+    second: exp_ornament_clean_44
+  - first:
+      213: -1949123210669205237
+    second: exp_ornament_clean_45
+  - first:
+      213: -2465444933501072738
+    second: exp_ornament_clean_46
+  - first:
+      213: -6337468129672369832
+    second: exp_ornament_clean_47
+  - first:
+      213: 7015929709890498818
+    second: exp_ornament_clean_48
+  - first:
+      213: -4559444742006207688
+    second: exp_ornament_clean_49
+  - first:
+      213: -8715595208221254689
+    second: exp_ornament_clean_50
+  - first:
+      213: 3344536038371905760
+    second: exp_ornament_clean_51
+  - first:
+      213: 9097903590519759955
+    second: exp_ornament_clean_52
+  - first:
+      213: -3402337612790392636
+    second: exp_ornament_clean_53
+  - first:
+      213: -2804652206607216713
+    second: exp_ornament_clean_54
+  - first:
+      213: -8353917006388017860
+    second: exp_ornament_clean_55
+  - first:
+      213: 3315281091115280591
+    second: exp_ornament_clean_56
+  - first:
+      213: 3009576082916524984
+    second: exp_ornament_clean_57
+  - first:
+      213: -259319873943397424
+    second: exp_ornament_clean_58
+  - first:
+      213: -19668440834819062
+    second: exp_ornament_clean_59
+  - first:
+      213: -8505594976749293031
+    second: exp_ornament_clean_60
+  - first:
+      213: -312414191223564868
+    second: exp_ornament_clean_61
+  - first:
+      213: -594267669555604348
+    second: exp_ornament_clean_62
+  - first:
+      213: 4159884558471537919
+    second: exp_ornament_clean_63
+  - first:
+      213: 4097218856531445701
+    second: exp_ornament_clean_64
+  - first:
+      213: -5810937573678886983
+    second: exp_ornament_clean_65
+  - first:
+      213: 757160632226810357
+    second: exp_ornament_clean_66
+  - first:
+      213: 614461424117514208
+    second: exp_ornament_clean_67
+  - first:
+      213: -3904091180667124508
+    second: exp_ornament_clean_68
+  - first:
+      213: 6351335577592064732
+    second: exp_ornament_clean_69
+  - first:
+      213: -5003790578119223761
+    second: exp_ornament_clean_70
+  - first:
+      213: -3364121902036414165
+    second: exp_ornament_clean_71
+  - first:
+      213: -3004518291277380235
+    second: exp_ornament_clean_72
+  - first:
+      213: -9002800229699735526
+    second: exp_ornament_clean_73
+  - first:
+      213: -6879261682738303888
+    second: exp_ornament_clean_74
+  - first:
+      213: 2273952554849550491
+    second: exp_ornament_clean_75
+  - first:
+      213: 4081043501917461795
+    second: exp_ornament_clean_76
+  - first:
+      213: -2069380285954680553
+    second: exp_ornament_clean_77
+  - first:
+      213: -1908975160380489878
+    second: exp_ornament_clean_78
+  - first:
+      213: -8845138075216116388
+    second: exp_ornament_clean_79
+  - first:
+      213: -42441635489241274
+    second: exp_ornament_clean_80
+  - first:
+      213: -8334577820667043563
+    second: exp_ornament_clean_81
+  - first:
+      213: 7469800360032504156
+    second: exp_ornament_clean_82
+  - first:
+      213: -3492352985456326708
+    second: exp_ornament_clean_83
+  - first:
+      213: 2964030099774100636
+    second: exp_ornament_clean_84
+  - first:
+      213: -6518671941873071476
+    second: exp_ornament_clean_85
+  - first:
+      213: -6492606891152228793
+    second: exp_ornament_clean_86
+  - first:
+      213: -2669004088472471855
+    second: exp_ornament_clean_87
+  - first:
+      213: 2698358218512099618
+    second: exp_ornament_clean_88
+  - first:
+      213: 780848340790566214
+    second: exp_ornament_clean_89
+  - first:
+      213: 8382759040251712268
+    second: exp_ornament_clean_90
+  - first:
+      213: 5532852310436837780
+    second: exp_ornament_clean_91
+  - first:
+      213: -7086576952475873640
+    second: exp_ornament_clean_92
+  - first:
+      213: -2666276272791067120
+    second: exp_ornament_clean_93
+  - first:
+      213: -730618608047536259
+    second: exp_ornament_clean_94
+  - first:
+      213: -1477850122565173041
+    second: exp_ornament_clean_95
+  - first:
+      213: -6980073574216085662
+    second: exp_ornament_clean_96
+  - first:
+      213: -2358609606054544674
+    second: exp_ornament_clean_97
+  - first:
+      213: 4856119541629081697
+    second: exp_ornament_clean_98
+  - first:
+      213: -4383176649176695751
+    second: exp_ornament_clean_99
+  - first:
+      213: 6339374786864245718
+    second: exp_ornament_clean_100
+  - first:
+      213: 4217987065957827829
+    second: exp_ornament_clean_101
+  - first:
+      213: -9154366248533658490
+    second: exp_ornament_clean_102
+  - first:
+      213: 1744080234424005538
+    second: exp_ornament_clean_103
+  - first:
+      213: -9153327223302766390
+    second: exp_ornament_clean_104
+  - first:
+      213: -57901851548268538
+    second: exp_ornament_clean_105
+  - first:
+      213: -8143402200522930300
+    second: exp_ornament_clean_106
+  - first:
+      213: 4377488120440695559
+    second: exp_ornament_clean_107
+  - first:
+      213: -5210204985197768999
+    second: exp_ornament_clean_108
+  - first:
+      213: 2798550883618218342
+    second: exp_ornament_clean_109
+  - first:
+      213: -1188941667815455282
+    second: exp_ornament_clean_110
+  - first:
+      213: 8437657444288680712
+    second: exp_ornament_clean_111
+  - first:
+      213: -2857794442222079476
+    second: exp_ornament_clean_112
+  - first:
+      213: 9002880451413152281
+    second: exp_ornament_clean_113
+  - first:
+      213: -2303630733842856068
+    second: exp_ornament_clean_114
+  - first:
+      213: 373220795293790672
+    second: exp_ornament_clean_115
+  - first:
+      213: -6976075910876640223
+    second: exp_ornament_clean_116
+  - first:
+      213: 4915293212508113615
+    second: exp_ornament_clean_117
+  - first:
+      213: 8738462196170619688
+    second: exp_ornament_clean_118
+  - first:
+      213: -5055684472325892995
+    second: exp_ornament_clean_119
+  - first:
+      213: -355390108833553728
+    second: exp_ornament_clean_120
+  - first:
+      213: -4801009134374097232
+    second: exp_ornament_clean_121
+  - first:
+      213: 7224965002663629935
+    second: exp_ornament_clean_122
+  - first:
+      213: 6052376425805831650
+    second: exp_ornament_clean_123
+  - first:
+      213: -4846499291210293398
+    second: exp_ornament_clean_124
+  - first:
+      213: -181571103076530545
+    second: exp_ornament_clean_125
+  - first:
+      213: 6424116042745092771
+    second: exp_ornament_clean_126
+  - first:
+      213: -2417004113019882144
+    second: exp_ornament_clean_127
+  - first:
+      213: 4030212780308328259
+    second: exp_ornament_clean_128
+  - first:
+      213: 9065741239382649082
+    second: exp_ornament_clean_129
+  - first:
+      213: -1170995927888008672
+    second: exp_ornament_clean_130
+  - first:
+      213: 4949950909551351636
+    second: exp_ornament_clean_131
+  - first:
+      213: -4841678951789984748
+    second: exp_ornament_clean_132
+  - first:
+      213: 443745266027885173
+    second: exp_ornament_clean_133
+  - first:
+      213: 135599639095475203
+    second: exp_ornament_clean_134
+  - first:
+      213: 9150774231378934574
+    second: exp_ornament_clean_135
+  - first:
+      213: 2196059909428577437
+    second: exp_ornament_clean_136
+  - first:
+      213: -3405446550867941434
+    second: exp_ornament_clean_137
+  - first:
+      213: -8416350336968935019
+    second: exp_ornament_clean_138
+  - first:
+      213: -1694059129893646774
+    second: exp_ornament_clean_139
+  - first:
+      213: 666948365004515148
+    second: exp_ornament_clean_140
+  - first:
+      213: 2492548909165615156
+    second: exp_ornament_clean_141
+  - first:
+      213: 4581902464388235813
+    second: exp_ornament_clean_142
+  - first:
+      213: -3948968785976664457
+    second: exp_ornament_clean_143
+  - first:
+      213: -223539200794675685
+    second: exp_ornament_clean_144
+  - first:
+      213: -8702571147753956557
+    second: exp_ornament_clean_145
+  - first:
+      213: -3919058021954850043
+    second: exp_ornament_clean_146
+  - first:
+      213: -7215065520651164596
+    second: exp_ornament_clean_147
+  - first:
+      213: 7070282071767593462
+    second: exp_ornament_clean_148
+  - first:
+      213: 6085416705378274273
+    second: exp_ornament_clean_149
+  - first:
+      213: -1018440940189248317
+    second: exp_ornament_clean_150
+  - first:
+      213: -6803055832908236806
+    second: exp_ornament_clean_151
+  - first:
+      213: -2382680536422878476
+    second: exp_ornament_clean_152
+  - first:
+      213: 1488743189123829279
+    second: exp_ornament_clean_153
+  - first:
+      213: -9002461965650550827
+    second: exp_ornament_clean_154
+  - first:
+      213: -4795166827825213808
+    second: exp_ornament_clean_155
+  - first:
+      213: -3846976870432086091
+    second: exp_ornament_clean_156
+  - first:
+      213: -7481619276269951771
+    second: exp_ornament_clean_157
+  - first:
+      213: -5370162008482458561
+    second: exp_ornament_clean_158
+  - first:
+      213: 3972523711927634736
+    second: exp_ornament_clean_159
+  - first:
+      213: -6051621809139667243
+    second: exp_ornament_clean_160
+  - first:
+      213: 5518794473118106124
+    second: exp_ornament_clean_161
+  - first:
+      213: 3796317221599460695
+    second: exp_ornament_clean_162
+  - first:
+      213: -3172068515105504047
+    second: exp_ornament_clean_163
+  - first:
+      213: -7593691940521994524
+    second: exp_ornament_clean_164
+  - first:
+      213: -2794438103862848372
+    second: exp_ornament_clean_165
+  - first:
+      213: -3732342021579166515
+    second: exp_ornament_clean_166
+  - first:
+      213: -6560634213879934902
+    second: exp_ornament_clean_167
+  - first:
+      213: -6980122427484244095
+    second: exp_ornament_clean_168
+  - first:
+      213: 6198115928636153451
+    second: exp_ornament_clean_169
+  - first:
+      213: 8753720336823484363
+    second: exp_ornament_clean_170
+  - first:
+      213: -856994230022667797
+    second: exp_ornament_clean_171
+  - first:
+      213: -7854261036093288489
+    second: exp_ornament_clean_172
+  - first:
+      213: -3685367566349687761
+    second: exp_ornament_clean_173
+  - first:
+      213: 4516682452978338263
+    second: exp_ornament_clean_174
+  - first:
+      213: 8252931342113725004
+    second: exp_ornament_clean_175
+  - first:
+      213: -701525716017852559
+    second: exp_ornament_clean_176
+  - first:
+      213: -1630555952239023736
+    second: exp_ornament_clean_177
+  - first:
+      213: 331596529922260221
+    second: exp_ornament_clean_178
+  - first:
+      213: -4206395956858228992
+    second: exp_ornament_clean_179
+  - first:
+      213: 3372390030443523971
+    second: exp_ornament_clean_180
+  - first:
+      213: -2659102774407638145
+    second: exp_ornament_clean_181
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: exp_ornament_clean_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 873
+        width: 94
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ea027c286f9ba20800000000000000
+      internalID: 3078762861831433770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 973
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66c69abebb476c60800000000000000
+      internalID: 7811295361243727466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603876337e72ec920800000000000000
+      internalID: 3012389074710790918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675735eac600b8b80800000000000000
+      internalID: -8391613013893614218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 973
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480f04b1f1c691670800000000000000
+      internalID: 8509951851750289540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57651838c52f3aa0800000000000000
+      internalID: -6179178621864417441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 973
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb65bd037b3b3b10800000000000000
+      internalID: 1962227427987254260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07b30aa368a7f830800000000000000
+      internalID: 4104934731379095307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 898
+        width: 51
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f872837e48f38d500800000000000000
+      internalID: 421156405206591375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0111dd89b7754fb60800000000000000
+      internalID: 7778938644732907792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 948
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb713aee26b2933e0800000000000000
+      internalID: -2073578449516947524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8eb80a0b27c4540800000000000000
+      internalID: 4993492189780371659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_12
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 878
+        width: 100
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2c189fea16bfbf0800000000000000
+      internalID: -289530346897030468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 998
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46edc592a1c896170800000000000000
+      internalID: 8172217042831466084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_14
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdf0d9e5f80e5550800000000000000
+      internalID: 6151363993317473784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_15
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 948
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32f136b9693b9770800000000000000
+      internalID: 8618545438094651963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_16
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9ebbcf695044810800000000000000
+      internalID: 1748528701370001841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 948
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b138bc5a56eb4c390800000000000000
+      internalID: -7798899310916304101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_18
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bceea18e08bf240800000000000000
+      internalID: 4826593160030243711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_19
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 973
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4657c6d648fe22210800000000000000
+      internalID: 1306870193941411172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_20
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c43b2b85558f210800000000000000
+      internalID: 1366936326350523504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_21
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 973
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82b4c6a2d56cbc20800000000000000
+      internalID: 3223563388705878667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32da3a73af2696810800000000000000
+      internalID: 1759045956279708963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_23
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 948
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cb519cbd1a17920800000000000000
+      internalID: 2986345993266904214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_24
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2804caf1dfd3890800000000000000
+      internalID: -7476541493889432927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_25
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46ed6e72a0a0ade0800000000000000
+      internalID: -1323881670680648114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_26
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 914
+        width: 125
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be12812485f86220800000000000000
+      internalID: 2479501542714121909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_27
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba7c6501027279f0800000000000000
+      internalID: -472189662208951632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_28
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c07f4f990d13f70800000000000000
+      internalID: 9165336076334075021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_29
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38634209fd7d45610800000000000000
+      internalID: 1609148322074080899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_30
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 973
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adffba27df45baa0800000000000000
+      internalID: -6145918330923385440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_31
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 923
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6560084c1478f10800000000000000
+      internalID: 2271856849248999139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_32
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5208b7c108807a350800000000000000
+      internalID: 6027795972585390117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_33
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f54653e94adb1c80800000000000000
+      internalID: -8350841073146903050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_34
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 923
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7ae56a4e2e4a930800000000000000
+      internalID: 4153694228014081991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_35
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5ada6a67dfae3e0800000000000000
+      internalID: -2023526396505250379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_36
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 973
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e1db98a6173ab50800000000000000
+      internalID: 6603246181046623890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_37
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30bd8f6a49c732b0800000000000000
+      internalID: -5604789889702973381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_38
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 973
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b9b6ca5ad357370800000000000000
+      internalID: 8319623668408490855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_39
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985519b6d95d7f7b0800000000000000
+      internalID: -5190445173429938807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_40
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 921
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa11440e8f8d3a80800000000000000
+      internalID: -8485468282776642830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_41
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46592fc1017638130800000000000000
+      internalID: 3567808648710362468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_42
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 973
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08ee44b72086fc20800000000000000
+      internalID: 3239917889956800526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_43
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d167f5a224272e60800000000000000
+      internalID: 7937352599495729618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_44
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 879
+        width: 101
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4abcc4ef6e11d40800000000000000
+      internalID: 5553473795409028325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_45
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 999
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09d79c44c253f4e0800000000000000
+      internalID: -1949123210669205237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_46
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 999
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ac16d35eaf8cdd0800000000000000
+      internalID: -2465444933501072738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_47
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 973
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859e48b305acc08a0800000000000000
+      internalID: -6337468129672369832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_48
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 998
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201f12f26e69d5160800000000000000
+      internalID: 7015929709890498818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_49
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 898
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b82b30a2999b0c0800000000000000
+      internalID: -4559444742006207688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_50
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb10e7d55cfb0780800000000000000
+      internalID: -8715595208221254689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_51
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 973
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e056a98ecd2a6e20800000000000000
+      internalID: 3344536038371905760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_52
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 999
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3546ea1ec1f324e70800000000000000
+      internalID: 9097903590519759955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_53
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 973
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c89dafa7f778c0d0800000000000000
+      internalID: -3402337612790392636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_54
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 973
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf49a28dafd319d0800000000000000
+      internalID: -2804652206607216713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_55
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 999
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35c52f5ebce01c80800000000000000
+      internalID: -8353917006388017860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_56
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 923
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8ee76569e320e20800000000000000
+      internalID: 3315281091115280591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_57
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 948
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b340c2808924c920800000000000000
+      internalID: 3009576082916524984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_58
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 923
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db9766d2f5b66cf0800000000000000
+      internalID: -259319873943397424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_59
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 948
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c31c248af1abff0800000000000000
+      internalID: -19668440834819062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_60
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 898
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912f287ee6e06f980800000000000000
+      internalID: -8505594976749293031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_61
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 923
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb51455c2f41aabf0800000000000000
+      internalID: -312414191223564868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_62
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 923
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48493aef3bcb0c7f0800000000000000
+      internalID: -594267669555604348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_63
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 923
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4245647f0eab930800000000000000
+      internalID: 4159884558471537919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_64
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 948
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7c69e87de3cd830800000000000000
+      internalID: 4097218856531445701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_65
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 923
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf46ec70176b5fa0800000000000000
+      internalID: -5810937573678886983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_66
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 948
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f90ac95599f18a00800000000000000
+      internalID: 757160632226810357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_67
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 658
+        width: 129
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef74b0e861078800800000000000000
+      internalID: 614461424117514208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_68
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 926
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4c99581c1e1d9c0800000000000000
+      internalID: -3904091180667124508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_69
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 948
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaeca79e0a742850800000000000000
+      internalID: 6351335577592064732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_70
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 948
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26d1ccfaf6fe8ab0800000000000000
+      internalID: -5003790578119223761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_71
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 923
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21120834fc3051d0800000000000000
+      internalID: -3364121902036414165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_72
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 948
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5758f3f588ecd46d0800000000000000
+      internalID: -3004518291277380235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_73
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 923
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1031f4d3e0af0380800000000000000
+      internalID: -9002800229699735526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_74
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 948
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c6d6b82f3f780a0800000000000000
+      internalID: -6879261682738303888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_75
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 923
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9046ebfcc3be8f10800000000000000
+      internalID: 2273952554849550491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_76
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 948
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dd4b45177c2a830800000000000000
+      internalID: 4081043501917461795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_77
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 923
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719997e08951843e0800000000000000
+      internalID: -2069380285954680553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_78
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 948
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ff970b435f185e0800000000000000
+      internalID: -1908975160380489878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_79
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 923
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55067db8c1cf3580800000000000000
+      internalID: -8845138075216116388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_80
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 923
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6472af0be87396ff0800000000000000
+      internalID: -42441635489241274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_81
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 948
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511aa4e61a1a55c80800000000000000
+      internalID: -8334577820667043563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_82
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 923
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5982dac9df0aa760800000000000000
+      internalID: 7469800360032504156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_83
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 923
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7c997867ba88fc0800000000000000
+      internalID: -3492352985456326708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_84
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 948
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94d990fba9522920800000000000000
+      internalID: 2964030099774100636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_85
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 898
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a895108660985a0800000000000000
+      internalID: -6518671941873071476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_86
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 898
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e3e9a8e60a5e5a0800000000000000
+      internalID: -6492606891152228793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_87
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 875
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6788a2ceac5fad0800000000000000
+      internalID: -2669004088472471855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_88
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 896
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2296b23d08e727520800000000000000
+      internalID: 2698358218512099618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_89
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 895
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d5648cd6126da00800000000000000
+      internalID: 780848340790566214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_90
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 923
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03d5efeeea855470800000000000000
+      internalID: 8382759040251712268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_91
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 896
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499794eacd3a8cc40800000000000000
+      internalID: 5532852310436837780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_92
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 898
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e843adecb67ad90800000000000000
+      internalID: -7086576952475873640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_93
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 877
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0166c3f3bdb7ffad0800000000000000
+      internalID: -2666276272791067120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_94
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 898
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7749093f325cd5f0800000000000000
+      internalID: -730618608047536259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_95
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 902
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc04c3db42f9d7be0800000000000000
+      internalID: -1477850122565173041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_96
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 895
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f42c6f01cc12f90800000000000000
+      internalID: -6980073574216085662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_97
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 672
+        width: 82
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda7b4b4f09844fd0800000000000000
+      internalID: -2358609606054544674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_98
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 848
+        width: 29
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16852a98ef6646340800000000000000
+      internalID: 4856119541629081697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_99
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 898
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c39068f04db23c0800000000000000
+      internalID: -4383176649176695751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_100
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 895
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db6c1df7cbf9f750800000000000000
+      internalID: 6339374786864245718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_101
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 898
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4cb9d73ec498a30800000000000000
+      internalID: 4217987065957827829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_102
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 896
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684735c166825f080800000000000000
+      internalID: -9154366248533658490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_103
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 672
+        width: 99
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a37f909bb7343810800000000000000
+      internalID: 1744080234424005538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_104
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 898
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac040260369d8f080800000000000000
+      internalID: -9153327223302766390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_105
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 873
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608c0a2a29a423ff0800000000000000
+      internalID: -57901851548268538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_106
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 873
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48742be18d2dcfe80800000000000000
+      internalID: -8143402200522930300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_107
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 891
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b2c5ba046ffbc30800000000000000
+      internalID: 4377488120440695559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 873
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de415abb22a1b7b0800000000000000
+      internalID: -5210204985197768999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_109
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 871
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6616be7833376d620800000000000000
+      internalID: 2798550883618218342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_110
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 878
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec503373ad7008fe0800000000000000
+      internalID: -1188941667815455282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_111
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 892
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803d14fadb4981570800000000000000
+      internalID: 8437657444288680712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_112
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 879
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02744698131758d0800000000000000
+      internalID: -2857794442222079476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_113
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 822
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9121acd3218a0fc70800000000000000
+      internalID: 9002880451413152281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_114
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 875
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77cf9f7d0cd700e0800000000000000
+      internalID: -2303630733842856068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_115
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 876
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1764ef552fd2500800000000000000
+      internalID: 373220795293790672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_116
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 873
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cc90e7befff2f90800000000000000
+      internalID: -6976075910876640223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_117
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 880
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca4f6a6221a63440800000000000000
+      internalID: 4915293212508113615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_118
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 672
+        width: 151
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bfdeda111454970800000000000000
+      internalID: 8738462196170619688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_119
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 875
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d749e8232c996d9b0800000000000000
+      internalID: -5055684472325892995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_120
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 862
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2e9463496611bf0800000000000000
+      internalID: -355390108833553728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_121
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 852
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bee93e01a36f5db0800000000000000
+      internalID: -4801009134374097232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_122
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 895
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f641562f36b344460800000000000000
+      internalID: 7224965002663629935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_123
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 873
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edda1bda4c5ef350800000000000000
+      internalID: 6052376425805831650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_124
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 873
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f5a3f8296cdbcb0800000000000000
+      internalID: -4846499291210293398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_125
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 870
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86c5a33b0eea7df0800000000000000
+      internalID: -181571103076530545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_126
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 893
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa95b3218b072950800000000000000
+      internalID: 6424116042745092771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_127
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 869
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065bac6a093157ed0800000000000000
+      internalID: -2417004113019882144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_128
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 841
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f6483bb213ee730800000000000000
+      internalID: 4030212780308328259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_129
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 873
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af82307ff9bffcd70800000000000000
+      internalID: 9065741239382649082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_130
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 851
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a6ec46869cfbfe0800000000000000
+      internalID: -1170995927888008672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_131
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 672
+        width: 121
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4571e635022c1b440800000000000000
+      internalID: 4949950909551351636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_132
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 853
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414821a45a6eeccb0800000000000000
+      internalID: -4841678951789984748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_133
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 758
+        width: 50
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5727a58e7ff782600800000000000000
+      internalID: 443745266027885173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 698
+        width: 96
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cf4ff372fb1e100800000000000000
+      internalID: 135599639095475203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 838
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bb3293ea41efe70800000000000000
+      internalID: 9150774231378934574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_136
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 848
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9487f63ad8f97e10800000000000000
+      internalID: 2196059909428577437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_137
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 658
+        width: 153
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7efe1a76c6db0d0800000000000000
+      internalID: -3405446550867941434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_138
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 828
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5993ab3d5fd133b80800000000000000
+      internalID: -8416350336968935019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_139
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 848
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e8e26623e7d78e0800000000000000
+      internalID: -1694059129893646774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_140
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 696
+        width: 110
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c472f9b110a714900800000000000000
+      internalID: 666948365004515148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_141
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 873
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4389a1cd600579220800000000000000
+      internalID: 2492548909165615156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_142
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 862
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5220951f300369f30800000000000000
+      internalID: 4581902464388235813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_143
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 772
+        width: 66
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e51cacfc17239c0800000000000000
+      internalID: -3948968785976664457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_144
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 855
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16324ff744d5ecf0800000000000000
+      internalID: -223539200794675685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_145
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 848
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bdf8936a14a3780800000000000000
+      internalID: -8702571147753956557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_146
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 698
+        width: 82
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5037c3b3e75bc99c0800000000000000
+      internalID: -3919058021954850043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_147
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 838
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c442b62d220fedb90800000000000000
+      internalID: -7215065520651164596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_148
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 852
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f135859510be1260800000000000000
+      internalID: 7070282071767593462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_149
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 834
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebcc4a604eb37450800000000000000
+      internalID: 6085416705378274273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_150
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 773
+        width: 57
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c41e4f5c55cdd1f0800000000000000
+      internalID: -1018440940189248317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_151
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 860
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7fa5c93c0b691a0800000000000000
+      internalID: -6803055832908236806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_152
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 648
+        width: 63
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2f6451da40feed0800000000000000
+      internalID: -2382680536422878476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_153
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 864
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e0285fa0419a410800000000000000
+      internalID: 1488743189123829279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_154
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 848
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df1f611a84d01380800000000000000
+      internalID: -9002461965650550827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_155
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 721
+        width: 59
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ecdbc0d25247db0800000000000000
+      internalID: -4795166827825213808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_156
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 822
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b760c22beacc9ac0800000000000000
+      internalID: -3846976870432086091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_157
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 798
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4e63558e2fb2890800000000000000
+      internalID: -7481619276269951771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_158
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 853
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34da1a0b1a5975b0800000000000000
+      internalID: -5370162008482458561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_159
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 798
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b4347c44d312730800000000000000
+      internalID: 3972523711927634736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_160
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 868
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de29370702540ca0800000000000000
+      internalID: -6051621809139667243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_161
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 848
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02089e5552b69c40800000000000000
+      internalID: 5518794473118106124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_162
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 796
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d3228366a3fa430800000000000000
+      internalID: 3796317221599460695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_163
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 819
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d48fe9ed7c8af3d0800000000000000
+      internalID: -3172068515105504047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_164
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 635
+        width: 77
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e69077c969cd9690800000000000000
+      internalID: -7593691940521994524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_165
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 823
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c845070a9592839d0800000000000000
+      internalID: -2794438103862848372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_166
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 772
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcca287c4be043cc0800000000000000
+      internalID: -3732342021579166515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_167
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 648
+        width: 97
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40996431f1f3f4a0800000000000000
+      internalID: -6560634213879934902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_168
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 787
+        width: 14
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187701d62af912f90800000000000000
+      internalID: -6980122427484244095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_169
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 839
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e5c0b1991240650800000000000000
+      internalID: 6198115928636153451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_170
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 798
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcff97364467b7970800000000000000
+      internalID: 8753720336823484363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_171
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 746
+        width: 43
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be180f0d9485b14f0800000000000000
+      internalID: -856994230022667797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_172
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 723
+        width: 101
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfc77a833f000390800000000000000
+      internalID: -7854261036093288489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_173
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 798
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f242bfc69b1fadcc0800000000000000
+      internalID: -3685367566349687761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_174
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 842
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d98305b2ca7eae30800000000000000
+      internalID: 4516682452978338263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_175
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 696
+        width: 133
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a506a645d488270800000000000000
+      internalID: 8252931342113725004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_176
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 832
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f44fff31ea346f0800000000000000
+      internalID: -701525716017852559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_177
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 692
+        width: 64
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889e460200a1f59e0800000000000000
+      internalID: -1630555952239023736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_178
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 798
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcb4ce79411a9400800000000000000
+      internalID: 331596529922260221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_179
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 798
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f63d6e921ef95c0800000000000000
+      internalID: -4206395956858228992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_180
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 798
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fa7a07dd22dce20800000000000000
+      internalID: 3372390030443523971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_ornament_clean_181
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 380
+        width: 1049
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f735d2e7d18f81bd0800000000000000
+      internalID: -2659102774407638145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      exp_ornament_clean_0: 3078762861831433770
+      exp_ornament_clean_1: 7811295361243727466
+      exp_ornament_clean_10: -2073578449516947524
+      exp_ornament_clean_100: 6339374786864245718
+      exp_ornament_clean_101: 4217987065957827829
+      exp_ornament_clean_102: -9154366248533658490
+      exp_ornament_clean_103: 1744080234424005538
+      exp_ornament_clean_104: -9153327223302766390
+      exp_ornament_clean_105: -57901851548268538
+      exp_ornament_clean_106: -8143402200522930300
+      exp_ornament_clean_107: 4377488120440695559
+      exp_ornament_clean_108: -5210204985197768999
+      exp_ornament_clean_109: 2798550883618218342
+      exp_ornament_clean_11: 4993492189780371659
+      exp_ornament_clean_110: -1188941667815455282
+      exp_ornament_clean_111: 8437657444288680712
+      exp_ornament_clean_112: -2857794442222079476
+      exp_ornament_clean_113: 9002880451413152281
+      exp_ornament_clean_114: -2303630733842856068
+      exp_ornament_clean_115: 373220795293790672
+      exp_ornament_clean_116: -6976075910876640223
+      exp_ornament_clean_117: 4915293212508113615
+      exp_ornament_clean_118: 8738462196170619688
+      exp_ornament_clean_119: -5055684472325892995
+      exp_ornament_clean_12: -289530346897030468
+      exp_ornament_clean_120: -355390108833553728
+      exp_ornament_clean_121: -4801009134374097232
+      exp_ornament_clean_122: 7224965002663629935
+      exp_ornament_clean_123: 6052376425805831650
+      exp_ornament_clean_124: -4846499291210293398
+      exp_ornament_clean_125: -181571103076530545
+      exp_ornament_clean_126: 6424116042745092771
+      exp_ornament_clean_127: -2417004113019882144
+      exp_ornament_clean_128: 4030212780308328259
+      exp_ornament_clean_129: 9065741239382649082
+      exp_ornament_clean_13: 8172217042831466084
+      exp_ornament_clean_130: -1170995927888008672
+      exp_ornament_clean_131: 4949950909551351636
+      exp_ornament_clean_132: -4841678951789984748
+      exp_ornament_clean_133: 443745266027885173
+      exp_ornament_clean_134: 135599639095475203
+      exp_ornament_clean_135: 9150774231378934574
+      exp_ornament_clean_136: 2196059909428577437
+      exp_ornament_clean_137: -3405446550867941434
+      exp_ornament_clean_138: -8416350336968935019
+      exp_ornament_clean_139: -1694059129893646774
+      exp_ornament_clean_14: 6151363993317473784
+      exp_ornament_clean_140: 666948365004515148
+      exp_ornament_clean_141: 2492548909165615156
+      exp_ornament_clean_142: 4581902464388235813
+      exp_ornament_clean_143: -3948968785976664457
+      exp_ornament_clean_144: -223539200794675685
+      exp_ornament_clean_145: -8702571147753956557
+      exp_ornament_clean_146: -3919058021954850043
+      exp_ornament_clean_147: -7215065520651164596
+      exp_ornament_clean_148: 7070282071767593462
+      exp_ornament_clean_149: 6085416705378274273
+      exp_ornament_clean_15: 8618545438094651963
+      exp_ornament_clean_150: -1018440940189248317
+      exp_ornament_clean_151: -6803055832908236806
+      exp_ornament_clean_152: -2382680536422878476
+      exp_ornament_clean_153: 1488743189123829279
+      exp_ornament_clean_154: -9002461965650550827
+      exp_ornament_clean_155: -4795166827825213808
+      exp_ornament_clean_156: -3846976870432086091
+      exp_ornament_clean_157: -7481619276269951771
+      exp_ornament_clean_158: -5370162008482458561
+      exp_ornament_clean_159: 3972523711927634736
+      exp_ornament_clean_16: 1748528701370001841
+      exp_ornament_clean_160: -6051621809139667243
+      exp_ornament_clean_161: 5518794473118106124
+      exp_ornament_clean_162: 3796317221599460695
+      exp_ornament_clean_163: -3172068515105504047
+      exp_ornament_clean_164: -7593691940521994524
+      exp_ornament_clean_165: -2794438103862848372
+      exp_ornament_clean_166: -3732342021579166515
+      exp_ornament_clean_167: -6560634213879934902
+      exp_ornament_clean_168: -6980122427484244095
+      exp_ornament_clean_169: 6198115928636153451
+      exp_ornament_clean_17: -7798899310916304101
+      exp_ornament_clean_170: 8753720336823484363
+      exp_ornament_clean_171: -856994230022667797
+      exp_ornament_clean_172: -7854261036093288489
+      exp_ornament_clean_173: -3685367566349687761
+      exp_ornament_clean_174: 4516682452978338263
+      exp_ornament_clean_175: 8252931342113725004
+      exp_ornament_clean_176: -701525716017852559
+      exp_ornament_clean_177: -1630555952239023736
+      exp_ornament_clean_178: 331596529922260221
+      exp_ornament_clean_179: -4206395956858228992
+      exp_ornament_clean_18: 4826593160030243711
+      exp_ornament_clean_180: 3372390030443523971
+      exp_ornament_clean_181: -2659102774407638145
+      exp_ornament_clean_19: 1306870193941411172
+      exp_ornament_clean_2: 3012389074710790918
+      exp_ornament_clean_20: 1366936326350523504
+      exp_ornament_clean_21: 3223563388705878667
+      exp_ornament_clean_22: 1759045956279708963
+      exp_ornament_clean_23: 2986345993266904214
+      exp_ornament_clean_24: -7476541493889432927
+      exp_ornament_clean_25: -1323881670680648114
+      exp_ornament_clean_26: 2479501542714121909
+      exp_ornament_clean_27: -472189662208951632
+      exp_ornament_clean_28: 9165336076334075021
+      exp_ornament_clean_29: 1609148322074080899
+      exp_ornament_clean_3: -8391613013893614218
+      exp_ornament_clean_30: -6145918330923385440
+      exp_ornament_clean_31: 2271856849248999139
+      exp_ornament_clean_32: 6027795972585390117
+      exp_ornament_clean_33: -8350841073146903050
+      exp_ornament_clean_34: 4153694228014081991
+      exp_ornament_clean_35: -2023526396505250379
+      exp_ornament_clean_36: 6603246181046623890
+      exp_ornament_clean_37: -5604789889702973381
+      exp_ornament_clean_38: 8319623668408490855
+      exp_ornament_clean_39: -5190445173429938807
+      exp_ornament_clean_4: 8509951851750289540
+      exp_ornament_clean_40: -8485468282776642830
+      exp_ornament_clean_41: 3567808648710362468
+      exp_ornament_clean_42: 3239917889956800526
+      exp_ornament_clean_43: 7937352599495729618
+      exp_ornament_clean_44: 5553473795409028325
+      exp_ornament_clean_45: -1949123210669205237
+      exp_ornament_clean_46: -2465444933501072738
+      exp_ornament_clean_47: -6337468129672369832
+      exp_ornament_clean_48: 7015929709890498818
+      exp_ornament_clean_49: -4559444742006207688
+      exp_ornament_clean_5: -6179178621864417441
+      exp_ornament_clean_50: -8715595208221254689
+      exp_ornament_clean_51: 3344536038371905760
+      exp_ornament_clean_52: 9097903590519759955
+      exp_ornament_clean_53: -3402337612790392636
+      exp_ornament_clean_54: -2804652206607216713
+      exp_ornament_clean_55: -8353917006388017860
+      exp_ornament_clean_56: 3315281091115280591
+      exp_ornament_clean_57: 3009576082916524984
+      exp_ornament_clean_58: -259319873943397424
+      exp_ornament_clean_59: -19668440834819062
+      exp_ornament_clean_6: 1962227427987254260
+      exp_ornament_clean_60: -8505594976749293031
+      exp_ornament_clean_61: -312414191223564868
+      exp_ornament_clean_62: -594267669555604348
+      exp_ornament_clean_63: 4159884558471537919
+      exp_ornament_clean_64: 4097218856531445701
+      exp_ornament_clean_65: -5810937573678886983
+      exp_ornament_clean_66: 757160632226810357
+      exp_ornament_clean_67: 614461424117514208
+      exp_ornament_clean_68: -3904091180667124508
+      exp_ornament_clean_69: 6351335577592064732
+      exp_ornament_clean_7: 4104934731379095307
+      exp_ornament_clean_70: -5003790578119223761
+      exp_ornament_clean_71: -3364121902036414165
+      exp_ornament_clean_72: -3004518291277380235
+      exp_ornament_clean_73: -9002800229699735526
+      exp_ornament_clean_74: -6879261682738303888
+      exp_ornament_clean_75: 2273952554849550491
+      exp_ornament_clean_76: 4081043501917461795
+      exp_ornament_clean_77: -2069380285954680553
+      exp_ornament_clean_78: -1908975160380489878
+      exp_ornament_clean_79: -8845138075216116388
+      exp_ornament_clean_8: 421156405206591375
+      exp_ornament_clean_80: -42441635489241274
+      exp_ornament_clean_81: -8334577820667043563
+      exp_ornament_clean_82: 7469800360032504156
+      exp_ornament_clean_83: -3492352985456326708
+      exp_ornament_clean_84: 2964030099774100636
+      exp_ornament_clean_85: -6518671941873071476
+      exp_ornament_clean_86: -6492606891152228793
+      exp_ornament_clean_87: -2669004088472471855
+      exp_ornament_clean_88: 2698358218512099618
+      exp_ornament_clean_89: 780848340790566214
+      exp_ornament_clean_9: 7778938644732907792
+      exp_ornament_clean_90: 8382759040251712268
+      exp_ornament_clean_91: 5532852310436837780
+      exp_ornament_clean_92: -7086576952475873640
+      exp_ornament_clean_93: -2666276272791067120
+      exp_ornament_clean_94: -730618608047536259
+      exp_ornament_clean_95: -1477850122565173041
+      exp_ornament_clean_96: -6980073574216085662
+      exp_ornament_clean_97: -2358609606054544674
+      exp_ornament_clean_98: 4856119541629081697
+      exp_ornament_clean_99: -4383176649176695751
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
