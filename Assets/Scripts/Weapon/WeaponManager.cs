@@ -26,6 +26,25 @@ public class WeaponManager : MonoBehaviour
         }
     }
 
+    public void RegisterWeapon(WeaponData weapon)
+    {
+        if (!weapons.Contains(weapon))
+        {
+            weapons.Add(weapon);
+        }
+
+        cooldowns[weapon] = 0f;
+
+        if (weapon.weaponType == WeaponType.Projectile && !pools.ContainsKey(weapon))
+        {
+            GameObject poolObj = new GameObject(weapon.weaponName + "_Pool");
+            poolObj.transform.SetParent(transform);
+            ObjectPool pool = poolObj.AddComponent<ObjectPool>();
+            pool.prefab = weapon.prefab;
+            pools[weapon] = pool;
+        }
+    }
+
     void Update()
     {
         foreach (var weapon in weapons)
