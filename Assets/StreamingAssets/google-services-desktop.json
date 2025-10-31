@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "31512437863",
+    "project_id": "the-last-survivor-5ad55",
+    "storage_bucket": "the-last-survivor-5ad55.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31512437863:android:9af8590bf654b7b0aae0c2",
+        "android_client_info": {
+          "package_name": "com.hao.thelastsurvivor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy3N0axoxQzX2y3KE9tnzsi5bW5oKU1kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

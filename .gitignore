@@ -73,3 +73,47 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+#######################################################
+# 🔥 Firebase Plugin (Large files)
+#######################################################
+
+# Ignore large native Firebase SDK binaries
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-*.bundle
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-*.so
+Assets/Firebase/Plugins/x86/FirebaseCppApp-*.bundle
+Assets/Firebase/Plugins/x86/FirebaseCppApp-*.so
+Assets/Firebase/Plugins/arm64-v8a/FirebaseCppApp-*.so
+Assets/Firebase/Plugins/armeabi-v7a/FirebaseCppApp-*.so
+
+# Optional: ignore all prebuilt Firebase binaries
+Assets/Firebase/Plugins/**/FirebaseCppApp-*
+Assets/Firebase/Editor/**/Firebase.EditorExtensions.dll
+Assets/Firebase/Editor/**/Firebase.EditorExtensions.pdb
+
+# If you ever build iOS, these frameworks can also be large
+Assets/Plugins/iOS/Firebase*.framework/
+
+#######################################################
+# 🌍 Platform-specific temporary files
+#######################################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+#######################################################
+# ⚙️ Unity build cache and logs
+#######################################################
+/Logs/
+/Build/
+/Builds/
+/Temp/
+/Library/
+/Obj/
