@@ -175,10 +175,10 @@ TextureImporter:
       name: TanjiroRun_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2864
-        width: 716
-        height: 716
+        x: 253
+        y: 3039
+        width: 211
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: TanjiroRun_1
       rect:
         serializedVersion: 2
-        x: 716
-        y: 2864
-        width: 716
-        height: 716
+        x: 968
+        y: 3044
+        width: 216
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: TanjiroRun_2
       rect:
         serializedVersion: 2
-        x: 1432
-        y: 2864
-        width: 716
-        height: 716
+        x: 1672
+        y: 3044
+        width: 229
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: TanjiroRun_3
       rect:
         serializedVersion: 2
-        x: 2148
-        y: 2864
-        width: 716
-        height: 716
+        x: 2383
+        y: 3039
+        width: 236
+        height: 344
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: TanjiroRun_4
       rect:
         serializedVersion: 2
-        x: 2864
-        y: 2864
-        width: 716
-        height: 716
+        x: 3102
+        y: 3042
+        width: 234
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,10 +285,10 @@ TextureImporter:
       name: TanjiroRun_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2148
-        width: 716
-        height: 716
+        x: 246
+        y: 2331
+        width: 230
+        height: 353
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: TanjiroRun_6
       rect:
         serializedVersion: 2
-        x: 716
-        y: 2148
-        width: 716
-        height: 716
+        x: 952
+        y: 2319
+        width: 236
+        height: 361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,10 +329,10 @@ TextureImporter:
       name: TanjiroRun_7
       rect:
         serializedVersion: 2
-        x: 1432
-        y: 2148
-        width: 716
-        height: 716
+        x: 1670
+        y: 2321
+        width: 226
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: TanjiroRun_8
       rect:
         serializedVersion: 2
-        x: 2148
-        y: 2148
-        width: 716
-        height: 716
+        x: 2401
+        y: 2324
+        width: 211
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +373,10 @@ TextureImporter:
       name: TanjiroRun_9
       rect:
         serializedVersion: 2
-        x: 2864
-        y: 2148
-        width: 716
-        height: 716
+        x: 3112
+        y: 2328
+        width: 221
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,10 +395,10 @@ TextureImporter:
       name: TanjiroRun_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1432
-        width: 716
-        height: 716
+        x: 240
+        y: 1611
+        width: 228
+        height: 351
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,10 +417,10 @@ TextureImporter:
       name: TanjiroRun_11
       rect:
         serializedVersion: 2
-        x: 716
-        y: 1432
-        width: 716
-        height: 716
+        x: 952
+        y: 1606
+        width: 236
+        height: 349
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,10 +439,10 @@ TextureImporter:
       name: TanjiroRun_12
       rect:
         serializedVersion: 2
-        x: 1432
-        y: 1432
-        width: 716
-        height: 716
+        x: 1677
+        y: 1613
+        width: 231
+        height: 354
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,10 +461,10 @@ TextureImporter:
       name: TanjiroRun_13
       rect:
         serializedVersion: 2
-        x: 2148
-        y: 1432
-        width: 716
-        height: 716
+        x: 2389
+        y: 1611
+        width: 236
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,10 +483,10 @@ TextureImporter:
       name: TanjiroRun_14
       rect:
         serializedVersion: 2
-        x: 2864
-        y: 1432
-        width: 716
-        height: 716
+        x: 3098
+        y: 1604
+        width: 233
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,10 +505,10 @@ TextureImporter:
       name: TanjiroRun_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 716
-        width: 716
-        height: 716
+        x: 240
+        y: 891
+        width: 226
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,10 +527,10 @@ TextureImporter:
       name: TanjiroRun_16
       rect:
         serializedVersion: 2
-        x: 716
-        y: 716
-        width: 716
-        height: 716
+        x: 969
+        y: 893
+        width: 214
+        height: 361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,10 +549,10 @@ TextureImporter:
       name: TanjiroRun_17
       rect:
         serializedVersion: 2
-        x: 1432
-        y: 716
-        width: 716
-        height: 716
+        x: 1676
+        y: 900
+        width: 223
+        height: 351
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,10 +571,10 @@ TextureImporter:
       name: TanjiroRun_18
       rect:
         serializedVersion: 2
-        x: 2148
-        y: 716
-        width: 716
-        height: 716
+        x: 2387
+        y: 894
+        width: 229
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,10 +593,10 @@ TextureImporter:
       name: TanjiroRun_19
       rect:
         serializedVersion: 2
-        x: 2864
-        y: 716
-        width: 716
-        height: 716
+        x: 3100
+        y: 892
+        width: 234
+        height: 343
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,10 +615,10 @@ TextureImporter:
       name: TanjiroRun_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 716
-        height: 716
+        x: 242
+        y: 181
+        width: 233
+        height: 351
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,10 +637,10 @@ TextureImporter:
       name: TanjiroRun_21
       rect:
         serializedVersion: 2
-        x: 716
-        y: 0
-        width: 716
-        height: 716
+        x: 959
+        y: 181
+        width: 234
+        height: 355
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: TanjiroRun_22
       rect:
         serializedVersion: 2
-        x: 1432
-        y: 0
-        width: 716
-        height: 716
+        x: 1669
+        y: 172
+        width: 237
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -681,10 +681,10 @@ TextureImporter:
       name: TanjiroRun_23
       rect:
         serializedVersion: 2
-        x: 2148
-        y: 0
-        width: 716
-        height: 716
+        x: 2382
+        y: 172
+        width: 232
+        height: 358
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -703,10 +703,10 @@ TextureImporter:
       name: TanjiroRun_24
       rect:
         serializedVersion: 2
-        x: 2864
-        y: 0
-        width: 716
-        height: 716
+        x: 3116
+        y: 176
+        width: 211
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

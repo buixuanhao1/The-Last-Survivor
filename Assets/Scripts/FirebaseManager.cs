@@ -16,11 +16,10 @@ public class FirebaseManager : MonoBehaviour
             if (status == DependencyStatus.Available)
             {
                 FirebaseApp app = FirebaseApp.DefaultInstance;
-                Debug.Log("✅ Firebase đã khởi tạo thành công!");
             }
             else
             {
-                Debug.LogError("❌ Firebase chưa sẵn sàng: " + status);
+                Debug.LogError("Firebase chưa sẵn sàng: " + status);
             }
         });
     }

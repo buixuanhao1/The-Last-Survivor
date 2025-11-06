@@ -1,0 +1,19 @@
+using UnityEngine;
+
+public class UIMainMenu : MonoBehaviour
+{
+    public void OpenUserProfile()
+    {
+        UIManager.Instance.ShowPanel(UIManager.Instance.profilePanelPrefab);
+    }
+
+    public void OpenShop()
+    {
+        UIManager.Instance.ShowPanel(UIManager.Instance.shopPanelPrefab);
+    }
+
+    public void OpenHero()
+    {
+        UIManager.Instance.ShowPanel(UIManager.Instance.heroPanelPrefab);
+    }
+}
