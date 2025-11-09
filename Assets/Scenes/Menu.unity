@@ -384,6 +384,7 @@ MonoBehaviour:
     energy: 0
     lastEnergyUpdate: 0
     selectedHero: 
+    unlockedHeroes: []
   MaxEnergy: 40
   EnergyRegenTime: 300
 --- !u!4 &886472861
@@ -635,11 +636,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bc8311f6cd825f4fbb44db2884a18fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loginPanelPrefab: {fileID: 8668780183419202559, guid: 5d8922a075fb0184a9288f96104ed044, type: 3}
-  mainUIPrefab: {fileID: 5341282014972824854, guid: 8443aa3e615aaee47a3cc36ae7fe1216, type: 3}
-  shopPanelPrefab: {fileID: 861987472891454778, guid: 1fecff2f02ccfe244990f806ebfa9880, type: 3}
-  heroPanelPrefab: {fileID: 638878859271948068, guid: 44d45713a294f41489bd47350de9aaba, type: 3}
-  profilePanelPrefab: {fileID: 2364129111713502824, guid: b2294ea8fbb973f4d8d5758b80863918, type: 3}
+  loginPanelPrefab: {fileID: 0}
+  mainUIPrefab: {fileID: 0}
+  shopPanelPrefab: {fileID: 0}
+  heroPanelPrefab: {fileID: 0}
+  profilePanelPrefab: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
