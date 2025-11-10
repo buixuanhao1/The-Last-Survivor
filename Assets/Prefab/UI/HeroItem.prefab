@@ -169,7 +169,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: efd10b7d752ec5b4c95e7ad723cec1c4, type: 3}
+  m_Sprite: {fileID: -7936683107177181488, guid: 95a21deccd1ed2b428d9312bfb608c51, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -399,6 +399,7 @@ MonoBehaviour:
   diamondIcon: {fileID: 8329775312564176286}
   priceText: {fileID: 4292007779707302288}
   pricePanle: {fileID: 281893906487702077}
+  data: {fileID: 0}
 --- !u!1001 &23754476735447130
 PrefabInstance:
   m_ObjectHideFlags: 0

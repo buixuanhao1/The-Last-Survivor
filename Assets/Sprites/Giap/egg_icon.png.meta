@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ecf214b3c1e1b1d43a3d4897474a842e
+guid: 0b46120f594ba8341aa961e0a20c6bec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4939875025620075679
-    second: treasure_chest_icon_clean_256x256_0
+      213: 3895502050678141681
+    second: egg_icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: treasure_chest_icon_clean_256x256_0
+      name: egg_icon_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 42
-        width: 224
-        height: 171
+        x: 53
+        y: 43
+        width: 149
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9488e8c926fd8440800000000000000
-      internalID: 4939875025620075679
+      spriteID: 1f2f970d97a9f0630800000000000000
+      internalID: 3895502050678141681
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      treasure_chest_icon_clean_256x256_0: 4939875025620075679
+      egg_icon_0: 3895502050678141681
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
