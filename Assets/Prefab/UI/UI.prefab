@@ -120,7 +120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 693833825092706768}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1482295692300213484}
+        m_TargetAssemblyTypeName: UIMainMenu, Assembly-CSharp
+        m_MethodName: OpenUpgradeHeroPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &64658127228731598
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +356,7 @@ RectTransform:
   m_GameObject: {fileID: 1011570102202861973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9605833, y: 0.9605833, z: 0.9605833}
+  m_LocalScale: {x: 1.3069696, y: 1.3069696, z: 1.3069696}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3472233745663659164}
@@ -382,7 +394,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4589764541132860600, guid: cbdbb5eafec007143be60713fcdf5f66, type: 3}
+  m_Sprite: {fileID: 7655356702818175395, guid: 85e296d1783476e48b262b021a2733a8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1280,7 +1292,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8128779368300594865}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1482295692300213484}
+        m_TargetAssemblyTypeName: UIMainMenu, Assembly-CSharp
+        m_MethodName: OpenSetting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3245225688791147153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,7 +1513,7 @@ RectTransform:
   m_GameObject: {fileID: 3663871580134191516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.84271204, y: 0.80002, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6618124487399558400}
@@ -1527,7 +1551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8613c29d8e8fbba448727759f1d2f54c, type: 3}
+  m_Sprite: {fileID: -8130502289700789827, guid: 3473eb2f2699b86498cf5669c1918dd1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2812,7 +2836,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7936683107177181488, guid: 95a21deccd1ed2b428d9312bfb608c51, type: 3}
+  m_Sprite: {fileID: -6496293344616290253, guid: 86741bfc3dae37a488dc942c68ea3806, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

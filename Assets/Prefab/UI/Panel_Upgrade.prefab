@@ -235,7 +235,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 819726352654898185}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2006104637771722834}
+        m_TargetAssemblyTypeName: EquipmentUI, Assembly-CSharp
+        m_MethodName: OnClose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &338691522344042204
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,6 +478,7 @@ GameObject:
   - component: {fileID: 780564317401258042}
   - component: {fileID: 2808024837333098338}
   - component: {fileID: 7438052366013389858}
+  - component: {fileID: 3834923493549953212}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -575,7 +588,34 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2808024837333098338}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3834923493549953212}
+        m_TargetAssemblyTypeName: SlotButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3834923493549953212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038210024254114502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0bb08db77d2a3647a14aeffdf5be36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 2006104637771722834}
+  slotId: 2
+  iconSource: {fileID: 7671377955235972006}
 --- !u!1 &1060825450722630682
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +899,7 @@ GameObject:
   - component: {fileID: 8619328977061877643}
   - component: {fileID: 2183914861498351246}
   - component: {fileID: 7225997723288869096}
+  - component: {fileID: 2006104637771722834}
   m_Layer: 5
   m_Name: Panel_Upgrade
   m_TagString: Untagged
@@ -929,6 +970,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2006104637771722834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491341746513660587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90db988799e0ca64db67eb4b2da3cdb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipPanelPrefab: {fileID: 7774997120148240865, guid: d7757077875884b49968855920fc7416, type: 3}
 --- !u!1 &2079534624223206114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,6 +1256,7 @@ GameObject:
   - component: {fileID: 6016531205486677894}
   - component: {fileID: 7326598243873193546}
   - component: {fileID: 4738223596809801920}
+  - component: {fileID: 282659048609525418}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1311,7 +1366,34 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7326598243873193546}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 282659048609525418}
+        m_TargetAssemblyTypeName: SlotButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &282659048609525418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255685842880210871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0bb08db77d2a3647a14aeffdf5be36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 2006104637771722834}
+  slotId: 4
+  iconSource: {fileID: 8125597165023781984}
 --- !u!1 &3514253971461313550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,6 +1601,7 @@ GameObject:
   - component: {fileID: 8225248309550546488}
   - component: {fileID: 4158672831693975880}
   - component: {fileID: 8919851493245307219}
+  - component: {fileID: 3974559737716311075}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1628,7 +1711,34 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4158672831693975880}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3974559737716311075}
+        m_TargetAssemblyTypeName: SlotButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3974559737716311075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4995706830455873646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0bb08db77d2a3647a14aeffdf5be36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 2006104637771722834}
+  slotId: 3
+  iconSource: {fileID: 6173021058047552935}
 --- !u!1 &5712735454017522842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1757,6 +1867,7 @@ GameObject:
   - component: {fileID: 7472818739922277164}
   - component: {fileID: 2363930317339194893}
   - component: {fileID: 1691701416031632073}
+  - component: {fileID: 2737935369276199114}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1866,7 +1977,34 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2363930317339194893}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2737935369276199114}
+        m_TargetAssemblyTypeName: SlotButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2737935369276199114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5866417916365375918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0bb08db77d2a3647a14aeffdf5be36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 2006104637771722834}
+  slotId: 0
+  iconSource: {fileID: 2629880760016101662}
 --- !u!1 &6022849215382844134
 GameObject:
   m_ObjectHideFlags: 0
@@ -2209,6 +2347,7 @@ GameObject:
   - component: {fileID: 5972507853462222599}
   - component: {fileID: 5704257203327021581}
   - component: {fileID: 8178628930288923158}
+  - component: {fileID: 8942845466274241360}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -2318,7 +2457,34 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5704257203327021581}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8942845466274241360}
+        m_TargetAssemblyTypeName: SlotButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8942845466274241360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691728762647832210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0bb08db77d2a3647a14aeffdf5be36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 2006104637771722834}
+  slotId: 1
+  iconSource: {fileID: 6456059522167129119}
 --- !u!1 &6730660162203304840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,6 +2722,7 @@ GameObject:
   - component: {fileID: 7891117365064628428}
   - component: {fileID: 3340099289934340080}
   - component: {fileID: 8169844616285051164}
+  - component: {fileID: 575571188027041721}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -2665,7 +2832,34 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3340099289934340080}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 575571188027041721}
+        m_TargetAssemblyTypeName: SlotButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &575571188027041721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7459528349817556398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0bb08db77d2a3647a14aeffdf5be36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 2006104637771722834}
+  slotId: 5
+  iconSource: {fileID: 6060113611399273785}
 --- !u!1 &8267892914358262004
 GameObject:
   m_ObjectHideFlags: 0

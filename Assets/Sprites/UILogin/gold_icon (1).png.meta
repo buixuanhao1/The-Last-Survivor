@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: fb4c5e620013e384d8e9cef596da9504
+guid: 85e296d1783476e48b262b021a2733a8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7675826601332790545
-    second: coin_0
-  - first:
-      213: -675104096977794455
-    second: coin_1
+      213: 7655356702818175395
+    second: gold_icon (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coin_0
+      name: gold_icon (1)_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 0
-        width: 1021
-        height: 1024
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1155fe920a3068a60800000000000000
-      internalID: 7675826601332790545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: coin_1
-      rect:
-        serializedVersion: 2
-        x: 945
-        y: 30
-        width: 48
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96a4a31966c81a6f0800000000000000
-      internalID: -675104096977794455
+      spriteID: 3a902648c5a4d3a60800000000000000
+      internalID: 7655356702818175395
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      coin_0: 7675826601332790545
-      coin_1: -675104096977794455
+      gold_icon (1)_0: 7655356702818175395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

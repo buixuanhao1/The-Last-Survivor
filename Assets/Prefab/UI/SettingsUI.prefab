@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7438223834134544016}
   - component: {fileID: 7248351626828998773}
   - component: {fileID: 2043789144911513603}
+  - component: {fileID: 156441120781817383}
   m_Layer: 5
   m_Name: SettingsUI
   m_TagString: Untagged
@@ -76,6 +77,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &156441120781817383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621416291442269735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f8918ce089e7549b87077d2684d277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundStateText: {fileID: 8354705992903676267}
+  btnToggleSound: {fileID: 0}
+  btnLanguage: {fileID: 0}
+  btnLogout: {fileID: 0}
+  btnClose: {fileID: 395200574754452767}
 --- !u!1 &2084108700635703906
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +251,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1540784943765083362}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 156441120781817383}
+        m_TargetAssemblyTypeName: SettingsPanel, Assembly-CSharp
+        m_MethodName: OnClose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2712853276926681410
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,7 +781,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2380476849828212966}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 156441120781817383}
+        m_TargetAssemblyTypeName: SettingsPanel, Assembly-CSharp
+        m_MethodName: OnLogout
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &847677483607418335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1089,6 +1131,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4b24db81972e5c4bb514c48a57778fb, type: 3}
+--- !u!114 &8354705992903676267 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4306605385811161546, guid: e4b24db81972e5c4bb514c48a57778fb, type: 3}
+  m_PrefabInstance: {fileID: 5203278327813972129}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8355859674980347024 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4305502851932736561, guid: e4b24db81972e5c4bb514c48a57778fb, type: 3}

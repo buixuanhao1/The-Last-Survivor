@@ -16,4 +16,15 @@ public class UIMainMenu : MonoBehaviour
     {
         UIManager.Instance.ShowPanel(UIManager.Instance.heroPanelPrefab);
     }
+    public void OpenSetting()
+    {
+        UIManager.Instance.OpenOverlay(UIManager.Instance.settingsPanelPrefab);
+
+    }
+
+    public void OpenUpgradeHeroPanel()
+    {
+        UIManager.Instance.ShowPanel(UIManager.Instance.upgradeHeroPrefab);
+    }
+ 
 }

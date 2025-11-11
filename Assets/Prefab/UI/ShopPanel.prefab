@@ -427,8 +427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a16b8302d3c004a478260697dce1c4b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diamondText: {fileID: 0}
-  goldText: {fileID: 0}
+  diamondText: {fileID: 8856246993288539396}
+  goldText: {fileID: 692517664369045024}
   dailyRewardButtons:
   - {fileID: 3145116949375543883}
   - {fileID: 9050319473113766465}
@@ -3320,6 +3320,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4305502851932736561, guid: e4b24db81972e5c4bb514c48a57778fb, type: 3}
   m_PrefabInstance: {fileID: 3627776916366860266}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &692517664369045024 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4306605385811161546, guid: e4b24db81972e5c4bb514c48a57778fb, type: 3}
+  m_PrefabInstance: {fileID: 3627776916366860266}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4693761745001077966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3426,6 +3437,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4305502851932736561, guid: e4b24db81972e5c4bb514c48a57778fb, type: 3}
   m_PrefabInstance: {fileID: 4693761745001077966}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8856246993288539396 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4306605385811161546, guid: e4b24db81972e5c4bb514c48a57778fb, type: 3}
+  m_PrefabInstance: {fileID: 4693761745001077966}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6860246635989065572
 PrefabInstance:
   m_ObjectHideFlags: 0

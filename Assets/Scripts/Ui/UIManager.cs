@@ -11,7 +11,18 @@ public class UIManager : MonoBehaviour
     public GameObject shopPanelPrefab;
     public GameObject heroPanelPrefab;
     public GameObject profilePanelPrefab;
+    public GameObject upgradeHeroPrefab;
+    public GameObject equipPrefab;
+
     private GameObject currentPanel;
+    [Header("Overlay Panels")]
+    public GameObject settingsPanelPrefab; 
+    
+    private readonly List<GameObject> _overlays = new List<GameObject>();
+
+     
+
+
     private void Start()
     {
         ShowPanel(loginPanelPrefab);
@@ -23,6 +34,32 @@ public class UIManager : MonoBehaviour
         else Destroy(gameObject);
     }
 
+    public GameObject OpenOverlay(GameObject overlayPrefab)
+    {
+        Canvas canvas = FindFirstObjectByType<Canvas>();
+        var ov = Instantiate(overlayPrefab, canvas.transform, false);
+        _overlays.Add(ov);
+        return ov;
+    }
+
+    public void CloseTopOverlay()
+    {
+        if (_overlays.Count == 0) return;
+        var top = _overlays[_overlays.Count - 1];
+        _overlays.RemoveAt(_overlays.Count - 1);
+        if (top) Destroy(top);
+    }
+
+    public void CloseOverlay(GameObject overlayInstance)
+    {
+        if (_overlays.Contains(overlayInstance))
+        {
+            _overlays.Remove(overlayInstance);
+            Destroy(overlayInstance);
+        }
+    }
+
+  
     public void ShowPanel(GameObject panelPrefab)
     {
         if (currentPanel != null)
@@ -35,6 +72,15 @@ public class UIManager : MonoBehaviour
 
     public void HideAll()
     {
+        foreach (GameObject overlay in _overlays)
+        {
+            if (overlay != null)
+            {
+                Destroy(overlay);
+            }
+        }
+        _overlays.Clear();
+
         if (currentPanel != null)
         {
             Destroy(currentPanel);
