@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     public GameObject profilePanelPrefab;
     public GameObject upgradeHeroPrefab;
     public GameObject equipPrefab;
+    public GameObject petPrefab;
 
     private GameObject currentPanel;
     [Header("Overlay Panels")]
@@ -88,6 +89,6 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    
+
 
 }

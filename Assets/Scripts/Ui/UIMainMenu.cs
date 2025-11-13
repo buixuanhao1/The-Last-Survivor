@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIMainMenu : MonoBehaviour
 {
@@ -26,5 +27,16 @@ public class UIMainMenu : MonoBehaviour
     {
         UIManager.Instance.ShowPanel(UIManager.Instance.upgradeHeroPrefab);
     }
- 
+
+    public void OpenPetUIPanel()
+    {
+        UIManager.Instance.ShowPanel(UIManager.Instance.petPrefab);
+    }
+
+    public void LoadGamePlay()
+    {
+        SceneManager.LoadScene("GamePlay");
+
+    }
+
 }
