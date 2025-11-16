@@ -20,7 +20,7 @@ MonoBehaviour:
   damage: 20
   speed: 5.94
   rotateSpeed: 0
-  orbitCount: 2
+  orbitCount: 4
   orbitRadius: 2.29
   orbitDuration: 4.46
   orbitCooldown: 3

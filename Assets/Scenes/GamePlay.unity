@@ -1159,10 +1159,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapons:
-  - {fileID: 11400000, guid: ecb18f88553188b4cb487057290af0d1, type: 2}
   - {fileID: 11400000, guid: d054d58fc26ac2f4789640864eaa69cf, type: 2}
   - {fileID: 11400000, guid: ff946387d021a2041a4fb7f6ea534898, type: 2}
   - {fileID: 11400000, guid: 356702426932f1047ab47c2bfa004081, type: 2}
+  weaponSystem: {fileID: 847431604}
+  shurikenWeapon: {fileID: 0}
+  tarotWeapon: {fileID: 11400000, guid: ff946387d021a2041a4fb7f6ea534898, type: 2}
+  stoneOrbitWeapon: {fileID: 11400000, guid: 356702426932f1047ab47c2bfa004081, type: 2}
+  swordWeapon: {fileID: 11400000, guid: ecb18f88553188b4cb487057290af0d1, type: 2}
+  playerStats: {fileID: 847431610}
 --- !u!114 &847431591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1179,7 +1184,7 @@ MonoBehaviour:
   levelText: {fileID: 292599143}
   levelUpPanel: {fileID: 1266858544}
   skillContainer: {fileID: 696744237}
-  skillButtonPrefab: {fileID: 1540105584584025966, guid: bb120c147a21fd145a0af9ce7946e684, type: 3}
+  skillButtonPrefab: {fileID: 410447718}
   baseRequiredExp: 20
   expMultiplier: 1.2
 --- !u!114 &847431597
@@ -1194,8 +1199,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092df654a55107a4b86932f710507243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stoneOrbit: {fileID: 11400000, guid: 356702426932f1047ab47c2bfa004081, type: 2}
+  effectApplier: {fileID: 847431603}
+--- !u!114 &847431603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375897872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46125d2148c0a7a4c8db494ad0030eb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponSystem: {fileID: 847431604}
   weaponManager: {fileID: 847431590}
+  playerStats: {fileID: 847431610}
+--- !u!114 &847431604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375897872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c4c6f801fffcc847bde6bc37e63c967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shurikenCount: 0
+  tarotCount: 1
+  stoneCount: 0
+  swordCount: 0
+--- !u!114 &847431610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375897872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 296385e46ab97844ca4084ea5fb90149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeedPercent: 0
+  damagePercent: 0
+  damageFlat: 0
+  fireRatePercent: 0
+  pickupRangeAdd: 0
+  healthRegenPerSec: 0
 --- !u!224 &923602496 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3594202229827590532, guid: a1661b6f68055c94eacc298bc75638fa, type: 3}
@@ -1615,9 +1668,9 @@ MonoBehaviour:
   - {fileID: 1270340273}
   - {fileID: 441322821}
   allSkills:
-  - {fileID: 11400000, guid: 13bff879808040440873371edd5b641b, type: 2}
-  - {fileID: 11400000, guid: c563ece107f52e54fac804061bbd7691, type: 2}
-  - {fileID: 11400000, guid: c563ece107f52e54fac804061bbd7691, type: 2}
+  - {fileID: 11400000, guid: b30638fea0a4af24ab0e0532da08e54d, type: 2}
+  - {fileID: 11400000, guid: 2306622a8f21e7d4b8ad656a0de76b3d, type: 2}
+  - {fileID: 11400000, guid: 13b49d72505e4b84984387af440e051b, type: 2}
   playerSkillManager: {fileID: 847431597}
 --- !u!1 &1269161971
 GameObject:
@@ -2753,6 +2806,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 691050186793495882, guid: 31760c70c712e66469a3fd16484c36b4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 847431597}
+    - targetCorrespondingSourceObject: {fileID: 691050186793495882, guid: 31760c70c712e66469a3fd16484c36b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 847431604}
+    - targetCorrespondingSourceObject: {fileID: 691050186793495882, guid: 31760c70c712e66469a3fd16484c36b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 847431603}
+    - targetCorrespondingSourceObject: {fileID: 691050186793495882, guid: 31760c70c712e66469a3fd16484c36b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 847431610}
   m_SourcePrefab: {fileID: 100100000, guid: 31760c70c712e66469a3fd16484c36b4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

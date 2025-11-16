@@ -6,6 +6,7 @@ public class ExpOrb : MonoBehaviour
     private Transform player;
     private bool isActive = false;
     private bool isCollected = false;   // Đánh dấu đã bắt đầu hút
+    private PlayerStats stats;
 
     [Header("Magnet Settings")]
     public float attractDistance = 0.5f;   // khoảng cách bắt đầu hút
@@ -24,6 +25,7 @@ public class ExpOrb : MonoBehaviour
         player = playerRef;
         isActive = true;
         isCollected = false;
+        if (stats == null) stats = PlayerStats.Instance != null ? PlayerStats.Instance : FindFirstObjectByType<PlayerStats>();
 
         gameObject.SetActive(true);
     }
@@ -33,9 +35,10 @@ public class ExpOrb : MonoBehaviour
         if (!isActive || player == null) return;
 
         float dist = Vector2.Distance(transform.position, player.position);
+        float effectiveAttract = attractDistance + (stats != null ? Mathf.Max(0f, stats.pickupRangeAdd) : 0f);
 
         // Chỉ cần lọt vào phạm vi 1 lần là "khóa" target
-        if (!isCollected && dist < attractDistance)
+        if (!isCollected && dist < effectiveAttract)
         {
             isCollected = true;
 

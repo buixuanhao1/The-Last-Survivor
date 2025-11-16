@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b351380b6ec45f1429f06a0551f981f0, type: 3}
+  m_Name: HealthRegen
+  m_EditorClassIdentifier: 
+  skillId: HealthRegen
+  skillName: Health Regen
+  icon: {fileID: 21300000, guid: 7481f0654ebfe024c9bc07bd8f408569, type: 3}
+  description: "H\u1ED3i ph\u1EE5c +1 HP m\u1ED7i gi\xE2y cho m\u1ED7i c\u1EA5p \u0111\u1ED9"
+  type: 2
+  maxLevel: 5
+  effects:
+  - {fileID: 11400000, guid: 1b7a090faa268d145890392a8bd856e5, type: 2}
