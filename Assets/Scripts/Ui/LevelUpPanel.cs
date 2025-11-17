@@ -4,39 +4,49 @@ using System.Collections.Generic;
 public class LevelUpPanel : MonoBehaviour
 {
     public GameObject panelOverlay;
+    public Transform skillContainer;       // Parent: LevelUp_Window/SkillContainer
     public SkillOptionUI[] skillOptions;
     public SkillData[] allSkills;
 
     [SerializeField] private SkillManager playerSkillManager;
 
-    void Start()
+    void Awake()
     {
-        if (panelOverlay != null)
-            panelOverlay.SetActive(false);
+        if (playerSkillManager == null)
+            playerSkillManager = FindFirstObjectByType<SkillManager>();
     }
+
+
 
     public void Show()
     {
         panelOverlay.SetActive(true);
-
-        List<SkillData> randoms = GetRandomSkills(3);
-        for (int i = 0; i < skillOptions.Length; i++)
-        {
-            skillOptions[i].Setup(randoms[i], this);
-        }
-
         Time.timeScale = 0f; // pause game khi chọn skill
+
+        int optionCount = skillOptions != null ? skillOptions.Length : 0;
+        if (optionCount == 0)
+        {
+            Debug.LogWarning("LevelUpPanel: No skill options found in prefab.");
+        }
+        else
+        {
+            int pick = Mathf.Min(3, optionCount);
+            List<SkillData> randoms = GetRandomSkills(pick);
+            for (int i = 0; i < pick; i++)
+            {
+                skillOptions[i].Setup(randoms[i], this);
+            }
+        }
     }
 
     public void Hide()
     {
-        panelOverlay.SetActive(false);
         Time.timeScale = 1f;
+        Destroy(gameObject);
     }
 
     public void SelectSkill(SkillData chosen)
     {
-
         if (playerSkillManager != null)
             playerSkillManager.AddSkill(chosen);
 

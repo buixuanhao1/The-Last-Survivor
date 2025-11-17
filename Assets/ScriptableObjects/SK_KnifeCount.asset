@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b351380b6ec45f1429f06a0551f981f0, type: 3}
   m_Name: SK_KnifeCount
   m_EditorClassIdentifier: 
-  skillId: KnifeCount
+  skillId: ShurikenCount
   skillName: 
-  icon: {fileID: 0}
-  description: 
+  icon: {fileID: 21300000, guid: 91d2c8e2619c2a0498b23045aff72e0e, type: 3}
+  description: "+1 phi ti\xEAu"
   type: 0
   maxLevel: 5
-  baseValue: 1
-  valuePerLevel: 1
+  effects:
+  - {fileID: 11400000, guid: 74ab74ac65312604785ed6440d684b02, type: 2}
