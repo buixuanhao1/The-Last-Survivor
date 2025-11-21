@@ -7,6 +7,7 @@ public class Projectile : MonoBehaviour
     private ObjectPool pool;
     private float maxDistance = 20f;
     private Vector3 spawnPos;
+    private PlayerStats stats;
 
     public void Init(WeaponData weapon, Vector2 dir, ObjectPool objectPool)
     {
@@ -14,6 +15,7 @@ public class Projectile : MonoBehaviour
         direction = dir.normalized;
         pool = objectPool;
         spawnPos = transform.position;
+        if (stats == null) stats = PlayerStats.Instance != null ? PlayerStats.Instance : Object.FindFirstObjectByType<PlayerStats>();
         // xoay đầu tarot
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle - 90f);
@@ -35,7 +37,8 @@ public class Projectile : MonoBehaviour
         EnemyController enemy = other.GetComponent<EnemyController>();
         if (enemy != null)
         {
-            enemy.TakeDamage(data.damage);
+            int dmg = stats != null ? stats.ComputeDamage(data.damage) : data.damage;
+            enemy.TakeDamage(dmg);
             
             pool.Return(gameObject);
         }

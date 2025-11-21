@@ -6,6 +6,7 @@ public class OrbitWeapon : MonoBehaviour
     private Transform player;
     private float lifeTime;
     private float angleOffset;
+    private PlayerStats stats;
 
     public void Init(WeaponData weapon, Transform player, float startAngle)
     {
@@ -13,6 +14,7 @@ public class OrbitWeapon : MonoBehaviour
         this.player = player;
         this.lifeTime = weapon.orbitDuration;
         this.angleOffset = startAngle;
+        if (stats == null) stats = PlayerStats.Instance != null ? PlayerStats.Instance : FindFirstObjectByType<PlayerStats>();
     }
 
     void Update()
@@ -35,7 +37,8 @@ public class OrbitWeapon : MonoBehaviour
         EnemyController enemy = other.GetComponent<EnemyController>();
         if (enemy != null)
         {
-            enemy.TakeDamage(data.damage);
+            int dmg = stats != null ? stats.ComputeDamage(data.damage) : data.damage;
+            enemy.TakeDamage(dmg);
             enemy.Knockback(transform.position, 3f); // 3f = lực đẩy lùi, chỉnh tuỳ ý
 
         }

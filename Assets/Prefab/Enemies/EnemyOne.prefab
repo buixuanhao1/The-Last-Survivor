@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7254672547971242185}
   - component: {fileID: 5747136163617010844}
   - component: {fileID: 7476158426657047261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 691976632919417126}
   - component: {fileID: 9217509397723476706}
   - component: {fileID: 2406283120050533347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemyOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}

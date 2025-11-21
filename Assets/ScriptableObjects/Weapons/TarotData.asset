@@ -15,9 +15,9 @@ MonoBehaviour:
   weaponName: Tarot
   weaponType: 0
   prefab: {fileID: 3921169105020652803, guid: 0017b5bec9f0b594c9d59adebbd61684, type: 3}
-  fireRate: 2
+  fireRate: 1
   attackRange: 6
-  damage: 20
+  damage: 1
   speed: 12
   rotateSpeed: 0
   orbitCount: 0

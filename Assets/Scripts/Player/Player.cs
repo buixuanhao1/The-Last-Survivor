@@ -1,4 +1,4 @@
-﻿using PinePie.SimpleJoystick;
+using PinePie.SimpleJoystick;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -8,11 +8,13 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer rbSprite;
     private Animator animator;
+    private PlayerStats stats;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         rbSprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        stats = FindFirstObjectByType<PlayerStats>();
     }
 
     void Start()
@@ -32,7 +34,8 @@ public class Player : MonoBehaviour
             ? joystickController.InputDirection
             : new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")); // fallback nếu test bằng bàn phím
 
-        rb.linearVelocity = playerInput.normalized * moveSpeed;
+        float speed = stats != null ? stats.ComputeMoveSpeed(moveSpeed) : moveSpeed;
+        rb.linearVelocity = playerInput.normalized * speed;
 
         if (playerInput.x < 0)
             rbSprite.flipX = true;
