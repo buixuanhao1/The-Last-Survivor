@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillId: FireRateUp
   skillName: Fire Rate Up
-  icon: {fileID: 21300000, guid: 2ff938192cf081447a4b422dc8cb5b34, type: 3}
+  icon: {fileID: 21300000, guid: c96f3a2c48e67cd4ebc3083d6bd4360c, type: 3}
   description: "T\u0103ng 10% t\u1ED1c \u0111\u1ED9 b\u1EAFn"
   type: 1
   maxLevel: 5

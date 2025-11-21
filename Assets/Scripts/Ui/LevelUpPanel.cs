@@ -34,7 +34,13 @@ public class LevelUpPanel : MonoBehaviour
             List<SkillData> randoms = GetRandomSkills(pick);
             for (int i = 0; i < pick; i++)
             {
-                skillOptions[i].Setup(randoms[i], this);
+                SkillData data = randoms[i];
+                int currentLevel = 0;
+                if(playerSkillManager != null && data != null)
+                {
+                    currentLevel = playerSkillManager.GetLevel(data);
+                }
+                skillOptions[i].Setup(randoms[i], this, currentLevel);
             }
         }
     }
@@ -42,7 +48,7 @@ public class LevelUpPanel : MonoBehaviour
     public void Hide()
     {
         Time.timeScale = 1f;
-        Destroy(gameObject);
+        Destroy(panelOverlay);
     }
 
     public void SelectSkill(SkillData chosen)

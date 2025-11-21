@@ -9,13 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b351380b6ec45f1429f06a0551f981f0, type: 3}
-  m_Name: SK_Projectile
+  m_Script: {fileID: 11500000, guid: c5f536b55918b21419bbcfaf4c60b76d, type: 3}
+  m_Name: Knife
   m_EditorClassIdentifier: 
-  skillId: 
-  skillName: 
-  icon: {fileID: 0}
-  description: 
-  type: 0
-  maxLevel: 5
-  effects: []
+  weapon: 4
+  baseCount: 1
+  perLevel: 1

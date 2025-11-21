@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillId: HealthRegen
   skillName: Health Regen
-  icon: {fileID: 21300000, guid: 7481f0654ebfe024c9bc07bd8f408569, type: 3}
+  icon: {fileID: 21300000, guid: 32a490c137e88514b8ceb3ed9767765f, type: 3}
   description: "H\u1ED3i ph\u1EE5c +1 HP m\u1ED7i gi\xE2y cho m\u1ED7i c\u1EA5p \u0111\u1ED9"
   type: 2
   maxLevel: 5

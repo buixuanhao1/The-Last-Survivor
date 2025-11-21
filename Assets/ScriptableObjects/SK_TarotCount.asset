@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillId: TarotCount
   skillName: "Th\u1EBB B\xE0i"
-  icon: {fileID: 21300000, guid: 629da19c3e7e77d47bd71dc66b52ecbb, type: 3}
+  icon: {fileID: 21300000, guid: d3dc7925168f4a4479d68f88d983f51c, type: 3}
   description: "Th\u1EBB b\xE0i "
   type: 0
   maxLevel: 5

@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Shuriken
   weaponType: 0
-  prefab: {fileID: 8869433620347833664, guid: 3ab97d5cc584c2f49b7778b976b5144b, type: 3}
-  fireRate: 3
+  prefab: {fileID: 3921169105020652803, guid: 8910d852ccd6cd9419efe010cd1a5e85, type: 3}
+  fireRate: 1
   attackRange: 6
-  damage: 20
-  speed: 12
-  rotateSpeed: 1000
+  damage: 7
+  speed: 17.1
+  rotateSpeed: 0
   orbitCount: 0
   orbitRadius: 0
   orbitDuration: 0

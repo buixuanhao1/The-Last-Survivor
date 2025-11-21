@@ -7,7 +7,8 @@ public enum StatType
     DamageFlat,
     FireRatePercent,
     PickupRangeAdd,
-    HealthRegenPerSec
+    HealthRegenPerSec,
+    ProjectileSpeedPercent
 }
 
 [CreateAssetMenu(menuName = "Game/SkillEffects/Stat Modifier")]
@@ -40,6 +41,9 @@ public class StatModifierEffect : SkillEffect
                 break;
             case StatType.HealthRegenPerSec:
                 ctx.stats.healthRegenPerSec += v;
+                break;
+            case StatType.ProjectileSpeedPercent:
+                ctx.stats.projectileSpeedPercent += v;
                 break;
         }
     }

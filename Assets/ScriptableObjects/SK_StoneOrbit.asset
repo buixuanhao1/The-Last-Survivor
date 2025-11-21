@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillId: StoneOrbit
   skillName: "Vi\xEAn \u0111\xE1"
-  icon: {fileID: 21300000, guid: cff1672c233758f4f99412fc62bcb9d3, type: 3}
+  icon: {fileID: 21300000, guid: 8d849c1d2782d234295c5bba357b5bdc, type: 3}
   description: "+1 vi\xEAn \u0111\xE1"
   type: 0
   maxLevel: 5

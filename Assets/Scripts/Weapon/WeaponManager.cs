@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
@@ -14,7 +15,11 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] private WeaponData tarotWeapon;      // Projectile
     [SerializeField] private WeaponData stoneOrbitWeapon; // Orbit
     [SerializeField] private WeaponData swordWeapon;      // CircleAOE (tạm dùng AOE nếu chưa có Sword riêng)
+    [SerializeField] private WeaponData knifeWeapon;      // Persistent bouncing knife
     [SerializeField] private PlayerStats playerStats;
+
+    // Track persistent instances for weapons like Knife
+    private Dictionary<WeaponData, List<GameObject>> persistentInstances = new Dictionary<WeaponData, List<GameObject>>();
 
     void Start()
     {
@@ -31,6 +36,9 @@ public class WeaponManager : MonoBehaviour
                 pool.prefab = weapon.prefab;
                 pools[weapon] = pool;
             }
+
+            if (!persistentInstances.ContainsKey(weapon))
+                persistentInstances[weapon] = new List<GameObject>();
         }
     }
 
@@ -92,9 +100,10 @@ public class WeaponManager : MonoBehaviour
             case WeaponId.Tarot: w = tarotWeapon; break;
             case WeaponId.StoneOrbit: w = stoneOrbitWeapon; break;
             case WeaponId.Sword: w = swordWeapon; break;
+            case WeaponId.Knife: w = knifeWeapon; break;
         }
         if (w == null) return;
-        if (!cooldowns.ContainsKey(w)) cooldowns[w] = 0f;
+        if (!weapons.Contains(w)) RegisterWeapon(w);
         cooldowns[w] = 0f;
     }
 
@@ -115,6 +124,9 @@ public class WeaponManager : MonoBehaviour
             pool.prefab = weapon.prefab;
             pools[weapon] = pool;
         }
+
+        if (!persistentInstances.ContainsKey(weapon))
+            persistentInstances[weapon] = new List<GameObject>();
     }
 
     void Update()
@@ -127,6 +139,15 @@ public class WeaponManager : MonoBehaviour
             {
                 if (weapon.weaponType == WeaponType.Projectile)
                 {
+                    // Special handling for persistent Knife: maintain instance count, no cooldown firing
+                    if (weapon == knifeWeapon)
+                    {
+                        MaintainKnifeInstances(weapon);
+                        // Set a small cooldown to avoid reprocessing every frame
+                        cooldowns[weapon] = 0.1f;
+                        continue;
+                    }
+
                     int count = GetCountForProjectile(weapon);
                     if (count > 0)
                     {
@@ -194,6 +215,7 @@ public class WeaponManager : MonoBehaviour
         if (weaponSystem == null) return 1;
         if (weapon == shurikenWeapon) return Mathf.Max(weaponSystem.shurikenCount, 0);
         if (weapon == tarotWeapon) return Mathf.Max(weaponSystem.tarotCount, 0);
+        if (weapon == knifeWeapon) return Mathf.Max(weaponSystem.knifeCount, 0);
         return 1;
     }
 
@@ -220,11 +242,26 @@ public class WeaponManager : MonoBehaviour
         {
             GameObject bullet = pool.Get(transform.position, Quaternion.identity);
             Projectile proj = bullet.GetComponent<Projectile>();
-            proj.Init(weapon, baseDir, pool);
+            if (proj != null)
+            {
+                proj.Init(weapon, baseDir, pool);
+            }
+            else
+            {
+                Knife knife = bullet.GetComponent<Knife>();
+                if (knife != null)
+                    knife.Init(weapon, baseDir, pool);
+            }
             return;
         }
 
-        // Spread projectiles evenly around base direction
+        // If this is the shuriken weapon, fire projectiles in a quick stagger (follow each other)
+        if (weapon == shurikenWeapon)
+        {
+            StartCoroutine(SpawnShurikenBurst(pool, weapon, baseDir, count, 0.06f));
+            return;
+        }
+
         float totalSpread = Mathf.Min(60f, 10f * (count - 1));
         float step = count > 1 ? totalSpread / (count - 1) : 0f;
         float start = -totalSpread * 0.5f;
@@ -236,7 +273,121 @@ public class WeaponManager : MonoBehaviour
             Vector2 dir = new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad)).normalized;
             GameObject bullet = pool.Get(transform.position, Quaternion.identity);
             Projectile proj = bullet.GetComponent<Projectile>();
-            proj.Init(weapon, dir, pool);
+            if (proj != null)
+            {
+                proj.Init(weapon, dir, pool);
+            }
+            else
+            {
+                Knife knife = bullet.GetComponent<Knife>();
+                if (knife != null)
+                    knife.Init(weapon, dir, pool);
+            }
+        }
+    }
+
+    private IEnumerator SpawnShurikenBurst(ObjectPool pool, WeaponData weapon, Vector2 baseDir, int count, float delay)
+    {
+        int n = Mathf.Max(0, count);
+        for (int i = 0; i < n; i++)
+        {
+            GameObject bullet = pool.Get(transform.position, Quaternion.identity);
+            Projectile proj = bullet.GetComponent<Projectile>();
+            if (proj != null)
+            {
+                proj.Init(weapon, baseDir, pool);
+            }
+            else
+            {
+                Knife knife = bullet.GetComponent<Knife>();
+                if (knife != null)
+                    knife.Init(weapon, baseDir, pool);
+            }
+
+            if (i < n - 1 && delay > 0f)
+                yield return new WaitForSeconds(delay);
+        }
+    }
+
+    // Duy trì số lượng dao Knife đang tồn tại theo knifeCount
+    private void MaintainKnifeInstances(WeaponData weapon)
+    {
+        if (weapon == null) return;
+        // nếu chưa có pool thì đăng ký để tạo pool
+        if (!pools.ContainsKey(weapon))
+        {
+            RegisterWeapon(weapon);
+            if (!pools.ContainsKey(weapon)) return;
+        }
+
+        ObjectPool pool = pools[weapon];
+        int desired = GetCountForProjectile(weapon);
+
+        if (!persistentInstances.TryGetValue(weapon, out var list))
+        {
+            list = new List<GameObject>();
+            persistentInstances[weapon] = list;
+        }
+
+        // remove các object null (bị destroy ngoài ý muốn)
+        for (int i = list.Count - 1; i >= 0; i--)
+        {
+            if (list[i] == null)
+                list.RemoveAt(i);
+        }
+
+        // spawn cho đủ số lượng
+        while (list.Count < desired)
+        {
+            GameObject target = FindClosestEnemy(weapon.attackRange);
+            Vector2 dir;
+
+            if (target != null)
+            {
+                dir = (target.transform.position - transform.position);
+                // nếu quá gần hoặc trùng vị trí player -> tránh dir = (0,0)
+                if (dir.sqrMagnitude < 0.01f)
+                {
+                    dir = Random.insideUnitCircle.normalized;
+                }
+                else
+                {
+                    dir = dir.normalized;
+                }
+            }
+            else
+            {
+                // không có enemy nào -> bắn random
+                dir = Random.insideUnitCircle.normalized;
+            }
+
+            GameObject bullet = pool.Get(transform.position, Quaternion.identity);
+
+            Projectile proj = bullet.GetComponent<Projectile>();
+            if (proj != null)
+            {
+                proj.Init(weapon, dir, pool);
+            }
+            else
+            {
+                Knife knife = bullet.GetComponent<Knife>();
+                if (knife != null)
+                    knife.Init(weapon, dir, pool);
+            }
+
+            list.Add(bullet);
+        }
+
+
+        // nếu thừa thì trả bớt về pool
+        while (list.Count > desired)
+        {
+            var go = list[list.Count - 1];
+            list.RemoveAt(list.Count - 1);
+            if (go != null)
+            {
+                pool.Return(go);
+            }
         }
     }
 
@@ -268,4 +419,6 @@ public class WeaponManager : MonoBehaviour
             circle.Init(weapon, transform);
         }
     }
+
+    
 }

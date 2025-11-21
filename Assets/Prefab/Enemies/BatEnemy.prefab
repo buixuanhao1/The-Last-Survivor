@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7578548570087258196}
   - component: {fileID: -237614235213154262}
   - component: {fileID: -6941655285697839017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BatEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 1090559445374594204}
   - component: {fileID: 2616127198072144073}
   - component: {fileID: 886947776842872456}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadown
   m_TagString: Untagged
   m_Icon: {fileID: 0}

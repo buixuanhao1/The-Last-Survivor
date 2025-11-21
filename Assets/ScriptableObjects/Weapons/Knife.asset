@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dbd6898c79d5fc499acccf627727605, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: 
+  weaponName: Knife
+  weaponType: 0
+  prefab: {fileID: 1625855099087041247, guid: 7fa5dbd05f5911541936dd9748a3733a, type: 3}
+  fireRate: 1
+  attackRange: 0
+  damage: 10
+  speed: 15
+  rotateSpeed: 0
+  orbitCount: 0
+  orbitRadius: 0
+  orbitDuration: 0
+  orbitCooldown: 0
+  aoeRadius: 0
+  aoeDuration: 0
+  aoeTickInterval: 0

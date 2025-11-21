@@ -15,7 +15,7 @@ MonoBehaviour:
   weaponName: 
   weaponType: 1
   prefab: {fileID: 3358542919268816662, guid: f1f303bdb61e1904892ec47e7917a840, type: 3}
-  fireRate: 1
+  fireRate: 1.5
   attackRange: 6
   damage: 20
   speed: 5.94

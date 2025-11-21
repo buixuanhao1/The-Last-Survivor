@@ -11,6 +11,7 @@ public class PlayerStats : MonoBehaviour
     [Tooltip("+% fire rate")] public float fireRatePercent = 0f;
     [Tooltip("+ EXP pickup range (world units)")] public float pickupRangeAdd = 0f;
     [Tooltip("+ health regen per second")] public float healthRegenPerSec = 0f;
+    [Tooltip("+% projectile travel speed")] public float projectileSpeedPercent = 0f;
 
     private void Awake()
     {
@@ -34,5 +35,11 @@ public class PlayerStats : MonoBehaviour
     {
         // fireRate = shots per second
         return baseFireRate * (1f + fireRatePercent);
+    }
+
+    public float ComputeProjectileSpeed(float baseSpeed)
+    {
+        // Giới hạn giảm tối đa -90% để tránh đảo chiều/đứng yên
+        return baseSpeed * (1f + Mathf.Max(-0.9f, projectileSpeedPercent));
     }
 }

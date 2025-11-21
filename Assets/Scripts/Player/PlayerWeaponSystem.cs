@@ -6,14 +6,16 @@ public enum WeaponId
     Tarot,
     StoneOrbit,
     Sword,
+    Knife,
 }
 
 public class PlayerWeaponSystem : MonoBehaviour
 {
-    public int shurikenCount = 0;   // phi tiêu
-    public int tarotCount = 1;   // locked at start
+    public int shurikenCount = 1;   // phi tiêu
+    public int tarotCount = 0;   // locked at start
     public int stoneCount = 0;   // locked at start
     public int swordCount = 0;   // locked at start
+    public int knifeCount = 0;   // locked at start
 
     private void Awake()
     {
@@ -22,10 +24,11 @@ public class PlayerWeaponSystem : MonoBehaviour
 
     public void ResetWeapon()
     {
-        shurikenCount = 0;
-        tarotCount = 1;
+        shurikenCount = 1;
+        tarotCount = 0;
         stoneCount = 0;
         swordCount = 0;
+        knifeCount = 0;
     }
 
     public void SetShurikenCount(int newCount)
@@ -46,6 +49,11 @@ public class PlayerWeaponSystem : MonoBehaviour
     public void SetSwordCount(int newCount)
     {
         swordCount = Mathf.Max(0, newCount);
+    }
+
+    public void SetKnifeCount(int newCount)
+    {
+        knifeCount = Mathf.Max(0, newCount);
     }
 
 }

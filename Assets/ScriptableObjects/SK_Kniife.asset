@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b351380b6ec45f1429f06a0551f981f0, type: 3}
-  m_Name: SK_UnTarot
+  m_Name: SK_Kniife
   m_EditorClassIdentifier: 
-  skillId: UnlockTarot
-  skillName: UnlockTarot
-  icon: {fileID: 21300000, guid: 2c7b27b05e2e07445a17d5226b1fa49d, type: 3}
-  description: Un lock
+  skillId: KnifeCount
+  skillName: Dao
+  icon: {fileID: 3372679877570571685, guid: ee011002957338040b8f03aced061280, type: 3}
+  description: +1 dao
   type: 0
-  maxLevel: 1
+  maxLevel: 5
   effects:
-  - {fileID: 11400000, guid: 4128e0d2ce7febd418edcc58718ee3d2, type: 2}
+  - {fileID: 11400000, guid: 487dbf6d46b59664d803fe2987dc99e5, type: 2}
+  - {fileID: 11400000, guid: c835faefb3f93de488f148d03090102e, type: 2}
+  - {fileID: 11400000, guid: db85aa99cc1729d40b6c7b0c99791a60, type: 2}

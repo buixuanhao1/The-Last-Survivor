@@ -29,6 +29,9 @@ public class WeaponCountEffect : SkillEffect
             case WeaponId.Sword:
                 ctx.weaponSystem.SetSwordCount(ctx.weaponSystem.swordCount + delta);
                 break;
+            case WeaponId.Knife:
+                ctx.weaponSystem.SetKnifeCount(ctx.weaponSystem.knifeCount + delta);
+                break;
         }
 
         // Kích hoạt ngay: đặt cooldown về 0 để bắn/spawn ở frame kế tiếp

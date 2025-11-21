@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillId: ExpMagnet
   skillName: Exp Magnet
-  icon: {fileID: 21300000, guid: cff1672c233758f4f99412fc62bcb9d3, type: 3}
+  icon: {fileID: 21300000, guid: fb0aff988ec435947ba3379c89b808d9, type: 3}
   description: "+0.75 ph\u1EA1m vi nh\u1EB7t kinh nghi\u1EC7m"
   type: 2
   maxLevel: 5
