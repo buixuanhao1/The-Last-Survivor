@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour
     private SpriteRenderer rbSprite;
     private int currentHP;
 
+
+
     private void Awake()
     {
         rbSprite = GetComponent<SpriteRenderer>();

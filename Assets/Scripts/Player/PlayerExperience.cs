@@ -47,21 +47,19 @@ public class PlayerExperience : MonoBehaviour
 
         if (levelUpPanelPrefab != null)
         {
-            if (FindFirstObjectByType<LevelUpPanel>() == null)
+            LevelUpPanel panel = FindFirstObjectByType<LevelUpPanel>(FindObjectsInactive.Include);
+
+            if (panel == null)
             {
                 GameObject instance = uiParent != null
                     ? Instantiate(levelUpPanelPrefab, uiParent)
                     : Instantiate(levelUpPanelPrefab);
 
-                // Find LevelUpPanel even if it's on a child of the prefab root
-                LevelUpPanel panel = instance.GetComponent<LevelUpPanel>();
-                if (panel == null)
-                    panel = instance.GetComponentInChildren<LevelUpPanel>(true);
-                if (panel != null)
-                {
-                    panel.Show();
-                }
+                panel = instance.GetComponentInChildren<LevelUpPanel>(true);
             }
+
+            if (panel != null)
+                panel.Show();
         }
     }
 
