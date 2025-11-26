@@ -48,7 +48,8 @@ public class LevelUpPanel : MonoBehaviour
     public void Hide()
     {
         Time.timeScale = 1f;
-        Destroy(panelOverlay);
+        if (panelOverlay != null)
+            panelOverlay.SetActive(false);
     }
 
     public void SelectSkill(SkillData chosen)
