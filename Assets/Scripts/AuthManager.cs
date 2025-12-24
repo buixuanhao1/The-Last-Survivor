@@ -103,6 +103,7 @@ public class AuthManager : MonoBehaviour
                 FirebaseUser user = task.Result.User;
                 statusText.text = "Đăng nhập thành công: " + user.Email;
                 Debug.Log("Đăng nhập thành công: " + user.Email);
+                SessionManager.Instance.SetLoggedIn(true);
 
                 var data = await UserDataManager.instance.LoadUserData();
                 if (data != null)

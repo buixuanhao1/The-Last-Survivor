@@ -49,7 +49,7 @@ public class HeroItemUI : MonoBehaviour
             return;
         }
 
-        bool isSelected = !string.IsNullOrEmpty(selectedHeroName) && data.name == selectedHeroName;
+        bool isSelected = !string.IsNullOrEmpty(selectedHeroName) && data.heroId == selectedHeroName;
         bgImage.sprite = isSelected ? unlockedSprite : lockedSprite;
 
         if (pricePanle) pricePanle.SetActive(false);

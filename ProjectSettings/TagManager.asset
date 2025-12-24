@@ -50,11 +50,17 @@ TagManager:
   - name: Shadown
     uniqueID: 1850879533
     locked: 0
+  - name: Effect
+    uniqueID: 2810469015
+    locked: 0
   - name: Enemy
     uniqueID: 3293546085
     locked: 0
   - name: Player
     uniqueID: 3066007485
+    locked: 0
+  - name: HpBar
+    uniqueID: 1184824519
     locked: 0
   - name: UI
     uniqueID: 1810793399

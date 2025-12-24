@@ -8,6 +8,7 @@ public class SkillManager : MonoBehaviour
     private SkillBarRoot skillBar;
     // Lưu level theo skillId
     private Dictionary<string, int> skillLevels = new Dictionary<string, int>();
+    [SerializeField] private SkillData[] allSkills;
 
 
     public int GetLevel(SkillData skill)
@@ -15,7 +16,10 @@ public class SkillManager : MonoBehaviour
         if (skill == null) return 0;
         return skillLevels.TryGetValue(skill.skillId, out var lv) ? lv : 0;
     }
-
+    public Dictionary<string, int> GetAllSkillLevels()
+    {
+        return new Dictionary<string, int>(skillLevels);
+    }
     public void AddSkill(SkillData skill)
     {
         if (skill == null) return;
@@ -48,6 +52,19 @@ public class SkillManager : MonoBehaviour
             skillBar.OnSkillLeveledUp(skill, newLevel);
         }
 
-  
+        
     }
+
+    public SkillData GetSkillDataById(string id)
+    {
+        if (string.IsNullOrEmpty(id)) return null;
+
+        foreach (var s in allSkills)
+        {
+            if (s != null && s.skillId == id)
+                return s;
+        }
+        return null;
+    }
+
 }

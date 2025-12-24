@@ -1,8 +1,44 @@
+﻿using Firebase.Auth;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class UIMainMenu : MonoBehaviour
 {
+    private void Start()
+    {
+        ApplyLoginStateUI();
+    }
+
+    private void OnEnable()
+    {
+        ApplyLoginStateUI();
+    }
+
+    private void ApplyLoginStateUI()
+    {
+        bool loggedIn = FirebaseAuth.DefaultInstance != null &&
+                        FirebaseAuth.DefaultInstance.CurrentUser != null;
+
+        if (loggedIn)
+        {
+            UIManager.Instance.ShowPanel(UIManager.Instance.mainUIPrefab);
+        }
+        else
+        {
+            
+            Debug.Log("Chưa đăng nhập -> cần hiển thị Login Panel");
+        }
+    }
+    public void SelectMap(MapConfig map)
+    {
+        if (MapSelection.Instance == null)
+        {
+            Debug.LogWarning("MapSelection instance not found in scene. Please add MapSelection to the Main Menu scene.");
+            return;
+        }
+        MapSelection.Instance.Selected = map;
+    }
+
     public void OpenUserProfile()
     {
         UIManager.Instance.ShowPanel(UIManager.Instance.profilePanelPrefab);
@@ -23,6 +59,11 @@ public class UIMainMenu : MonoBehaviour
 
     }
 
+    public void OpenRankPanle()
+    {
+        UIManager.Instance.OpenOverlay(UIManager.Instance.rankPanlePrefab);
+    }
+
     public void OpenUpgradeHeroPanel()
     {
         UIManager.Instance.ShowPanel(UIManager.Instance.upgradeHeroPrefab);
@@ -35,8 +76,16 @@ public class UIMainMenu : MonoBehaviour
 
     public void LoadGamePlay()
     {
-        SceneManager.LoadScene("GamePlay");
+        bool loggedIn = FirebaseAuth.DefaultInstance != null &&
+                        FirebaseAuth.DefaultInstance.CurrentUser != null;
 
+        if (!loggedIn)
+        {
+            UIManager.Instance.ShowPanel(UIManager.Instance.loginPanelPrefab);
+            return;
+        }
+
+        SceneManager.LoadScene("GamePlay");
     }
 
 }

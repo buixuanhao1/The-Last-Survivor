@@ -14,7 +14,11 @@ public class UserDataManager : MonoBehaviour
     private FirebaseAuth auth;
     public int MaxEnergy = 40;
     public int EnergyRegenTime = 300; // 5 phút / 1 energy
+    public DatabaseReference DbRef => dbRef;
+    public FirebaseAuth Auth => auth;
+
     [System.Serializable]
+
     public class UserData
     {
         public string email;
@@ -25,6 +29,7 @@ public class UserDataManager : MonoBehaviour
         public long lastEnergyUpdate; // timestamp
         public string selectedHero;
         public List<string> unlockedHeroes;
+        public int exp;   
 
         public UserData() { }
 
@@ -36,9 +41,9 @@ public class UserDataManager : MonoBehaviour
             this.level = 1;
             this.energy = 40; // full energy
             this.lastEnergyUpdate = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
-            this.selectedHero = "Default";
+            this.selectedHero = "Naruto";
             this.unlockedHeroes = new List<string>() { "Naruto" }; // hero mặc định có sẵn
-
+            this.exp = 0;
         }
     }
     public void UpdateEnergy()

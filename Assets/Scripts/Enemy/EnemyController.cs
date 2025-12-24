@@ -4,9 +4,11 @@ public class EnemyController : MonoBehaviour
 {
     public EnemyData enemyData;
     public GameObject expOrbPrefab; //prefab ExpOrb
-    private Transform player;
+    [HideInInspector] public Transform player; 
     private SpriteRenderer rbSprite;
     private int currentHP;
+    [HideInInspector] public bool canMove = true;
+
 
 
 
@@ -24,7 +26,7 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         if (player == null) return;
-
+        if (!canMove) return;
         // Di chuyển về phía player
         Vector2 dir = (player.position - transform.position).normalized;
         if (dir.x < 0)
@@ -37,9 +39,14 @@ public class EnemyController : MonoBehaviour
         transform.position += (Vector3)dir * enemyData.moveSpeed * Time.deltaTime;
     }
 
+  
     public void TakeDamage(int dmg)
     {
+        Debug.Log("TakeDamage called");
+        Debug.Log("Pool instance = " + DamageTextPool.Instance);
+
         currentHP -= dmg;
+        DamageTextPool.Instance.Show(transform.position + Vector3.up * 1.2f, dmg);
         if (currentHP <= 0) Die();
     }
 

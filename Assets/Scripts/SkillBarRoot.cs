@@ -42,6 +42,22 @@ public class SkillBarRoot : MonoBehaviour
         slot.SetLevel(newLevel);
     }
 
+    public void ResetAllSlots()
+    {
+        foreach (var s in activeSlots)
+        {
+            s.SetIcon(null);
+            s.SetLevel(0);
+        }
+
+        foreach (var s in passiveSlots)
+        {
+            s.SetIcon(null);
+            s.SetLevel(0);
+        }
+
+        slotBySkillId.Clear();
+    }
     private SkillBarSlot FindEmptySlot(SkillBarSlot[] pool)
     {
         foreach (var s in pool)

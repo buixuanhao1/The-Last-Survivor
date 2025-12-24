@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
+using System.Linq;
 
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Loại Enemy có thể spawn")]
-    public EnemyType[] enemyTypes;   // danh sách loại enemy (data + prefab)
+    public EnemyType[] enemyTypes;   
 
     [Header("Thông số spawn")]
     public Transform player;
@@ -11,6 +12,18 @@ public class EnemySpawner : MonoBehaviour
     public float spawnRadius = 10f;  // khoảng cách spawn so với player
 
     private float timer;
+
+    void Start()
+    {
+        if (MapSelection.Instance != null && MapSelection.Instance.Selected != null)
+        {
+            var list = MapSelection.Instance.Selected.enemyTypes;
+            if (list != null && list.Count > 0)
+            {
+                enemyTypes = list.ToArray();
+            }
+        }
+    }
 
     void Update()
     {

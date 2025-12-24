@@ -56,7 +56,7 @@ public class HeroPanelUI : MonoBehaviour
     {
         selectedHero = hero;
         heroDetailImage.sprite = hero.icon;
-        heroNameText.text = hero.name;
+        heroNameText.text = hero.heroName;
 
         btnSelectText.text = hero.isUnlocked ? "Chọn" : "Mua";
     }
@@ -73,8 +73,8 @@ public class HeroPanelUI : MonoBehaviour
             if (data.diamond >= selectedHero.price)
             {
                 data.diamond -= selectedHero.price;
-                if (!data.unlockedHeroes.Contains(selectedHero.name))
-                    data.unlockedHeroes.Add(selectedHero.name);
+                if (!data.unlockedHeroes.Contains(selectedHero.heroId))
+                    data.unlockedHeroes.Add(selectedHero.heroId);
 
                 selectedHero.isUnlocked = true;
                 UserDataManager.instance.SaveUserData(data);
@@ -91,7 +91,7 @@ public class HeroPanelUI : MonoBehaviour
             return;
         }
 
-        data.selectedHero = selectedHero.name;
+        data.selectedHero = selectedHero.heroId;
         UserDataManager.instance.SaveUserData(data);
         Debug.Log($"Đã chọn hero: {selectedHero.name}");
 
@@ -106,7 +106,7 @@ public class HeroPanelUI : MonoBehaviour
 
         foreach (var hero in heroes)
         {
-            hero.isUnlocked = data.unlockedHeroes.Contains(hero.name);
+            hero.isUnlocked = data.unlockedHeroes.Contains(hero.heroId);
         }
     }
 

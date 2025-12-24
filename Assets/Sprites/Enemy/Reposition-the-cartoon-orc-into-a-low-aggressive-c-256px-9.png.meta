@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: b5f8214cd5649ca44983d27b556cdb3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1011439227936901005
+    second: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_0
+  - first:
+      213: 6888770450044474496
+    second: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_1
+  - first:
+      213: 6382073309586405373
+    second: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_2
+  - first:
+      213: -688262713506923630
+    second: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_3
+  - first:
+      213: 6269763987252162779
+    second: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_4
+  - first:
+      213: -8250824616795651199
+    second: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_5
+  - first:
+      213: 6326601390894559727
+    second: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_6
+  - first:
+      213: -4712123466042980297
+    second: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_7
+  - first:
+      213: 3363893113649853283
+    second: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 320
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8703157e9a590e00800000000000000
+      internalID: 1011439227936901005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 522
+        width: 320
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084db1ed934d99f50800000000000000
+      internalID: 6888770450044474496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 522
+        width: 320
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df736648cdda19850800000000000000
+      internalID: 6382073309586405373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 320
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bf54965bcc276f0800000000000000
+      internalID: -688262713506923630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 261
+        width: 320
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0b3b5b02da20750800000000000000
+      internalID: 6269763987252162779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 261
+        width: 320
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183c8dbc9be2f7d80800000000000000
+      internalID: -8250824616795651199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe133cbf17a9cc750800000000000000
+      internalID: 6326601390894559727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738c9bc6cac2b9eb0800000000000000
+      internalID: -4712123466042980297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3637b75d6f2feae20800000000000000
+      internalID: 3363893113649853283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2d3393e9c39a4654684382546645b643
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_0: 1011439227936901005
+      Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_1: 6888770450044474496
+      Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_2: 6382073309586405373
+      Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_3: -688262713506923630
+      Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_4: 6269763987252162779
+      Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_5: -8250824616795651199
+      Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_6: 6326601390894559727
+      Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_7: -4712123466042980297
+      Reposition-the-cartoon-orc-into-a-low-aggressive-c-256px-9_8: 3363893113649853283
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

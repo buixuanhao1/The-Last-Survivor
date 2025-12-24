@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e88a0bbbfa711bf4ab5ab2ec692daca0, type: 3}
+  m_Name: Map_SaMac
+  m_EditorClassIdentifier: 
+  mapid: desert
+  displayName: "\u0110\u1EA3o Sa M\u1EA1c"
+  previewSprite: {fileID: -4813609288604641006, guid: f1c069eac2c51294a8a3688ef413011b, type: 3}
+  backgroundSprite: {fileID: -4593066707984475615, guid: 9c350f20943624e41b626a872073e524, type: 3}
+  enemyTypes:
+  - data: {fileID: 11400000, guid: 88be61406b4c94846897b4a65a589277, type: 2}
+    prefab: {fileID: 6053872023626469283, guid: a221708e3ff279a428d8b9a7684f3bdd, type: 3}

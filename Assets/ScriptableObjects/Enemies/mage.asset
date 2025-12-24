@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1195d3349ae323469f71046e8916109, type: 3}
   m_Name: mage
   m_EditorClassIdentifier: 
-  enemyName: 
+  enemyName: Boss
   baseHP: 20
   moveSpeed: 0.97
   damage: 5
   expDrop: 5
-  sprite: {fileID: -2008940996243727313, guid: fa3213844dfe2f846b8b8a6baed4e4d3, type: 3}
+  sprite: {fileID: -5912800498141821623, guid: 52e93916f64a3fd4098c1dbc56a8a63b, type: 3}

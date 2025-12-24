@@ -19,11 +19,9 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // Nếu trúng Player thì gây damage
         if (collision.CompareTag("Player"))
         {
-            // Nếu player có script nhận damage thì gọi
-            // collision.GetComponent<PlayerHealth>()?.TakeDamage(damage);
+            collision.GetComponent<PlayerHealth>()?.TakeDamage(damage);
 
             Destroy(gameObject);
         }

@@ -15,7 +15,7 @@ public class EnemyMelee : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= damageInterval)
         {
-            // collision.GetComponent<PlayerHealth>()?.TakeDamage(contactDamage);
+            collision.GetComponent<PlayerHealth>()?.TakeDamage(contactDamage);
             timer = 0f;
         }
     }

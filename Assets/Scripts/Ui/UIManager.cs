@@ -17,7 +17,8 @@ public class UIManager : MonoBehaviour
 
     private GameObject currentPanel;
     [Header("Overlay Panels")]
-    public GameObject settingsPanelPrefab; 
+    public GameObject settingsPanelPrefab;
+    public GameObject rankPanlePrefab;
     
     private readonly List<GameObject> _overlays = new List<GameObject>();
 

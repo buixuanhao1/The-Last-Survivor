@@ -12,6 +12,17 @@ public class InfiniteBackground : MonoBehaviour
 
     void Start()
     {
+        if (MapSelection.Instance != null && MapSelection.Instance.Selected != null && MapSelection.Instance.Selected.backgroundSprite != null)
+        {
+            bgPrefab.sprite = MapSelection.Instance.Selected.backgroundSprite;
+        }
+
+        if (player == null)
+        {
+            var p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null) player = p.transform;
+        }
+
         // Lấy kích thước world unit của background
         tileWidth = bgPrefab.bounds.size.x;
         tileHeight = bgPrefab.bounds.size.y;

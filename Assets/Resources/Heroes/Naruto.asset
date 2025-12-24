@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6121ebba8f195d0468171c1865e39a13, type: 3}
   m_Name: Naruto
   m_EditorClassIdentifier: 
-  heroId: 
+  heroId: Naruto
   heroName: Naruto
   level: 2
   price: 0
