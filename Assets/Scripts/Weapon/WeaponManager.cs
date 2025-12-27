@@ -16,10 +16,15 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] private WeaponData stoneOrbitWeapon; // Orbit
     [SerializeField] private WeaponData swordWeapon;      // CircleAOE (tạm dùng AOE nếu chưa có Sword riêng)
     [SerializeField] private WeaponData knifeWeapon;      // Persistent bouncing knife
+    [SerializeField] private WeaponData returningShurikenWeapon; // Returning projectile that flies out then comes back
+    [SerializeField] private WeaponData bombWeapon;       // Bomb projectile that explodes with animation
     [SerializeField] private PlayerStats playerStats;
 
     // Track persistent instances for weapons like Knife
     private Dictionary<WeaponData, List<GameObject>> persistentInstances = new Dictionary<WeaponData, List<GameObject>>();
+
+    // Rotating angle offset for returning shuriken volleys
+    private float returningAngleOffset = 0f;
 
     void Start()
     {
@@ -52,17 +57,37 @@ public class WeaponManager : MonoBehaviour
             int count = GetCountForProjectile(weapon);
             if (count > 0)
             {
-                GameObject target = FindClosestEnemy(weapon.attackRange);
-                if (target != null)
+                if (weapon == returningShurikenWeapon)
                 {
-                    ShootProjectiles(weapon, target.transform.position, count);
+                    // Always fire in rotating pattern, independent of enemies
+                    Vector2 dir = new Vector2(Mathf.Cos(returningAngleOffset * Mathf.Deg2Rad), Mathf.Sin(returningAngleOffset * Mathf.Deg2Rad));
+                    Vector3 pseudoTarget = transform.position + (Vector3)dir;
+                    ShootProjectiles(weapon, pseudoTarget, count);
+                    returningAngleOffset = (returningAngleOffset + 20f) % 360f;
+                    float fr = playerStats != null ? playerStats.ComputeFireRate(weapon.fireRate) : weapon.fireRate;
+                    cooldowns[weapon] = 1f / Mathf.Max(0.0001f, fr);
+                }
+                else if (weapon == bombWeapon)
+                {
+                    // Fire bombs on cooldown in random directions
+                    ShootBombs(weapon, count);
                     float fr = playerStats != null ? playerStats.ComputeFireRate(weapon.fireRate) : weapon.fireRate;
                     cooldowns[weapon] = 1f / Mathf.Max(0.0001f, fr);
                 }
                 else
                 {
-                    // không có mục tiêu: để cooldown = 0 để bắn ngay khi có mục tiêu
-                    cooldowns[weapon] = 0f;
+                    GameObject target = FindClosestEnemy(weapon.attackRange);
+                    if (target != null)
+                    {
+                        ShootProjectiles(weapon, target.transform.position, count);
+                        float fr = playerStats != null ? playerStats.ComputeFireRate(weapon.fireRate) : weapon.fireRate;
+                        cooldowns[weapon] = 1f / Mathf.Max(0.0001f, fr);
+                    }
+                    else
+                    {
+                        // không có mục tiêu: để cooldown = 0 để bắn ngay khi có mục tiêu
+                        cooldowns[weapon] = 0f;
+                    }
                 }
             }
         }
@@ -101,6 +126,8 @@ public class WeaponManager : MonoBehaviour
             case WeaponId.StoneOrbit: w = stoneOrbitWeapon; break;
             case WeaponId.Sword: w = swordWeapon; break;
             case WeaponId.Knife: w = knifeWeapon; break;
+            case WeaponId.ReturningShuriken: w = returningShurikenWeapon; break;
+            case WeaponId.Bomb: w = bombWeapon; break;
         }
         if (w == null) return;
         if (!weapons.Contains(w)) RegisterWeapon(w);
@@ -151,12 +178,32 @@ public class WeaponManager : MonoBehaviour
                     int count = GetCountForProjectile(weapon);
                     if (count > 0)
                     {
-                        GameObject target = FindClosestEnemy(weapon.attackRange);
-                        if (target != null)
+                        if (weapon == returningShurikenWeapon)
                         {
-                            ShootProjectiles(weapon, target.transform.position, count);
+                            // Always fire in rotating pattern, independent of enemies
+                            Vector2 dir = new Vector2(Mathf.Cos(returningAngleOffset * Mathf.Deg2Rad), Mathf.Sin(returningAngleOffset * Mathf.Deg2Rad));
+                            Vector3 pseudoTarget = transform.position + (Vector3)dir;
+                            ShootProjectiles(weapon, pseudoTarget, count);
+                            returningAngleOffset = (returningAngleOffset + 20f) % 360f;
                             float fr = playerStats != null ? playerStats.ComputeFireRate(weapon.fireRate) : weapon.fireRate;
                             cooldowns[weapon] = 1f / Mathf.Max(0.0001f, fr);
+                        }
+                        else if (weapon == bombWeapon)
+                        {
+                            // Fire bombs on cooldown in random directions
+                            ShootBombs(weapon, count);
+                            float fr = playerStats != null ? playerStats.ComputeFireRate(weapon.fireRate) : weapon.fireRate;
+                            cooldowns[weapon] = 1f / Mathf.Max(0.0001f, fr);
+                        }
+                        else
+                        {
+                            GameObject target = FindClosestEnemy(weapon.attackRange);
+                            if (target != null)
+                            {
+                                ShootProjectiles(weapon, target.transform.position, count);
+                                float fr = playerStats != null ? playerStats.ComputeFireRate(weapon.fireRate) : weapon.fireRate;
+                                cooldowns[weapon] = 1f / Mathf.Max(0.0001f, fr);
+                            }
                         }
                     }
                 }
@@ -216,6 +263,8 @@ public class WeaponManager : MonoBehaviour
         if (weapon == shurikenWeapon) return Mathf.Max(weaponSystem.shurikenCount, 0);
         if (weapon == tarotWeapon) return Mathf.Max(weaponSystem.tarotCount, 0);
         if (weapon == knifeWeapon) return Mathf.Max(weaponSystem.knifeCount, 0);
+        if (weapon == returningShurikenWeapon) return Mathf.Max(weaponSystem.returningShurikenCount, 0);
+        if (weapon == bombWeapon) return Mathf.Max(weaponSystem.bombCount, 0);
         return 1;
     }
 
@@ -241,16 +290,29 @@ public class WeaponManager : MonoBehaviour
         if (count <= 1)
         {
             GameObject bullet = pool.Get(transform.position, Quaternion.identity);
-            Projectile proj = bullet.GetComponent<Projectile>();
-            if (proj != null)
+            // returning projectile support
+            if (weapon == returningShurikenWeapon)
             {
-                proj.Init(weapon, baseDir, pool);
+                ReturningProjectile rp = bullet.GetComponent<ReturningProjectile>();
+                if (rp != null)
+                {
+                    float outDist = weapon.returningOutDistance + weapon.returningDistancePerLevel * Mathf.Max(0, count - 1);
+                    rp.Init(weapon, baseDir, pool, transform, outDist);
+                }
             }
             else
             {
-                Knife knife = bullet.GetComponent<Knife>();
-                if (knife != null)
-                    knife.Init(weapon, baseDir, pool);
+                Projectile proj = bullet.GetComponent<Projectile>();
+                if (proj != null)
+                {
+                    proj.Init(weapon, baseDir, pool);
+                }
+                else
+                {
+                    Knife knife = bullet.GetComponent<Knife>();
+                    if (knife != null)
+                        knife.Init(weapon, baseDir, pool);
+                }
             }
             return;
         }
@@ -259,6 +321,13 @@ public class WeaponManager : MonoBehaviour
         if (weapon == shurikenWeapon)
         {
             StartCoroutine(SpawnShurikenBurst(pool, weapon, baseDir, count, 0.06f));
+            return;
+        }
+
+        // If this is the returning shuriken, fire pairs in opposite directions
+        if (weapon == returningShurikenWeapon)
+        {
+            SpawnReturningPattern(pool, weapon, baseDir, count);
             return;
         }
 
@@ -306,6 +375,26 @@ public class WeaponManager : MonoBehaviour
 
             if (i < n - 1 && delay > 0f)
                 yield return new WaitForSeconds(delay);
+        }
+    }
+
+    // Spawn totalCount returning shurikens evenly spaced around the circle.
+    private void SpawnReturningPattern(ObjectPool pool, WeaponData weapon, Vector2 baseDir, int totalCount)
+    {
+        int n = Mathf.Max(1, totalCount);
+        float baseAngle = Mathf.Atan2(baseDir.y, baseDir.x) * Mathf.Rad2Deg;
+        float step = 360f / n;
+        float outDist = weapon.returningOutDistance + weapon.returningDistancePerLevel * Mathf.Max(0, n - 1);
+        for (int i = 0; i < n; i++)
+        {
+            float angle = baseAngle + step * i;
+            Vector2 dir = new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad)).normalized;
+            GameObject go = pool.Get(transform.position, Quaternion.identity);
+            ReturningProjectile rp = go.GetComponent<ReturningProjectile>();
+            if (rp != null)
+            {
+                rp.Init(weapon, dir, pool, transform, outDist);
+            }
         }
     }
 
@@ -417,6 +506,25 @@ public class WeaponManager : MonoBehaviour
             GameObject aoe = Instantiate(weapon.prefab, transform.position, Quaternion.identity);
             CircleAOE circle = aoe.GetComponent<CircleAOE>();
             circle.Init(weapon, transform);
+        }
+    }
+
+    // Fire bombs in random directions regardless of enemies
+    void ShootBombs(WeaponData weapon, int count)
+    {
+        if (!pools.TryGetValue(weapon, out var pool)) return;
+        int n = Mathf.Max(0, count);
+        if (n == 0) return;
+        for (int i = 0; i < n; i++)
+        {
+            Vector2 dir = Random.insideUnitCircle.normalized;
+            if (dir.sqrMagnitude < 0.001f) dir = Vector2.right;
+            GameObject go = pool.Get(transform.position, Quaternion.identity);
+            BombProjectile bomb = go.GetComponent<BombProjectile>();
+            if (bomb != null)
+            {
+                bomb.Init(weapon, dir, pool);
+            }
         }
     }
 

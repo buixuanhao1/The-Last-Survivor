@@ -134,7 +134,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.6710763, y: -2.3264105, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7254672547971242185}
@@ -182,7 +182,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1001421211
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 2028309321080372415, guid: 0f11c87da12d9f1459785a25074d4f7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -209,6 +209,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: cb3f39829920ef245b3146fb61974da4, type: 2}
   expOrbPrefab: {fileID: 1162072131754398756, guid: 7b1030b547677bc488b477a02e5f5dd1, type: 3}
+  player: {fileID: 0}
+  canMove: 1
+  deathDestroyDelay: 1
 --- !u!95 &691976632919417126
 Animator:
   serializedVersion: 7

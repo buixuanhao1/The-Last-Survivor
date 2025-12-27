@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stat: 6
   baseValue: 0.1
-  perLevel: 0.08
+  perLevel: 0.05

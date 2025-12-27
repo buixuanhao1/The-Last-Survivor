@@ -9,12 +9,21 @@ public class EnemyController : MonoBehaviour
     private int currentHP;
     [HideInInspector] public bool canMove = true;
 
+    [Header("Death")]
+    private Animator animator;          
+    private  Collider2D col2D;
+    private Rigidbody2D rb2D;           
+    public float deathDestroyDelay = 1.0f; 
 
+    private bool isDead = false;
 
 
     private void Awake()
     {
         rbSprite = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        col2D = GetComponent<Collider2D>();
+        rb2D = GetComponent<Rigidbody2D>();
     }
     void Start()
     {
@@ -52,8 +61,26 @@ public class EnemyController : MonoBehaviour
 
     void Die()
     {
+        if (isDead) return;
+        isDead = true;
         // Drop orb từ pool
         ExpOrbPool.Instance.SpawnOrb(transform.position, enemyData.expDrop);
+        canMove = false;
+        var col = GetComponent<Collider2D>();
+        if (col) col.enabled = false;
+
+        var rb = GetComponent<Rigidbody2D>();
+        if (rb)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.simulated = false;
+        }
+
+        GetComponent<Animator>().SetTrigger("Die");
+    }
+
+    public void OnDeathAnimationEnd()
+    {
         Destroy(gameObject);
     }
     public void Knockback(Vector3 hitSource, float force)

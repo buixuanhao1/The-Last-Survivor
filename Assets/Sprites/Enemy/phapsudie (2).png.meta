@@ -1,0 +1,1130 @@
+fileFormatVersion: 2
+guid: 8b24a17e5df01974e84af2479f123728
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8271166380027925346
+    second: phapsudie (2)_0
+  - first:
+      213: 244365807102017568
+    second: phapsudie (2)_1
+  - first:
+      213: 563384841980321943
+    second: phapsudie (2)_2
+  - first:
+      213: 4725041185291930564
+    second: phapsudie (2)_3
+  - first:
+      213: -3825253737214883419
+    second: phapsudie (2)_4
+  - first:
+      213: -4304924670112832175
+    second: phapsudie (2)_5
+  - first:
+      213: -7180728462609225665
+    second: phapsudie (2)_6
+  - first:
+      213: 7577690973789442566
+    second: phapsudie (2)_7
+  - first:
+      213: -6041120259957174571
+    second: phapsudie (2)_8
+  - first:
+      213: 7792330231656484290
+    second: phapsudie (2)_9
+  - first:
+      213: -1434992174630260020
+    second: phapsudie (2)_10
+  - first:
+      213: 2799517543496730034
+    second: phapsudie (2)_11
+  - first:
+      213: -264986747569708802
+    second: phapsudie (2)_12
+  - first:
+      213: -106363935246100083
+    second: phapsudie (2)_13
+  - first:
+      213: -2029143916047313137
+    second: phapsudie (2)_14
+  - first:
+      213: -3358192507760168051
+    second: phapsudie (2)_15
+  - first:
+      213: 3185315293833113959
+    second: phapsudie (2)_16
+  - first:
+      213: 7210058335164735074
+    second: phapsudie (2)_17
+  - first:
+      213: -7669981547212530769
+    second: phapsudie (2)_18
+  - first:
+      213: 6519378892919238359
+    second: phapsudie (2)_19
+  - first:
+      213: 4329048380426019356
+    second: phapsudie (2)_20
+  - first:
+      213: -6725564409964073102
+    second: phapsudie (2)_21
+  - first:
+      213: 5942518268523131253
+    second: phapsudie (2)_22
+  - first:
+      213: 8214689732963423102
+    second: phapsudie (2)_23
+  - first:
+      213: -2869258426480593861
+    second: phapsudie (2)_24
+  - first:
+      213: 2805274351168072838
+    second: phapsudie (2)_25
+  - first:
+      213: -2897447060872670964
+    second: phapsudie (2)_26
+  - first:
+      213: -2926788148783114134
+    second: phapsudie (2)_27
+  - first:
+      213: 2906004563529987443
+    second: phapsudie (2)_28
+  - first:
+      213: 981369969013529407
+    second: phapsudie (2)_29
+  - first:
+      213: 2664469062016318940
+    second: phapsudie (2)_30
+  - first:
+      213: 593269858030559935
+    second: phapsudie (2)_31
+  - first:
+      213: -4185894545562041607
+    second: phapsudie (2)_32
+  - first:
+      213: -8946135251056391756
+    second: phapsudie (2)_33
+  - first:
+      213: 2568903709210638221
+    second: phapsudie (2)_34
+  - first:
+      213: 2338552960533040468
+    second: phapsudie (2)_35
+  - first:
+      213: 699232251082146859
+    second: phapsudie (2)_36
+  - first:
+      213: -682841384566977855
+    second: phapsudie (2)_37
+  - first:
+      213: 6630195100871327009
+    second: phapsudie (2)_38
+  - first:
+      213: -2087602426827085951
+    second: phapsudie (2)_39
+  - first:
+      213: 1596136016656019164
+    second: phapsudie (2)_40
+  - first:
+      213: 6730771621385241346
+    second: phapsudie (2)_41
+  - first:
+      213: -6347887160238652881
+    second: phapsudie (2)_42
+  - first:
+      213: 2465422253019092599
+    second: phapsudie (2)_43
+  - first:
+      213: 252636417955617383
+    second: phapsudie (2)_44
+  - first:
+      213: 4850838289524580037
+    second: phapsudie (2)_45
+  - first:
+      213: -5334014117519896725
+    second: phapsudie (2)_46
+  - first:
+      213: 2160796293334700850
+    second: phapsudie (2)_47
+  - first:
+      213: -3180177248624936727
+    second: phapsudie (2)_48
+  - first:
+      213: 4711451469539882718
+    second: phapsudie (2)_49
+  - first:
+      213: 3938325590450755420
+    second: phapsudie (2)_50
+  - first:
+      213: -7305674161240581179
+    second: phapsudie (2)_51
+  - first:
+      213: -846103283415249995
+    second: phapsudie (2)_52
+  - first:
+      213: 432323544035984468
+    second: phapsudie (2)_53
+  - first:
+      213: 1165427427857924677
+    second: phapsudie (2)_54
+  - first:
+      213: -5370019215138898919
+    second: phapsudie (2)_55
+  - first:
+      213: 3284908471592034834
+    second: phapsudie (2)_56
+  - first:
+      213: 723812738759502699
+    second: phapsudie (2)_57
+  - first:
+      213: 9043307217269084690
+    second: phapsudie (2)_58
+  - first:
+      213: 4916252360067225089
+    second: phapsudie (2)_59
+  - first:
+      213: 5359593851969802097
+    second: phapsudie (2)_60
+  - first:
+      213: -3005312346147007950
+    second: phapsudie (2)_61
+  - first:
+      213: 4540033194704168127
+    second: phapsudie (2)_62
+  - first:
+      213: 2563765650097924725
+    second: phapsudie (2)_63
+  - first:
+      213: -2775594051688562672
+    second: phapsudie (2)_64
+  - first:
+      213: -3002798353991695962
+    second: phapsudie (2)_65
+  - first:
+      213: 2830298594222789734
+    second: phapsudie (2)_66
+  - first:
+      213: -8653207640301200762
+    second: phapsudie (2)_67
+  - first:
+      213: 9020712311749311548
+    second: phapsudie (2)_68
+  - first:
+      213: -451069131980845492
+    second: phapsudie (2)_69
+  - first:
+      213: 6845827071074460769
+    second: phapsudie (2)_70
+  - first:
+      213: 398601193714178276
+    second: phapsudie (2)_71
+  - first:
+      213: -3235643968015748211
+    second: phapsudie (2)_72
+  - first:
+      213: 4557925102564091028
+    second: phapsudie (2)_73
+  - first:
+      213: 6512087271616989896
+    second: phapsudie (2)_74
+  - first:
+      213: 312974364098225525
+    second: phapsudie (2)_75
+  - first:
+      213: -977539598496212654
+    second: phapsudie (2)_76
+  - first:
+      213: 623403792533288500
+    second: phapsudie (2)_77
+  - first:
+      213: -3985744332506180808
+    second: phapsudie (2)_78
+  - first:
+      213: 7597206127506748255
+    second: phapsudie (2)_79
+  - first:
+      213: -1438046178906835986
+    second: phapsudie (2)_80
+  - first:
+      213: -4996637304509764080
+    second: phapsudie (2)_81
+  - first:
+      213: 5858430389861678204
+    second: phapsudie (2)_82
+  - first:
+      213: 2614722596195791860
+    second: phapsudie (2)_83
+  - first:
+      213: 3712337886714760317
+    second: phapsudie (2)_84
+  - first:
+      213: 1167942102767157441
+    second: phapsudie (2)_85
+  - first:
+      213: -4992318672283467950
+    second: phapsudie (2)_86
+  - first:
+      213: 6305462784832042043
+    second: phapsudie (2)_87
+  - first:
+      213: 7291382302458788689
+    second: phapsudie (2)_88
+  - first:
+      213: 6462515477359827599
+    second: phapsudie (2)_89
+  - first:
+      213: 7243423097921655306
+    second: phapsudie (2)_90
+  - first:
+      213: -3041161350501421790
+    second: phapsudie (2)_91
+  - first:
+      213: 5178210450025748631
+    second: phapsudie (2)_92
+  - first:
+      213: -2039943753282184823
+    second: phapsudie (2)_93
+  - first:
+      213: 3507723703302161641
+    second: phapsudie (2)_94
+  - first:
+      213: 8036793295062112522
+    second: phapsudie (2)_95
+  - first:
+      213: 5019313210470091671
+    second: phapsudie (2)_96
+  - first:
+      213: 5743335280198108432
+    second: phapsudie (2)_97
+  - first:
+      213: 6156474093096877481
+    second: phapsudie (2)_98
+  - first:
+      213: -9144495352039539005
+    second: phapsudie (2)_99
+  - first:
+      213: -4441706392421987274
+    second: phapsudie (2)_100
+  - first:
+      213: 5530303920842788600
+    second: phapsudie (2)_101
+  - first:
+      213: -2522333000527824767
+    second: phapsudie (2)_102
+  - first:
+      213: 2466455030459258311
+    second: phapsudie (2)_103
+  - first:
+      213: -9017187876268148191
+    second: phapsudie (2)_104
+  - first:
+      213: 1921722405234029233
+    second: phapsudie (2)_105
+  - first:
+      213: 957363895305367165
+    second: phapsudie (2)_106
+  - first:
+      213: -7524685992555252215
+    second: phapsudie (2)_107
+  - first:
+      213: 7584790401892076856
+    second: phapsudie (2)_108
+  - first:
+      213: 854764290410385350
+    second: phapsudie (2)_109
+  - first:
+      213: 3886382379805021823
+    second: phapsudie (2)_110
+  - first:
+      213: -890336618654486684
+    second: phapsudie (2)_111
+  - first:
+      213: -1385097490950947926
+    second: phapsudie (2)_112
+  - first:
+      213: 5774434281064975894
+    second: phapsudie (2)_113
+  - first:
+      213: 9150991568081583244
+    second: phapsudie (2)_114
+  - first:
+      213: 8651158558041302463
+    second: phapsudie (2)_115
+  - first:
+      213: 369618772889281734
+    second: phapsudie (2)_116
+  - first:
+      213: 5382208160240775256
+    second: phapsudie (2)_117
+  - first:
+      213: 805823370214756774
+    second: phapsudie (2)_118
+  - first:
+      213: 1723208300137020771
+    second: phapsudie (2)_119
+  - first:
+      213: -5435686336271105482
+    second: phapsudie (2)_120
+  - first:
+      213: 5982503822564497738
+    second: phapsudie (2)_121
+  - first:
+      213: -4357227389320343651
+    second: phapsudie (2)_122
+  - first:
+      213: 7173172211859956765
+    second: phapsudie (2)_123
+  - first:
+      213: 6120257572401407136
+    second: phapsudie (2)_124
+  - first:
+      213: -2533776732170027221
+    second: phapsudie (2)_125
+  - first:
+      213: 8243048891035303034
+    second: phapsudie (2)_126
+  - first:
+      213: -3334914026314921661
+    second: phapsudie (2)_127
+  - first:
+      213: 9156201697873279737
+    second: phapsudie (2)_128
+  - first:
+      213: -9079281479037473212
+    second: phapsudie (2)_129
+  - first:
+      213: 119536834736948074
+    second: phapsudie (2)_130
+  - first:
+      213: 2177910613591559756
+    second: phapsudie (2)_131
+  - first:
+      213: -7692449407961600170
+    second: phapsudie (2)_132
+  - first:
+      213: -399545119217446336
+    second: phapsudie (2)_133
+  - first:
+      213: 6277556573051135759
+    second: phapsudie (2)_134
+  - first:
+      213: 4339580278103187027
+    second: phapsudie (2)_135
+  - first:
+      213: 86998859403316990
+    second: phapsudie (2)_136
+  - first:
+      213: -8103821465149739613
+    second: phapsudie (2)_137
+  - first:
+      213: 2144885468378093424
+    second: phapsudie (2)_138
+  - first:
+      213: 7471980299683645983
+    second: phapsudie (2)_139
+  - first:
+      213: 4960436453429067464
+    second: phapsudie (2)_140
+  - first:
+      213: -3500962663914278428
+    second: phapsudie (2)_141
+  - first:
+      213: -5721790757025128863
+    second: phapsudie (2)_142
+  - first:
+      213: -4399505708838869772
+    second: phapsudie (2)_143
+  - first:
+      213: 131374465423823025
+    second: phapsudie (2)_144
+  - first:
+      213: 6541201083430124629
+    second: phapsudie (2)_145
+  - first:
+      213: -5346893294400982867
+    second: phapsudie (2)_146
+  - first:
+      213: 6605663918204011447
+    second: phapsudie (2)_147
+  - first:
+      213: 8097833806764361993
+    second: phapsudie (2)_148
+  - first:
+      213: 6473330413979854133
+    second: phapsudie (2)_149
+  - first:
+      213: -4257310117505915551
+    second: phapsudie (2)_150
+  - first:
+      213: -3122096733620297724
+    second: phapsudie (2)_151
+  - first:
+      213: -2093449654332348426
+    second: phapsudie (2)_152
+  - first:
+      213: 5438431421785377923
+    second: phapsudie (2)_153
+  - first:
+      213: -4138875485918408062
+    second: phapsudie (2)_154
+  - first:
+      213: -883837449433075296
+    second: phapsudie (2)_155
+  - first:
+      213: 4467600052296723851
+    second: phapsudie (2)_156
+  - first:
+      213: -262018111826177809
+    second: phapsudie (2)_157
+  - first:
+      213: 5882548565643123448
+    second: phapsudie (2)_158
+  - first:
+      213: -3648820328508533723
+    second: phapsudie (2)_159
+  - first:
+      213: -8110967266376112511
+    second: phapsudie (2)_160
+  - first:
+      213: 7947869396036766770
+    second: phapsudie (2)_161
+  - first:
+      213: 6226019532461603485
+    second: phapsudie (2)_162
+  - first:
+      213: 3050043293187436348
+    second: phapsudie (2)_163
+  - first:
+      213: 7080709854558972442
+    second: phapsudie (2)_164
+  - first:
+      213: -8433417213748707996
+    second: phapsudie (2)_165
+  - first:
+      213: 1009527458017126043
+    second: phapsudie (2)_166
+  - first:
+      213: -9099980566176543348
+    second: phapsudie (2)_167
+  - first:
+      213: 1958787970745439660
+    second: phapsudie (2)_168
+  - first:
+      213: -6311454699608656809
+    second: phapsudie (2)_169
+  - first:
+      213: 8855786290196709097
+    second: phapsudie (2)_170
+  - first:
+      213: 7531019365587517424
+    second: phapsudie (2)_171
+  - first:
+      213: 2747482573601435818
+    second: phapsudie (2)_172
+  - first:
+      213: -1318325475091182491
+    second: phapsudie (2)_173
+  - first:
+      213: 8118294284686293048
+    second: phapsudie (2)_174
+  - first:
+      213: -3544527175869599100
+    second: phapsudie (2)_175
+  - first:
+      213: -132099056834555866
+    second: phapsudie (2)_176
+  - first:
+      213: -3338395038976255430
+    second: phapsudie (2)_177
+  - first:
+      213: 4246665431335633271
+    second: phapsudie (2)_178
+  - first:
+      213: -7668291569721315136
+    second: phapsudie (2)_179
+  - first:
+      213: -422497310527138615
+    second: phapsudie (2)_180
+  - first:
+      213: 4171791693072200788
+    second: phapsudie (2)_181
+  - first:
+      213: -981872762834233474
+    second: phapsudie (2)_182
+  - first:
+      213: -1603076228972924724
+    second: phapsudie (2)_183
+  - first:
+      213: 2752171098789649392
+    second: phapsudie (2)_184
+  - first:
+      213: -169800706215306041
+    second: phapsudie (2)_185
+  - first:
+      213: 4320227407823603965
+    second: phapsudie (2)_186
+  - first:
+      213: 7268652267767001536
+    second: phapsudie (2)_187
+  - first:
+      213: 1096643655084699279
+    second: phapsudie (2)_188
+  - first:
+      213: 5133152831257355885
+    second: phapsudie (2)_189
+  - first:
+      213: 6303985953116520179
+    second: phapsudie (2)_190
+  - first:
+      213: -1283699509366898138
+    second: phapsudie (2)_191
+  - first:
+      213: -3065091852292354014
+    second: phapsudie (2)_192
+  - first:
+      213: -5424837723685460456
+    second: phapsudie (2)_193
+  - first:
+      213: -5148554630850262747
+    second: phapsudie (2)_194
+  - first:
+      213: -6729134118838119262
+    second: phapsudie (2)_195
+  - first:
+      213: 3542764665971128740
+    second: phapsudie (2)_196
+  - first:
+      213: 8854803821120827025
+    second: phapsudie (2)_197
+  - first:
+      213: -6892340109680609234
+    second: phapsudie (2)_198
+  - first:
+      213: -4572817526435505737
+    second: phapsudie (2)_199
+  - first:
+      213: 79846440826726657
+    second: phapsudie (2)_200
+  - first:
+      213: 632172091785239667
+    second: phapsudie (2)_201
+  - first:
+      213: 2001590710444569232
+    second: phapsudie (2)_202
+  - first:
+      213: -4624109324800791688
+    second: phapsudie (2)_203
+  - first:
+      213: -4087965158668131859
+    second: phapsudie (2)_204
+  - first:
+      213: -1569009955002684930
+    second: phapsudie (2)_205
+  - first:
+      213: 4999511962993005239
+    second: phapsudie (2)_206
+  - first:
+      213: -4876432455313678556
+    second: phapsudie (2)_207
+  - first:
+      213: -7321530243698834780
+    second: phapsudie (2)_208
+  - first:
+      213: 1903424264087077988
+    second: phapsudie (2)_209
+  - first:
+      213: -3693697733448017904
+    second: phapsudie (2)_210
+  - first:
+      213: -6343805574243012666
+    second: phapsudie (2)_211
+  - first:
+      213: -6358404381991790645
+    second: phapsudie (2)_212
+  - first:
+      213: 3492470117162539986
+    second: phapsudie (2)_213
+  - first:
+      213: 714835925032369040
+    second: phapsudie (2)_214
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: phapsudie (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1386
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c2848fff9e63d80800000000000000
+      internalID: -8271166380027925346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_1
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1386
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02041972869246300800000000000000
+      internalID: 244365807102017568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_2
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1386
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790a312678b81d700800000000000000
+      internalID: 563384841980321943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_3
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1386
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb8a667ce7b29140800000000000000
+      internalID: 4725041185291930564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a942993ef7f9eac0800000000000000
+      internalID: -3825253737214883419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_5
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 924
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155eb1d22d5d144c0800000000000000
+      internalID: -4304924670112832175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_6
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 924
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38e3a5228de85c90800000000000000
+      internalID: -7180728462609225665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_7
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 924
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6025766dacd592960800000000000000
+      internalID: 7577690973789442566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de46db7121a92ca0800000000000000
+      internalID: -6041120259957174571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_9
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 462
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd0c666f0be32c60800000000000000
+      internalID: 7792330231656484290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_10
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 462
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2b2b75832e51ce0800000000000000
+      internalID: -1434992174630260020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_11
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 462
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5c8929f52e9d620800000000000000
+      internalID: 2799517543496730034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0ebe005f3925cf0800000000000000
+      internalID: -264986747569708802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_13
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d895ebe709e168ef0800000000000000
+      internalID: -106363935246100083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_14
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07dad5fb5807d3e0800000000000000
+      internalID: -2029143916047313137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phapsudie (2)_15
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 0
+        width: 489
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83b397e4bd4561d0800000000000000
+      internalID: -3358192507760168051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 116cb736d156fd94a9742a7bf50247a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      phapsudie (2)_0: -8271166380027925346
+      phapsudie (2)_1: 244365807102017568
+      phapsudie (2)_10: -1434992174630260020
+      phapsudie (2)_11: 2799517543496730034
+      phapsudie (2)_12: -264986747569708802
+      phapsudie (2)_13: -106363935246100083
+      phapsudie (2)_14: -2029143916047313137
+      phapsudie (2)_15: -3358192507760168051
+      phapsudie (2)_2: 563384841980321943
+      phapsudie (2)_3: 4725041185291930564
+      phapsudie (2)_4: -3825253737214883419
+      phapsudie (2)_5: -4304924670112832175
+      phapsudie (2)_6: -7180728462609225665
+      phapsudie (2)_7: 7577690973789442566
+      phapsudie (2)_8: -6041120259957174571
+      phapsudie (2)_9: 7792330231656484290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

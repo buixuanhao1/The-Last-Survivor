@@ -7,6 +7,8 @@ public enum WeaponId
     StoneOrbit,
     Sword,
     Knife,
+    ReturningShuriken,
+    Bomb,
 }
 
 public class PlayerWeaponSystem : MonoBehaviour
@@ -16,6 +18,8 @@ public class PlayerWeaponSystem : MonoBehaviour
     public int stoneCount = 0;   // locked at start
     public int swordCount = 0;   // locked at start
     public int knifeCount = 0;   // locked at start
+    public int returningShurikenCount = 0; // locked at start
+    public int bombCount = 0; // locked at start
 
     private void Awake()
     {
@@ -29,6 +33,8 @@ public class PlayerWeaponSystem : MonoBehaviour
         stoneCount = 0;
         swordCount = 0;
         knifeCount = 0;
+        returningShurikenCount = 0;
+        bombCount = 0;
     }
 
     public void SetShurikenCount(int newCount)
@@ -54,6 +60,16 @@ public class PlayerWeaponSystem : MonoBehaviour
     public void SetKnifeCount(int newCount)
     {
         knifeCount = Mathf.Max(0, newCount);
+    }
+
+    public void SetReturningShurikenCount(int newCount)
+    {
+        returningShurikenCount = Mathf.Max(0, newCount);
+    }
+
+    public void SetBombCount(int newCount)
+    {
+        bombCount = Mathf.Max(0, newCount);
     }
 
 }

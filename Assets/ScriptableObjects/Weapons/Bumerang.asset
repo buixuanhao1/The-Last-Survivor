@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dbd6898c79d5fc499acccf627727605, type: 3}
+  m_Name: Bumerang
+  m_EditorClassIdentifier: 
+  weaponName: Returning Shuriken
+  weaponType: 0
+  prefab: {fileID: 4582271905837664453, guid: 276f1abfc072e5d438ca93ceb90e8499, type: 3}
+  fireRate: 1
+  attackRange: 6
+  damage: 10
+  speed: 18
+  rotateSpeed: 200
+  returningOutDistance: 8
+  returningDistancePerLevel: 0
+  orbitCount: 2
+  orbitRadius: 1.5
+  orbitDuration: 5
+  orbitCooldown: 3
+  aoeRadius: 2
+  aoeDuration: 4
+  aoeTickInterval: 0.2
