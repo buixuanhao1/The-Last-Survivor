@@ -39,7 +39,7 @@ public class ShopPanelUI : MonoBehaviour
         if (data == null) return;
 
         // Ví dụ: phần thưởng +100 gold mỗi lần bấm
-        data.gold += 100;
+        data.diamond += 200;
         UserDataManager.instance.SaveUserData(data);
 
         UpdateUI();

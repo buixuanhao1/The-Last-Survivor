@@ -517,13 +517,16 @@ public class WeaponManager : MonoBehaviour
         if (n == 0) return;
         for (int i = 0; i < n; i++)
         {
-            Vector2 dir = Random.insideUnitCircle.normalized;
-            if (dir.sqrMagnitude < 0.001f) dir = Vector2.right;
-            GameObject go = pool.Get(transform.position, Quaternion.identity);
+            Vector2 offset = Random.insideUnitCircle * Mathf.Max(0f, weapon.bombDropRadius);
+            Vector3 start = transform.position;
+            Vector3 target = transform.position + (Vector3)offset;
+            GameObject go = pool.Get(start, Quaternion.identity);
             BombProjectile bomb = go.GetComponent<BombProjectile>();
             if (bomb != null)
             {
-                bomb.Init(weapon, dir, pool);
+                float travel = weapon.bombTravelTime > 0f ? weapon.bombTravelTime : 0.8f;
+                float height = weapon.bombMaxHeight;
+                bomb.Init(weapon, start, target, pool, travel, height);
             }
         }
     }

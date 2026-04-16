@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: EnemyWolf
   m_EditorClassIdentifier: 
   enemyName: 
-  baseHP: 20
+  baseHP: 60
   moveSpeed: 4
-  damage: 10
-  expDrop: 5
+  damage: 30
+  expDrop: 20
   sprite: {fileID: 21300000, guid: c4d78fa7d1938ed448ea0984134c4c2c, type: 3}

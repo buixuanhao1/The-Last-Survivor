@@ -14,6 +14,8 @@ public class UIManager : MonoBehaviour
     public GameObject upgradeHeroPrefab;
     public GameObject equipPrefab;
     public GameObject petPrefab;
+    public GameObject detailsPrefab;
+    
 
     private GameObject currentPanel;
     [Header("Overlay Panels")]

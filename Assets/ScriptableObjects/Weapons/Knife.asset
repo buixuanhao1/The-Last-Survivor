@@ -17,9 +17,11 @@ MonoBehaviour:
   prefab: {fileID: 1625855099087041247, guid: 7fa5dbd05f5911541936dd9748a3733a, type: 3}
   fireRate: 1
   attackRange: 0
-  damage: 10
+  damage: 30
   speed: 15
   rotateSpeed: 0
+  returningOutDistance: 8
+  returningDistancePerLevel: 0
   orbitCount: 0
   orbitRadius: 0
   orbitDuration: 0
@@ -27,3 +29,9 @@ MonoBehaviour:
   aoeRadius: 0
   aoeDuration: 0
   aoeTickInterval: 0
+  explosionPrefab: {fileID: 0}
+  bombFuseTime: 1.2
+  explosionRadius: 2.5
+  bombDropRadius: 6
+  bombTravelTime: 0.8
+  bombMaxHeight: 1.5

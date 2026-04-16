@@ -15,9 +15,9 @@ MonoBehaviour:
   weaponName: Returning Shuriken
   weaponType: 0
   prefab: {fileID: 4582271905837664453, guid: 276f1abfc072e5d438ca93ceb90e8499, type: 3}
-  fireRate: 1
+  fireRate: 0.8
   attackRange: 6
-  damage: 10
+  damage: 60
   speed: 18
   rotateSpeed: 200
   returningOutDistance: 8
@@ -29,3 +29,9 @@ MonoBehaviour:
   aoeRadius: 2
   aoeDuration: 4
   aoeTickInterval: 0.2
+  explosionPrefab: {fileID: 0}
+  bombFuseTime: 1.2
+  explosionRadius: 2.5
+  bombDropRadius: 6
+  bombTravelTime: 0.8
+  bombMaxHeight: 1.5

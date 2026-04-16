@@ -44,4 +44,7 @@ public class WeaponData : ScriptableObject
     public GameObject explosionPrefab; // prefab hiệu ứng nổ (có animator)
     public float bombFuseTime = 1.2f;  // thời gian bay trước khi nổ
     public float explosionRadius = 2.5f; // bán kính gây sát thương khi nổ
+    [Tooltip("Bán kính điểm rơi ngẫu nhiên tính từ player")] public float bombDropRadius = 6f;
+    [Tooltip("Thời gian bay đến điểm rơi (giây)")] public float bombTravelTime = 0.8f;
+    [Tooltip("Độ cao đỉnh cung (chỉ để mô phỏng/hiệu ứng)")] public float bombMaxHeight = 1.5f;
 }

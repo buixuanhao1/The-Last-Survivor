@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillId: ReturningShuriken
   skillName: 
-  icon: {fileID: 0}
+  icon: {fileID: -6470460504253458178, guid: 704e2e4de3773f24e82733f169bb962a, type: 3}
   description: "Phi ti\xEAu quay v\u1EC1."
   type: 0
   maxLevel: 5

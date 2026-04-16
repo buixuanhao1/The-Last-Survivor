@@ -2504,12 +2504,13 @@ MonoBehaviour:
   - {fileID: 4458127020738664110}
   - {fileID: 794475055612405986}
   allSkills:
+  - {fileID: 11400000, guid: e37ede5d9bba121449798af1d66c5a6d, type: 2}
   - {fileID: 11400000, guid: b30638fea0a4af24ab0e0532da08e54d, type: 2}
+  - {fileID: 11400000, guid: e407de4477bd129439e5f67d122cb511, type: 2}
+  - {fileID: 11400000, guid: a65d3ef113dd69a4db11cab8528c74b3, type: 2}
   - {fileID: 11400000, guid: 2306622a8f21e7d4b8ad656a0de76b3d, type: 2}
   - {fileID: 11400000, guid: 13b49d72505e4b84984387af440e051b, type: 2}
-  - {fileID: 11400000, guid: a65d3ef113dd69a4db11cab8528c74b3, type: 2}
   - {fileID: 11400000, guid: ab5664bf6709adb4e9c3102e2b78d9f3, type: 2}
-  - {fileID: 11400000, guid: e407de4477bd129439e5f67d122cb511, type: 2}
   playerSkillManager: {fileID: 0}
 --- !u!1 &6964808609737345123
 GameObject:

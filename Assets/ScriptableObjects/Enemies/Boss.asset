@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Boss
   m_EditorClassIdentifier: 
   enemyName: 
-  baseHP: 100
-  moveSpeed: 0.6
-  damage: 20
+  baseHP: 1000
+  moveSpeed: 2
+  damage: 50
   expDrop: 20
   sprite: {fileID: -2008940996243727313, guid: fa3213844dfe2f846b8b8a6baed4e4d3, type: 3}

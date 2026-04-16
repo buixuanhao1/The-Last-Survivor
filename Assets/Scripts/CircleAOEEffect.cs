@@ -67,6 +67,18 @@ public class CircleAOEEffect : MonoBehaviour
         rippleRenderer.sprite = sr.sprite;
         rippleRenderer.sortingOrder = sr.sortingOrder - 1;
         rippleObj.SetActive(false);
+
+        // Bắt đầu đếm từ interval đầy đủ — tránh ripple chạy ngay frame đầu tiên
+        rippleTimer = rippleInterval;
+    }
+
+    void OnDisable()
+    {
+        // Dừng tất cả coroutine khi AOE bị destroy/disable giữa chừng
+        // tránh lỗi "MissingReferenceException" khi Ripple cố access object đã bị hủy
+        StopAllCoroutines();
+        if (rippleRenderer != null)
+            rippleRenderer.gameObject.SetActive(false);
     }
 
     private IEnumerator Ripple()

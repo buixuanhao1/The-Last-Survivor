@@ -15,7 +15,7 @@ MonoBehaviour:
   skillId: ShurikenCount
   skillName: 
   icon: {fileID: 21300000, guid: 91d2c8e2619c2a0498b23045aff72e0e, type: 3}
-  description: "+1 phi ti\xEAu"
+  description: "+ 1 phi ti\xEAu ninja\n"
   type: 0
   maxLevel: 5
   effects:

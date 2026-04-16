@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b351380b6ec45f1429f06a0551f981f0, type: 3}
+  m_Name: SK_Bomb
+  m_EditorClassIdentifier: 
+  skillId: Bomb
+  skillName: Bom
+  icon: {fileID: 4130640169021434097, guid: 2795db065dbf103408a655d8ed355a37, type: 3}
+  description: alooooo
+  type: 0
+  maxLevel: 5
+  effects:
+  - {fileID: 11400000, guid: daed8faad8598394bb215fe2385d47b5, type: 2}

@@ -182,7 +182,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1001421211
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -5784507968360023419, guid: a0f1942241f8029499f2351e721ef431, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -231,6 +231,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 06725475d930de0478b0f7da05529343, type: 2}
   expOrbPrefab: {fileID: 1162072131754398756, guid: 7b1030b547677bc488b477a02e5f5dd1, type: 3}
+  player: {fileID: 0}
+  canMove: 1
+  deathDestroyDelay: 1
 --- !u!58 &-1698521295871822402
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -279,7 +282,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0

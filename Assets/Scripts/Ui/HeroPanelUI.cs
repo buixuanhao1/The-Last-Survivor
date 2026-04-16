@@ -125,4 +125,9 @@ public class HeroPanelUI : MonoBehaviour
             item.Refresh(selectedName);
         }
     }
+
+    public void OpenHeroDetails()
+    {
+        UIManager.Instance.ShowPanel(UIManager.Instance.detailsPrefab);
+    }
 }

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: EnemyThree
   m_EditorClassIdentifier: 
   enemyName: 
-  baseHP: 20
-  moveSpeed: 2
-  damage: 2
+  baseHP: 60
+  moveSpeed: 4
+  damage: 30
   expDrop: 5
   sprite: {fileID: 0}

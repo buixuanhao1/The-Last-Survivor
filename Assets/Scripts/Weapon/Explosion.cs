@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
-    [SerializeField] private float lifeTime = 0.6f; // how long the explosion effect stays
+    [SerializeField] private float lifeTime = 0.6f;
     private float timer = 0f;
     private bool triggered = false;
+    private int pendingDamage = 0;
+    private float pendingRadius = 0f;
 
-    // Optional: If you want to drive destruction by animation event, you can call Finish() from Animation
     public void Trigger(int damage, float radius)
     {
         if (triggered) return;
         triggered = true;
-        // Deal damage instantly in radius
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radius);
         for (int i = 0; i < hits.Length; i++)
         {
@@ -21,7 +21,17 @@ public class Explosion : MonoBehaviour
                 enemy.TakeDamage(damage);
             }
         }
-        // Animator (if present) will play automatically; we just wait for lifeTime
+    }
+
+    public void Prepare(int damage, float radius)
+    {
+        pendingDamage = damage;
+        pendingRadius = radius;
+    }
+
+    public void TriggerFromAnimation()
+    {
+        Trigger(pendingDamage, pendingRadius);
     }
 
     private void Update()
@@ -36,7 +46,6 @@ public class Explosion : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        // For visualization in editor when testing
         Gizmos.color = new Color(1f, 0.5f, 0f, 0.3f);
         Gizmos.DrawWireSphere(transform.position, 0.5f);
     }
